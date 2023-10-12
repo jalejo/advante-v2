@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "UI/UX"
+    },
+    {
+        "id": 2,
+        "name": "User Research"
+    },
+    {
+        "id": 3,
+        "name": "Wireframes"
+    },
+    {
+        "id": 4,
+        "name": "Architecture"
+    },
+    {
+        "id": 5,
+        "name": "Design"
+    },
+    {
+        "id": 6,
+        "name": "Testing"
+    },
+    {
+        "id": 7,
+        "name": "Animation"
+    },
+    {
+        "id": 8,
+        "name": "Management"
+    },
+    {
+        "id": 9,
+        "name": "Brand Design"
+    },
+    {
+        "id": 10,
+        "name": "Mobile UX"
+    },
+    {
+        "id": 11,
+        "name": "E-commerce"
+    },
+    {
+        "id": 12,
+        "name": "SaaS"
+    },
+    {
+        "id": 13,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "id": 14,
+        "name": "Nvidia"
+    }
+]

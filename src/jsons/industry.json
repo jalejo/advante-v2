@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Healthcare"
+    },
+    {
+        "id": 2,
+        "name": "Legal issues"
+    },
+    {
+        "id": 3,
+        "name": "E-commerce"
+    },
+    {
+        "id": 4,
+        "name": "Finance"
+    },
+    {
+        "id": 5,
+        "name": "Marketplaces"
+    },
+    {
+        "id": 6,
+        "name": "Staffing"
+    },
+    {
+        "id": 7,
+        "name": "Marketing"
+    },
+    {
+        "id": 8,
+        "name": "Startups"
+    },
+    {
+        "id": 9,
+        "name": "Retail"
+    },
+    {
+        "id": 10,
+        "name": "Law"
+    },
+    {
+        "id": 11,
+        "name": "Digital Marketing"
+    },
+    {
+        "id": 12,
+        "name": "HHRR"
+    }
+]

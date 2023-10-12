@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Michael Johnson",
+      "company": "CEO at Visionary WebWorks",
+      "message": "Without a doubt, I recommend Alcaline Solutions as one of the top web development and database management service agencies. One of the best agencies I've come across so far. ",
+      "stars": 5
+    },
+    {
+      "id": 2,
+      "name": "Jennifer Smith",
+      "company": "CEO at DataFusion Innovations",
+      "message": "Without a doubt, I recommend Alcaline Solutions as one of the top web development and database management service agencies. One of the best agencies I've come across so far. ",
+      "stars": 5
+    },
+    {
+      "id": 3,
+      "name": "Christopher Davis",
+      "company": "CEO at PixelCraft Studios",
+      "message": "Without a doubt, I recommend Alcaline Solutions as one of the top web development and database management service agencies. One of the best agencies I've come across so far. ",
+      "stars": 5
+    }
+  ]
+  
