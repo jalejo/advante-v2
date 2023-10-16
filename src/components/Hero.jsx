@@ -22,9 +22,9 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='bgCircle bgCircle-pink'></div>
-        <div className='bgCircle bgCircle-orange'></div>
-        <div className='bgCircle bgCircle-red'></div>
+        <div className='bgCircle bgCircle-pink bgBlur-right-top'></div> 
+        <div className='bgCircle bgCircle-orange bgBlur-left-top'></div>
+        <div className='bgCircle bgCircle-red bgBlur-right-bottom'></div>
 
       </div>
     </section>

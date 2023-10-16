@@ -1,16 +1,21 @@
 /* Main Colors */
 :root {
+
+  --radius20: 1.25rem; 
   --white-color: #fff;
   --black-color: #000;
   --midnight-blue: #222F3E;
   --navy-blue: #3E5266;
   --pale-blue: #CBD2DE;
-  --sky-blue: #48DBFB;
   --royal-purple: #341F97;
-  --vivid-purple: #6C5CE7; 
   --dark-purple: #5F27CD;
-  --light-purple: #A29BFE;
+  --vivid-purple: #6C5CE7;
+  --sunset-gold: #FECA57;
   --tangerine-orange: #FF9F43;
+  --green-mint: #1DD1A1;
+  --azure-blue: #74B9FF;
+  --sky-blue: #48DBFB;
+  --light-purple: #A29BFE;
   --orchid-pink: #F368E0;
   --rose-red: #E84393;
   --crimson-red: #EE5253;
@@ -88,7 +93,18 @@
   background: var(--gradient-pink-orange);
   color: var(--white-color);
 }
-
+.orangePinkGradientBttn{
+  background: var(--gradient-orange-pink);
+  color: var(--white-color);
+}
+.orangePinkGradientBttn{
+  background: var(--gradient-orange-pink);
+  color: var(--white-color);
+}
+.blueVioletPinkBttn{
+  background: var(--gradient-blue-violet-pink);
+  color: var(--white-color);
+}
 
 /******* Gradients Texts *******/
 
