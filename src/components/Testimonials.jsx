@@ -1,4 +1,3 @@
-import React from 'react';
 import TestimonialList from '../jsons/testimonials.json' 
 import StarRanking from './../images/svg/star-testimonial.svg'
 

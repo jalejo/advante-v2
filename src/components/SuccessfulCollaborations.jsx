@@ -1,4 +1,3 @@
-import React from 'react';
 import collaborationGroup from '../images/collaborations-group.png'
 
 const SuccessfulCollaborations = () => {

@@ -12,7 +12,15 @@ ul, li{
     padding: 0;
     list-style: none;
 }
-
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
 h2{
     font-weight: bold;
     font-size: 3rem;
@@ -374,16 +382,42 @@ ul.navBarList li a:hover{
 .ourClientsWrapper h3{
     color: var(--midnight-blue);
 }
-.clientsSwiper{
+
+
+.clients-list-wrapper{
+    width: 100%;
+    height: 5.5rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
     margin-top: 4.5rem;
 }
-.clientsSwiper .swiper-slide{
-    width: fit-content;
+
+.clients-list-track{
+    display: flex;
+    column-gap: 4.5rem;
+    align-items: center;
+
+    position: absolute;
+    animation: marquee 32s linear infinite;
+}
+.clients-list-track::before,
+.clients-list-track::after {
+    content: "";
+    display: block;
+    flex: 0 0 4.5rem;
+}
+.clients-list-track img{
+    display: block;
 }
 
-.clientsSwiper .swiper-wrapper{
-    align-items: center;
+  
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
 }
+
+
 /*********** Testimonials ************/
 
 .testimonialWrapper{
@@ -431,38 +465,74 @@ ul.navBarList li a:hover{
     width: 1.125rem;
 }
 
-/*********** Notices, Events and cases ************/
+/*********** Articles, Events and cases ************/
 
 
-.noticeEventCasesWrapper{
+.articleEventCasesWrapper{
     padding: 8rem 0;
 }
 
-.subsection-notices {
+.subsection-articles {
     padding-bottom: 3rem;
     position: relative;
 }
 
-.noticeEventCasesWrapper h3{
+.articleEventCasesWrapper h3{
     text-align: center;
     color: var(--midnight-blue);
 }
 
-.notices-grid {
+.articlesNavWrapper {
+    width: 70%;
+    margin: 3rem auto 3rem auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2rem;
-    padding-bottom: 6rem;
+    grid-template-columns: 5rem 1fr;
+    align-items: center;
 }
 
-.notice-grid-item{
-    background-color: var(--slate-gray);
+.articles-grid {
+    padding-bottom: 2rem;
+}
+
+.articles-grid .swiper{
+    overflow: visible; 
+    /*overflow: clip;*/
+}
+
+.article-grid-item{
     border-radius: var(--radius20);
     position: relative;
     padding-top: 60%;
+    margin-bottom: 7rem;
 }
 
-.notice-grid-stick{
+.article-grid-image{
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background-color: var(--slate-gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--radius20);
+    max-width: 100%;
+    max-height: 100%;
+}
+.article-grid-image img{
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.article-grid-stick{
     position:absolute;
     top: 1rem;
     right: 1rem;
@@ -473,7 +543,7 @@ ul.navBarList li a:hover{
     border-radius: 10rem;
 }
 
-.notice-grid-label{
+.article-grid-label{
     background-color: rgb(255 255 255 / 85%);
     width: calc(82.5% - 2.4rem);
     height: calc( 7rem - 2rem);
@@ -489,13 +559,13 @@ ul.navBarList li a:hover{
     backdrop-filter: blur(50px);
 }
 
-.notice-grid-capabilities-group{
+.article-grid-capabilities-group{
     display: flex;
     column-gap: .75rem;
     margin-top: .6rem;
 }
 
-.notice-grid-capabilities-group .notice-capability{
+.article-grid-capabilities-group .article-capability{
     background-color: var(--pale-blue);
     border-radius: 10rem;
     color: var(--white-color);

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [1],
+        "capabilities": [6, 11, 15 ],
+        "image":"healthcare-case.jpg",
+        "url":""
+    }
+]

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const getIconPath = (type) => {
     switch (type) {
       case 'IcoSoftwareDevelopment':

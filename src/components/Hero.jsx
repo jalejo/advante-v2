@@ -1,4 +1,3 @@
-import React from 'react';
 import GuyVRinteractive from '../images/guy-vr-interactive.jpg'
 
 const Hero = () => {

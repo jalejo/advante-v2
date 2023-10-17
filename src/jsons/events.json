@@ -6,7 +6,8 @@
       "address": "123 Main Street, San Francisco, CA",
       "description": "Immerse yourself in blockchain's potential at the Blockchain Symposium. Connect with industry pioneers and visionaries to explore the limitless opportunities of blockchain technology.",
       "image":"",
-      "url":""
+      "url":"",
+      "industry": [1]
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@
       "address": "456 Elm Avenue, New York, NY",
       "description": "Venture into the Future of Mobility forum, where experts delve into autonomous vehicles, electric transport, and more. It's your chance to unravel the transportation evolution.",
       "image":"",
-      "url":""
+      "url":"",
+      "industry": [1]
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@
       "address": "789 Oak Street, Miami, FL",
       "description": "Be at the forefront of AI innovation with our AI Summit. Join leading experts as they explore the latest advancements in artificial intelligence, paving the way for a smarter future.",
       "image":"",
-      "url":""
+      "url":"",
+      "industry": [1]
     }
   ]
   

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const WrapperSVG = ({ src, width, height }) => {
   return (
     <img

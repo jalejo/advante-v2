@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AdvanteIcons from './AdvanteIcons';
 import IcoArrowThin from '../images/svg/IcoArrowThin';
 import ServicesList from '../jsons/services.json'

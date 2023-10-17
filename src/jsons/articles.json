@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "title": "Telemedicine Revolutionizes Healthcare Delivery",
+        "content":"Telemedicine has emerged as a game-changer in healthcare delivery. The use of telecommunication technologies allows patients to receive medical care remotely, which has become essential in times of crisis like the COVID-19 pandemic. This shift in healthcare delivery not only ensures patient safety but also enhances accessibility to medical services.",
+        "category": "article",
+        "industry": [1, 8],
+        "capabilities": [13, 14 ],
+        "image":"article-01.jpg",
+        "url":""
+    },
+    {
+        "id": 2,
+        "title": "Artificial Intelligence Transforms Medical Diagnosis",
+        "content":"Artificial intelligence (AI) is playing an increasingly crucial role in healthcare, and its impact on diagnosis is astounding. Advanced AI systems have demonstrated astonishing accuracy in detecting medical conditions. From early cancer detection to predicting heart diseases, AI is dramatically improving doctors' ability to provide accurate and timely diagnoses.",
+        "category": "article",
+        "industry": [1, 6],
+        "capabilities": [13, 14 ],
+        "image":"article-02.jpg",
+        "url":""
+    },
+    {
+        "id": 3,
+        "title": "AI's Role in Healthcare: Enhancing Medical Diagnosis",
+        "content":"Artificial intelligence (AI) is reshaping the healthcare landscape. Its role in medical diagnosis is gaining prominence. AI-powered systems are proving their worth in detecting diseases with remarkable precision. Whether it's identifying potential cancer risks or forecasting cardiac health, AI is becoming a pivotal tool for healthcare providers.",
+        "category": "article",
+        "industry": [1, 9],
+        "capabilities": [13, 14 ],
+        "image":"article-03.jpg",
+        "url":""
+    },
+    {
+        "id": 4,
+        "title": "Financial Technology Trends in 2023",
+        "content": "Explore the latest trends in financial technology (FinTech) for 2023. From blockchain to digital payments, FinTech continues to revolutionize the finance industry.",
+        "category": "article",
+        "industry": [4, 8],
+        "capabilities": [12],
+        "image": "article-04.jpg",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "title": "E-commerce Strategies for Success",
+        "content": "Learn about effective e-commerce strategies to achieve success in the highly competitive online market. From user experience to marketing, these strategies can help your e-commerce business thrive.",
+        "category": "article",
+        "industry": [3, 6, 10],
+        "capabilities": [11],
+        "image": "article-05.jpg",
+        "url": ""
+    },
+    {
+        "id": 6,
+        "title": "Legal Challenges in the Digital Age",
+        "content": "The digital age presents unique legal challenges. From data privacy to intellectual property, businesses and individuals face a changing legal landscape. Stay informed about the legal issues of today.",
+        "category": "article",
+        "industry": [2],
+        "capabilities": [10],
+        "image": "article-06.jpg",
+        "url": ""
+    },
+    {
+        "id": 7,
+        "title": "Future of Marketplaces in the Digital Economy",
+        "content": "Marketplaces are undergoing a transformation in the digital age. Discover how technology is reshaping the landscape of online marketplaces and the opportunities it offers to businesses and consumers.",
+        "category": "article",
+        "industry": [5, 10],
+        "capabilities": [12],
+        "image": "article-07.jpg",
+        "url": ""
+    },
+    {
+        "id": 8,
+        "title": "The Art of Effective Marketing Campaigns",
+        "content": "Learn the essential elements of creating and executing successful marketing campaigns. From branding to content strategies, these insights can help businesses stand out in a crowded market.",
+        "category": "article",
+        "industry": [7, 11],
+        "capabilities": [11],
+        "image": "article-08.jpg",
+        "url": ""
+    },
+    {
+        "id": 9,
+        "title": "Staffing Challenges in a Remote Work Environment",
+        "content": "Remote work is here to stay, but it brings unique staffing challenges. Explore the issues companies face when hiring, managing, and retaining talent in a distributed work environment.",
+        "category": "article",
+        "industry": [6],
+        "capabilities": [8],
+        "image": "article-09.jpg",
+        "url": ""
+    },
+    {
+        "id": 10,
+        "title": "Innovations in Startup Ecosystems",
+        "content": "Startups are at the forefront of innovation. Discover the latest trends and innovations in the startup ecosystem, from funding strategies to disruptive technologies.",
+        "category": "article",
+        "industry": [8],
+        "capabilities": [15],
+        "image": "article-10.jpg",
+        "url": ""
+    },
+    {
+        "id": 11,
+        "title": "Retail's Digital Transformation",
+        "content": "The retail industry is undergoing a digital transformation. From online shopping to augmented reality experiences, learn how retailers are adapting to changing consumer preferences.",
+        "category": "article",
+        "industry": [9],
+        "capabilities": [1],
+        "image": "article-11.jpg",
+        "url": ""
+    },
+    {
+        "id": 12,
+        "title": "Digital Marketing Strategies for Success",
+        "content": "Digital marketing is a key driver of business success. Explore the strategies and tactics that can help your brand thrive in the digital landscape, from SEO to social media.",
+        "category": "article",
+        "industry": [11],
+        "capabilities": [7],
+        "image": "article-12.jpg",
+        "url": ""
+    },
+    {
+        "id": 13,
+        "title": "Legal Tech: Innovations in Legal Practice",
+        "content": "Legal technology, or Legal Tech, is changing the way law firms operate. Discover the latest innovations in legal practice, from AI-powered research tools to online dispute resolution platforms.",
+        "category": "article",
+        "industry": [12],
+        "capabilities": [2],
+        "image": "article-13.jpg",
+        "url": ""
+    },
+    {
+        "id": 14,
+        "title": "The Impact of HR Tech on Human Resources",
+        "content": "HR technology is revolutionizing human resources management. Explore the impact of HR Tech on recruitment, employee engagement, and talent development in organizations.",
+        "category": "article",
+        "industry": [12],
+        "capabilities": [6],
+        "image": "article-14.jpg",
+        "url": ""
+    },
+    {
+        "id": 15,
+        "title": "E-commerce Trends in a Digital World",
+        "content": "E-commerce continues to evolve in the digital age. Learn about the latest trends in online retail, including mobile commerce, omnichannel strategies, and personalized shopping experiences.",
+        "category": "article",
+        "industry": [3, 11],
+        "capabilities": [11],
+        "image": "article-15.jpg",
+        "url": ""
+    },
+    {
+        "id": 16,
+        "title": "Digital Finance: The Future of Banking",
+        "content": "Digital finance is reshaping the banking sector. Explore the future of banking in the digital age, from mobile banking apps to blockchain-based financial services.",
+        "category": "article",
+        "industry": [2, 4],
+        "capabilities": [12],
+        "image": "article-16.jpg",
+        "url": ""
+    },
+    {
+        "id": 17,
+        "title": "AI-Powered Marketing Strategies",
+        "content": "Artificial intelligence is transforming the marketing landscape. Learn how AI-powered marketing strategies can enhance customer engagement, optimize ad campaigns, and drive business growth.",
+        "category": "article",
+        "industry": [7, 4],
+        "capabilities": [13],
+        "image": "article-17.jpg",
+        "url": ""
+    },
+    {
+        "id": 18,
+        "title": "Market Research in the Digital Age",
+        "content": "Market research has evolved with digital technologies. Explore the tools and techniques used in modern market research, from big data analytics to online consumer surveys.",
+        "category": "article",
+        "industry": [7, 10],
+        "capabilities": [2],
+        "image": "article-18.jpg",
+        "url": ""
+    },
+    {
+        "id": 19,
+        "title": "Fintech Disrupting Financial Services",
+        "content": "Fintech innovations are reshaping the financial services industry. Explore how digital banking, blockchain, and peer-to-peer lending are disrupting traditional financial institutions.",
+        "category": "article",
+        "industry": [5, 13],
+        "capabilities": [15],
+        "image": "article-19.jpg",
+        "url": ""
+    },
+    {
+        "id": 20,
+        "title": "The Role of AI in Legal Practice",
+        "content": "Artificial intelligence is making significant inroads into the legal profession. Learn how AI is used in legal research, contract analysis, and predicting case outcomes.",
+        "category": "article",
+        "industry": [2],
+        "capabilities": [13],
+        "image": "article-20.jpg",
+        "url": ""
+    },
+    {
+        "id": 21,
+        "title": "Innovations in Retail Technology",
+        "content": "Retail technology is constantly evolving. Discover the latest innovations in point-of-sale systems, e-commerce platforms, and customer engagement tools in the retail industry.",
+        "category": "article",
+        "industry": [9],
+        "capabilities": [15],
+        "image": "article-21.jpg",
+        "url": ""
+    },
+    {
+        "id": 22,
+        "title": "E-commerce Strategies for Success",
+        "content": "E-commerce is highly competitive. Learn about effective e-commerce strategies, including SEO optimization, social media marketing, and customer retention techniques.",
+        "category": "article",
+        "industry": [3],
+        "capabilities": [12],
+        "image": "article-22.jpg",
+        "url": ""
+    },
+    {
+        "id": 23,
+        "title": "The Future of Human Resources",
+        "content": "The field of human resources is evolving. Explore future trends in HR, including remote workforce management, employee well-being, and diversity and inclusion initiatives.",
+        "category": "article",
+        "industry": [5, 12],
+        "capabilities": [2],
+        "image": "article-23.jpg",
+        "url": ""
+    },
+    {
+        "id": 24,
+        "title": "Marketing in the Age of Data Analytics",
+        "content": "Data analytics is transforming marketing strategies. Discover how data-driven insights can optimize marketing campaigns, personalize customer experiences, and drive conversions.",
+        "category": "article",
+        "industry": [7],
+        "capabilities": [14],
+        "image": "article-24.jpg",
+        "url": ""
+    }
+]

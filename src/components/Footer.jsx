@@ -1,4 +1,3 @@
-import React from 'react';
 import IcoSocialLinkedin from '../images/svg/IcoSocialLinkedin';
 import IcoSocialFacebook from '../images/svg/IcoSocialFacebook';
 import IcoSocialYoutube from '../images/svg/IcoSocialYoutube';
