@@ -1,7 +1,15 @@
 import IcoArrowThin from '../images/svg/IcoArrowThin';
-import HealthareCase from '../images/healthcare-case.jpg'
+import CapabilitiesList from '../jsons/capabilities.json'
 
-const MainCase = () => {
+const caseImage = require.context('../images/cases', true );
+
+const MainCase = (props) => {
+
+  const { selectedCase } = props;
+
+  
+  console.log("🍄 ~ file: MainCase.jsx:10 ~ selectedCase:", selectedCase)
+
   return (
     <section className='mainCaseWrapper'>
       <div className='containerFull'>
@@ -9,15 +17,24 @@ const MainCase = () => {
 
         <div className='mainCase-grid'>
           <div className='mainCase-grid-image'>
-            <img src={ HealthareCase}></img>
+            {
+            <img 
+              src={caseImage(`./${selectedCase.image}`)}
+              alt={ selectedCase.case }
+            />
+            }
           </div>
           <div className='mainCase-grid-text'>
-            <h6>Online Expansion and Market Positioning Strategy</h6>
-            <p>Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.</p>
+            <h6>{ selectedCase.title }</h6>
+            <p>{ selectedCase.content }</p>
             <div className='mainCase-grid-capabilities-group'>
-              <div className="mainCase-capability">Web development</div>
-              <div className="mainCase-capability">E-commerce</div>
-              <div className="mainCase-capability">Testing</div>
+
+              { 
+                selectedCase.capabilities.map((capId) => {
+                  const capability = CapabilitiesList.find((c) => c.id === capId);
+                  return <div key={ capability.id } className="mainCase-capability">{capability.name}</div>;
+                })
+              }
             </div>
           </div>
           <div className='mainCase-grid-footer'>

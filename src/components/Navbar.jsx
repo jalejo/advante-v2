@@ -1,4 +1,5 @@
 import logo from '../images/logo_advante.png'
+//import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
   return (
@@ -12,6 +13,7 @@ const Navbar = () => {
                 <li><a href="/contact">Blog</a></li>
                 <li><a href="/contact">Contact us</a></li>
             </ul>
+            
         </nav>
     </header>
   );

@@ -70,7 +70,8 @@ nav{
 
 .title-underline{
     height: 0.45rem;
-    width: 45rem;
+    max-width: 45rem;
+    width: 70%;
     margin: 2rem auto;
 }
 .title-underline.blue-green-orange{
@@ -278,11 +279,13 @@ ul.navBarList li a:hover{
 }
 
 .service-card-wrapper .service-card-overview{
-    width: calc(21rem - 5rem);
+    box-sizing: border-box;
+    width: 21rem;
     padding: 2rem 2.5rem;
 }
 .service-card-wrapper .service-card-capabilities{
-    width: calc(39rem - 5rem);
+    box-sizing: border-box;
+    width: 39rem;
     padding: 2rem 2.5rem;
     position: relative;
     display: flex;
@@ -428,6 +431,7 @@ ul.navBarList li a:hover{
 }
 
 .testimonial-item{
+    width: 100%;
     text-align: left;
 }
 
@@ -439,14 +443,17 @@ ul.navBarList li a:hover{
 }
 
 .testimonial-bubbles-wrapper {
-    display: flex;
+    /*display: flex;
     column-gap: 8rem;
-    justify-content: center;
+    justify-content: center;*/
+    max-width: 63.75rem;
     margin-top: 4rem;
+    margin: 4rem auto auto auto;
 }
 
 .testimonial-bubble{
-    width: calc( 18rem - 3rem);
+    width: 100%;
+    box-sizing: border-box;
     border-radius: 2.5rem 2.5rem 2.5rem 0rem;
     font-size: 1.125rem;
     font-weight: 200;
@@ -495,7 +502,7 @@ ul.navBarList li a:hover{
 }
 
 .articles-grid .swiper{
-    overflow: visible; 
+    /*overflow: visible;*/ 
     /*overflow: clip;*/
 }
 
@@ -555,7 +562,7 @@ ul.navBarList li a:hover{
     border-radius: var(--radius20);
     padding: 1rem 1.2rem;
     font-size: 0.875rem;
-    box-shadow: 10px 10px 50px 0px rgb(0 0 0 / 25%);
+    box-shadow: 10px 10px 30px 0px rgb(0 0 0 / 15%);
     backdrop-filter: blur(50px);
 }
 
@@ -598,6 +605,29 @@ ul.navBarList li a:hover{
     border-radius: var(--radius20);
     background-color: var(--slate-gray);
     grid-area: 1 / 1 / 3 / 2; 
+}
+
+.event-grid-image-box{
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: var(--light-gray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--radius20);
+}
+.event-grid-image-box img{
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 .event-grid-info { 
@@ -757,6 +787,9 @@ ul.navBarList li a:hover{
     width: 90%;
     margin: 4.5em auto 5.5em auto;
 }
+.collaboration-logos .swiper-slide{
+    background-color: var(--midnight-blue);
+}
 
 .collaboration-logos img{
     display: block;
@@ -785,6 +818,7 @@ ul.navBarList li a:hover{
 }
 
 .contact-form-wrapper{
+    box-sizing: border-box;
     width: 90%;
     margin: 4rem auto 0 auto;
     max-width: 57rem;
@@ -794,7 +828,7 @@ ul.navBarList li a:hover{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
+    grid-column-gap: 3rem;
     grid-row-gap: 0px;
 }
 
@@ -858,4 +892,131 @@ footer{
 }
 .company-info-section p span{
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+
+    .service-card-wrapper .capabilities-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .servicesRootWrapper .swiper-wrapper .swiper-slide{
+        height: auto;
+        width: 17rem;
+    }
+
+    .servicesRootWrapper .swiper-slide.swiper-slide-active {
+        width: 48rem;
+        transition: width ease-in .25s;
+    }
+    .service-card-wrapper {
+        width: 48rem;
+    }
+    
+    .mainCase-grid {
+        grid-template-columns: 25rem 1fr;
+        grid-row-gap: 1.5rem;
+        grid-column-gap: 2.5rem;
+    }
+    .mainCase-grid-image {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+}
+
+@media (max-width: 900px) {
+	body{
+        font-size: 15px;
+    }
+    ul.navBarList{
+        display: none;
+    }
+    .containerFull {
+        width: 80%;
+    }
+    .service-card-wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .servicesRootWrapper .swiper-wrapper .swiper-slide {
+        width: 26rem;
+    }
+    .service-card-wrapper .service-card-overview {
+        width: 100%;
+    }
+    .service-card-wrapper .service-card-capabilities {
+        width: 100%;
+    }
+
+    .service-card-wrapper .service-card-overview {
+        padding: 1.55rem 2rem 1rem 2rem;
+    }
+    .service-card-wrapper .service-card-capabilities {
+        padding: 1rem 2rem 5rem 2rem;
+    }
+
+    .mainCase-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto auto;
+        grid-column-gap: 0;
+    }
+    .mainCase-grid-text {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .mainCase-grid-footer {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .mainCase-grid-image{
+        width: 100%;
+    }
+    .footerWrapper {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+    .heroImageWrapper {
+        width: 80%;
+    }
+    .heroTextWrapper h2 {
+        line-height: 1.05;
+    }
+    .heroSlide-1 {
+        flex-direction: column-reverse;
+        row-gap: 2rem;
+    }
+    .heroTextWrapper {
+        width: 100%;
+    }
+    .event-grid-item {
+        grid-template-columns: 1fr;
+        grid-template-rows: 20rem auto auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .event-grid-image {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    ul.event-grid-info {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .event-grid-description {
+        grid-area: 2 / 1 / 3 / 2;
+        margin: -3rem 2rem 2rem;
+    }
+    .event-grid-date {
+        right: 1rem;
+        top: -2rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    .event-grid-month {
+        font-size: 1.2rem;
+    }
+    .event-grid-day {
+        font-size: 2rem;
+    }
 }

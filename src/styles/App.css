@@ -113,7 +113,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .text-orange-pink{
@@ -121,7 +121,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .text-blue-violet-red {
@@ -129,7 +129,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .text-orange-violet-pink {
@@ -137,7 +137,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .text-blue-violet-pink {
@@ -145,5 +145,5 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  display: inline-block;
+  /*display: inline-block;*/
 }

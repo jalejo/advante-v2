@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
+
 import ArticlesList from "../jsons/articles.json";
 import EventsList from "../jsons/events.json";
 import IndustryList from "../jsons/industry.json";
+import CasesList from '../jsons/cases.json';
 
 import ArticlesGrid from "./ArticlesGrid";
 import EventList from "./EventList";
+
 
 import MainCase from "./MainCase";
 import { Tab, Tabs } from "@mui/material";
@@ -14,10 +17,16 @@ import 'swiper/css';
 
 const ArticlesEventsCases = () => {
 
-  /************  Tabs ************/
 
   const [selectedTab, setSelectedTab] = useState(1);
+  
   const [selectedArticles, setSelectedArticles] = useState(ArticlesList);
+  const [selectedEvents, setSelectedEvents] = useState(EventsList)
+  const [selectedCase, setSelectedCase] = useState(CasesList[0])
+
+  //const [loadedEvents, setLoadedEvents] = useState(3);
+
+  /************  Tabs ************/
 
   const handleChange = (event, newValue) => {
     setSelectedTab(newValue);
@@ -30,18 +39,29 @@ const ArticlesEventsCases = () => {
       article.industry.includes(selectedTab)
     );
 
+    const filteredEvents = EventsList.filter((eventF) => 
+      eventF.industry.includes(selectedTab)
+    );
+
+    const filteredCases = CasesList.filter((caseF) =>
+      caseF.industry.includes(selectedTab)
+    );
+
     setSelectedArticles(filteredArticles);
+    setSelectedEvents(filteredEvents.slice(0, 3));
+    setSelectedCase( filteredCases[0] );
+    
   }, [selectedTab]);
 
   /************  Events ************/
 
-  const [loadedEvents, setLoadedEvents] = useState(3);
+  /*
   const [displayedEvents, setDisplayedEvents] = useState(
-    EventsList.slice(0, loadedEvents)
+    selectedEvents.slice(0, loadedEvents)
   );
 
-  
-  const sortedEvents = EventsList.slice().sort((a, b) => {
+
+  const sortedEvents = selectedEvents.slice().sort((a, b) => {
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
     return dateA - dateB;
@@ -49,12 +69,12 @@ const ArticlesEventsCases = () => {
 
   const loadMoreEvents = () => {
     const newLoadedEvents = loadedEvents + 3;
-    const eventsToAdd = sortedEvents.slice(loadedEvents, newLoadedEvents);
+    const eventsToAdd = displayedEvents.slice(loadedEvents, newLoadedEvents);
 
     setDisplayedEvents([...displayedEvents, ...eventsToAdd]);
     setLoadedEvents(newLoadedEvents);
   };
-
+*/
   return (
     <>
       <section className="articleEventCasesWrapper">
@@ -93,9 +113,19 @@ const ArticlesEventsCases = () => {
               </div>
               <div className="articles-grid">
                 <Swiper
-                  slidesPerView={ 3 }
+                  slidesPerView={ 1 }
                   centeredSlides={false}
-                  spaceBetween={30}
+                  spaceBetween={10}
+                  breakpoints={{
+                    900: {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                    1200: {
+                      slidesPerView: 3,
+                      spaceBetween: 30,
+                    }
+                  }}
                 >
                   {selectedArticles.map((article) => (
                     <SwiperSlide key={article.id}>
@@ -103,7 +133,6 @@ const ArticlesEventsCases = () => {
                         title={article.title}
                         category={article.category}
                         capabilities={article.capabilities}
-                    
                         image = { article.image }
                       />
                     </SwiperSlide>
@@ -125,28 +154,33 @@ const ArticlesEventsCases = () => {
             </h3>
 
             <div className="events-grid">
-              {displayedEvents.map((ev) => (
+              {selectedEvents.map((ev) => (
                 <EventList
                   key={ev.id}
                   date={ev.date}
-                  title={ev.event}
+                  title={ev.title}
                   address={ev.address}
                   description={ev.description}
                   industry={selectedTab}
+                  image={ ev.image}
                 />
               ))}
             </div>
-
-            {loadedEvents < sortedEvents.length && (
+            
+            {
+            /*
+            loadedEvents < displayedEvents.length && (
               <button onClick={loadMoreEvents}>Load More</button>
-            )}
+            )
+            */
+            }
 
             <div className="bgCircle bgCircle-pink bgBlur-right-top"></div>
             <div className="bgCircle bgCircle-yellow bgBlur-left-top"></div>
           </div>
         </div>
       </section>
-      <MainCase industry={selectedTab} />
+      <MainCase selectedCase={selectedCase} />
     </>
   );
 };

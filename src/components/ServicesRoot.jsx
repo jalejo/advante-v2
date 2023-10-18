@@ -29,6 +29,7 @@ const ServicesRoot = () => {
         }}
         modules={[Pagination]}  
         className="services-swiper"
+        
       >
         {ServicesList.map((service) => (
           <SwiperSlide key={service.id}>

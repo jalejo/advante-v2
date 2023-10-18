@@ -14,7 +14,7 @@ const ArticlesGrid = ( props ) => {
         />
       </span>
 
-      <div className="article-grid-stick">{category}</div>
+      {/* <div className="article-grid-stick">{category}</div> */}
       <div className="article-grid-label">
         <p>{title}</p>
         <div className="article-grid-capabilities-group">

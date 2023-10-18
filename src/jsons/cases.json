@@ -4,9 +4,119 @@
         "case": "Healthcare",
         "title": "Online Expansion and Market Positioning Strategy",
         "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
-        "industry": [1],
+        "industry": [1, 2, 3],
         "capabilities": [6, 11, 15 ],
-        "image":"healthcare-case.jpg",
+        "image":"case-01.jpg",
+        "url":""
+    },
+    {
+        "id": 2,
+        "case": "Legal issues",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [4, 5, 6],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-01.jpg",
+        "url":""
+    },
+    {
+        "id": 3,
+        "case": "E-commerce",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-01.jpg",
+        "url":""
+    },
+    {
+        "id": 4,
+        "case": "Finance",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-01.jpg",
+        "url":""
+    },
+    {
+        "id": 5,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
+        "url":""
+    },
+    {
+        "id": 6,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
+        "url":""
+    },
+    {
+        "id": 7,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
+        "url":""
+    },
+    {
+        "id": 8,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
+        "url":""
+    },
+    {
+        "id": 9,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
+        "url":""
+    },
+    {
+        "id": 10,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
+        "url":""
+    },
+    {
+        "id": 11,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
+        "url":""
+    },
+    {
+        "id": 12,
+        "case": "Healthcare",
+        "title": "Online Expansion and Market Positioning Strategy",
+        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-03.jpg",
         "url":""
     }
 ]
