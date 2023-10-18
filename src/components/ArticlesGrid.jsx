@@ -3,7 +3,7 @@ import CapabilitiesList from '../jsons/capabilities.json'
 const articleImage = require.context('../images/articles', true );
 
 const ArticlesGrid = ( props ) => {
-  const { title, category, capabilities, image, industry } = props;
+  const { title, category, capabilities, image } = props;
   
   return (
     <div className="article-grid-item">

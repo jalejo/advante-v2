@@ -13,11 +13,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 const ArticlesEventsCases = () => {
-  const sortedEvents = EventsList.slice().sort((a, b) => {
-    const dateA = new Date(a.date);
-    const dateB = new Date(b.date);
-    return dateA - dateB;
-  });
+
+  /************  Tabs ************/
 
   const [selectedTab, setSelectedTab] = useState(1);
   const [selectedArticles, setSelectedArticles] = useState(ArticlesList);
@@ -26,14 +23,37 @@ const ArticlesEventsCases = () => {
     setSelectedTab(newValue);
   };
 
+  /************  Articles ************/
+
   useEffect(() => {
     const filteredArticles = ArticlesList.filter((article) =>
       article.industry.includes(selectedTab)
     );
 
     setSelectedArticles(filteredArticles);
-    console.log("🍄 ~ file: ArticlesEventsCases.jsx:28 ~ filteredArticles:",filteredArticles);
   }, [selectedTab]);
+
+  /************  Events ************/
+
+  const [loadedEvents, setLoadedEvents] = useState(3);
+  const [displayedEvents, setDisplayedEvents] = useState(
+    EventsList.slice(0, loadedEvents)
+  );
+
+  
+  const sortedEvents = EventsList.slice().sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateA - dateB;
+  });
+
+  const loadMoreEvents = () => {
+    const newLoadedEvents = loadedEvents + 3;
+    const eventsToAdd = sortedEvents.slice(loadedEvents, newLoadedEvents);
+
+    setDisplayedEvents([...displayedEvents, ...eventsToAdd]);
+    setLoadedEvents(newLoadedEvents);
+  };
 
   return (
     <>
@@ -83,7 +103,7 @@ const ArticlesEventsCases = () => {
                         title={article.title}
                         category={article.category}
                         capabilities={article.capabilities}
-                        industry={selectedTab}
+                    
                         image = { article.image }
                       />
                     </SwiperSlide>
@@ -105,7 +125,7 @@ const ArticlesEventsCases = () => {
             </h3>
 
             <div className="events-grid">
-              {sortedEvents.map((ev) => (
+              {displayedEvents.map((ev) => (
                 <EventList
                   key={ev.id}
                   date={ev.date}
@@ -116,6 +136,11 @@ const ArticlesEventsCases = () => {
                 />
               ))}
             </div>
+
+            {loadedEvents < sortedEvents.length && (
+              <button onClick={loadMoreEvents}>Load More</button>
+            )}
+
             <div className="bgCircle bgCircle-pink bgBlur-right-top"></div>
             <div className="bgCircle bgCircle-yellow bgBlur-left-top"></div>
           </div>
