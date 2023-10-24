@@ -30,8 +30,8 @@ const Testimonials = () => {
             {
               TestimonialList.map((testimonial) => (
                 
-                  <SwiperSlide>
-                    <div className='testimonial-item' key={testimonial.id}>
+                  <SwiperSlide key={testimonial.id} >
+                    <div className='testimonial-item' >
                       <div className='testimonial-bubble'>
                         { testimonial.message }
                         <div className='ranking-star-wrapper'>

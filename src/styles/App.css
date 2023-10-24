@@ -8,7 +8,7 @@
   --navy-blue: #3E5266;
   --pale-blue: #CBD2DE;
   --royal-purple: #341F97;
-  --dark-purple: #5F27CD;
+  --heart-purple: #5F27CD;
   --vivid-purple: #6C5CE7;
   --sunset-gold: #FECA57;
   --tangerine-orange: #FF9F43;
@@ -79,8 +79,27 @@
   #A29BFE 88.89%, 
   #F368E0 94.14%);
 
-}
+  --gradient-green-darkviolet: linear-gradient(to right, 
+  #1DD1A1, 
+  #341F97 34.0683%,
+  #222F3E 62.9529%);
 
+  --gradient-darkviolet-green: linear-gradient(to left, 
+  #1DD1A1, 
+  #341F97 34.0683%,
+  #222F3E 62.9529%);
+
+  --gradient-green-violet: linear-gradient(to left, 
+  #6C5CE7 2.18%, 
+  #48DBFB 76.85%, 
+  #55EFC4 43.97%);
+
+  --gradient-violet-green: linear-gradient(to right, 
+  #6C5CE7 2.18%, 
+  #48DBFB 76.85%, 
+  #55EFC4 43.97%);
+
+}
 
 
 
@@ -142,6 +161,14 @@
 
 .text-blue-violet-pink {
   background: var(--gradient-blue-violet-pink);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*display: inline-block;*/
+}
+
+.text-violet-green {
+  background: var(--gradient-violet-green);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;

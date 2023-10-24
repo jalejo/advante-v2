@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Healthcare"
+        "name": "Healthcare",
+        "image-payment": "healthcare-payment.jpg"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
     },
     {
         "id": 4,
-        "name": "Finance"
+        "name": "Finance",
+        "image-payment": "finance-payment.jpg"
     },
     {
         "id": 5,
@@ -29,15 +31,18 @@
     },
     {
         "id": 8,
-        "name": "Startups"
+        "name": "Startups",
+        "image-payment": "startups-payment.jpg"
     },
     {
         "id": 9,
-        "name": "Retail"
+        "name": "Retail",
+        "image-payment": "retail-payment.jpg"
     },
     {
         "id": 10,
-        "name": "Law"
+        "name": "Law",
+        "image-payment": "law-payment.jpg"
     },
     {
         "id": 11,
@@ -45,6 +50,7 @@
     },
     {
         "id": 12,
-        "name": "HHRR"
+        "name": "HHRR",
+        "image-payment": "hhrr-payment.jpg"
     }
 ]

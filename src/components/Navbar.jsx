@@ -8,7 +8,7 @@ const Navbar = () => {
             <a  className='navBarLogo'><img src={logo} alt="Logo Advante" /></a>
             <ul className='navBarList'>
                 <li><a href="/">About us</a></li>
-                <li><a href="/about">Services</a></li>
+                <li><a href="/payment-solutions">Services</a></li>
                 <li><a href="/services">Cases Studies</a></li>
                 <li><a href="/contact">Blog</a></li>
                 <li><a href="/contact">Contact us</a></li>

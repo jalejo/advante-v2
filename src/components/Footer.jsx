@@ -1,25 +1,67 @@
+import { useLocation } from 'react-router-dom';
+
 import IcoSocialLinkedin from '../images/svg/IcoSocialLinkedin';
 import IcoSocialFacebook from '../images/svg/IcoSocialFacebook';
 import IcoSocialYoutube from '../images/svg/IcoSocialYoutube';
 import IcoSocialInstagram from '../images/svg/IcoSocialInstagram';
+import IcoArrowThin from '../images/svg/IcoArrowThin';
 
 import logo from '../images/logo_advante.png'
 
 const Footer = () => {
+
+  const location = useLocation();
+
+  const pageData = {
+    default: {
+      background: 'var(--royal-purple)',
+      color: 'var(--white-color)',
+      button: 'var(--gradient-pink-orange)',
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--vivid-purple)',
+      socialIcon:'var(--royal-purple)',
+    },
+    '/': {
+      background: 'var(--royal-purple)',
+      color: 'var(--white-color)',
+      button: 'var(--gradient-pink-orange)',
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--vivid-purple)',
+      socialIcon:'var(--royal-purple)',
+    },
+    '/payment-solutions': {
+      background: 'var(--royal-purple)',
+      color: 'var(--white-color)',
+      button: 'var(--gradient-darkviolet-green)', 
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--vivid-purple)',
+      socialIcon:'var(--royal-purple)',
+    }
+  };
+
+  const currentPageData = pageData[location.pathname] || pageData.default;
+
   return (
-    <footer>
+    <footer 
+      style={{ 
+        backgroundColor:currentPageData['background'] 
+      }}>
       <div className='footerWrapper containerFull'>
         <div className='logo-and-social-section'>
           <a  className='footerLogo'><img src={logo} alt="Logo Advante" /></a>
           <ul className='social-list-wrapper'>
-            <li><IcoSocialLinkedin color='var(--royal-purple)' /></li>
-            <li><IcoSocialFacebook color='var(--royal-purple)' /></li>
-            <li><IcoSocialYoutube color='var(--royal-purple)' /></li>
-            <li><IcoSocialInstagram  color='var(--royal-purple)' /></li>
+            <li style={{ backgroundColor:currentPageData['socialCircle'] }}><IcoSocialLinkedin color={ currentPageData['socialIcon'] } /></li>
+            <li style={{ backgroundColor:currentPageData['socialCircle'] }}><IcoSocialFacebook color={ currentPageData['socialIcon'] } /></li>
+            <li style={{ backgroundColor:currentPageData['socialCircle'] }}><IcoSocialYoutube color={ currentPageData['socialIcon'] } /></li>
+            <li style={{ backgroundColor:currentPageData['socialCircle'] }}><IcoSocialInstagram  color={ currentPageData['socialIcon'] } /></li>
           </ul>
         </div>
         <div className='btn-call-section'>
-          <a className='baseButton pinkOrangeGradientBttn'><span>Tell us about your project</span></a>
+          <a className='thinButton' style={{ background: currentPageData['button'] }}>
+            <span>Tell us about your project</span>
+            <IcoArrowThin color='var(--white-color)' />
+          </a>
+
         </div>
         <div className='company-info-section'>
           <p><span>Address:</span> 1180 Avenue of the Americans <br />8th Floor New York, NY 10036</p>

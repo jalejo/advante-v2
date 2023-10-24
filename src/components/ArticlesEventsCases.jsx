@@ -88,7 +88,7 @@ const ArticlesEventsCases = () => {
 
             <div className="articlesNavWrapper">
               <div>
-                <p>Show All</p>
+                <a>Show All</a>
               </div>
               <Tabs
                 value={selectedTab}
@@ -96,6 +96,25 @@ const ArticlesEventsCases = () => {
                 variant="scrollable"
                 scrollButtons="auto"
                 aria-label="scrollable auto tabs example"
+                sx={{
+                  "& .MuiTabs-indicator":{
+                    display: "none",
+                  },
+                  "& .MuiButtonBase-root":{
+                    color: "var(--slate-gray)",
+                    fontSize: "1.2rem",
+                    textTransform: "inherit",
+                    fontWeight: 400,
+                    padding: "0.25rem 1.5rem",
+                  },
+                  " .MuiButtonBase-root.Mui-selected":{
+                    color: "var(--azure-blue)",
+                    fontWeight:"600"
+                  },
+                  " .MuiButtonBase-root .MuiTouchRipple-root":{
+                    display: "none"
+                  }
+                }}
               >
                 {IndustryList.map((industry) => (
                   <Tab

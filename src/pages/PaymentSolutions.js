@@ -1,11 +1,16 @@
-import React from 'react';
+import ExpertiseServices from "../components/PaymentSolutions/ExpertiseServices";
+import Header from "../components/PaymentSolutions/Header"
+import TechnologyStack from "../components/PaymentSolutions/TechnologyStack";
+import MarketsWeServe from "../components/PaymentSolutions/MarketsWeServe"
 
 const PaymentSolutions = () => {
   return (
-    <div>
-      <h1>Payment Solutions.</h1>
-
-    </div>
+    <>
+      <Header />
+      <TechnologyStack />
+      <ExpertiseServices />
+      <MarketsWeServe />
+    </>
   );
 }
 

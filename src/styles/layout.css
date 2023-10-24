@@ -68,6 +68,50 @@ nav{
     padding: 1rem 2.25rem;
 } 
 
+.thinButton{
+    padding: 0.5rem 1.18rem;
+    line-height: 1;
+    display: flex;
+    column-gap: 0.35rem;
+    box-shadow: 10px 10px 20px 0px rgb(16 24 40 / 15%);
+    border-radius: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.thinButton svg{
+    width: 0.9rem;
+}
+
+.see-more-btn{
+    background-color: var(--white-color);
+    padding: 0.5rem 1.18rem;
+    line-height: 1;
+    display: flex;
+    column-gap: 0.35rem;
+    box-shadow: 10px 10px 20px 0px rgb(16 24 40 / 15%);
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.see-more-btn span{
+    background: var(--gradient-purple-pink-orange);
+    font-weight: 500;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    font-size: 0.87rem;
+    line-height: 1;
+}
+.see-more-btn svg{
+    width: 0.9rem;
+}
+
+.absolute-right-bottom{
+    position: absolute;
+    right: 2.5rem;
+    bottom: 2rem;
+}
+
 .title-underline{
     height: 0.45rem;
     max-width: 45rem;
@@ -113,37 +157,6 @@ ul.navBarList li a:hover{
 .navBarLogo img{
     width: 100%;
     display: block;
-}
-
-.see-more-btn{
-    background-color: var(--white-color);
-    padding: 0.5rem 1.18rem;
-    line-height: 1rem;
-    display: flex;
-    column-gap: 0.35rem;
-    box-shadow: 10px 10px 20px 0px rgb(16 24 40 / 15%);
-    border-radius: 8px;
-    cursor: pointer;
-}
-.absolute-right-bottom{
-    position: absolute;
-    right: 2.5rem;
-    bottom: 2rem;
-}
-
-.see-more-btn span{
-    background: var(--gradient-purple-pink-orange);
-    font-weight: 500;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    display: inline-block;
-    font-size: 0.87rem;
-    line-height: 1;
-}
-
-.see-more-btn svg{
-    width: 0.9rem;
 }
 
 /*********** Hero ************/
@@ -362,7 +375,7 @@ ul.navBarList li a:hover{
 .servicesRootWrapper .swiper-pagination-bullet {
     width: 1rem !important;
     height: 1rem !important;
-    background-color: var(--dark-purple) !important;
+    background-color: var(--heart-purple) !important;
     opacity: 1 !important;
 }
 .servicesRootWrapper .swiper-pagination-bullet-active{
@@ -477,6 +490,7 @@ ul.navBarList li a:hover{
 
 .articleEventCasesWrapper{
     padding: 8rem 0;
+    overflow: hidden;
 }
 
 .subsection-articles {
@@ -493,8 +507,15 @@ ul.navBarList li a:hover{
     width: 70%;
     margin: 3rem auto 3rem auto;
     display: grid;
-    grid-template-columns: 5rem 1fr;
+    grid-template-columns: 5.2rem 1fr;
     align-items: center;
+}
+.articlesNavWrapper a{
+    color: var(--slate-gray);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: "0.25rem 1.5rem";
+    cursor: pointer;
 }
 
 .articles-grid {
@@ -502,7 +523,7 @@ ul.navBarList li a:hover{
 }
 
 .articles-grid .swiper{
-    /*overflow: visible;*/ 
+    overflow: visible;
     /*overflow: clip;*/
 }
 
@@ -894,6 +915,7 @@ footer{
     font-weight: 400;
 }
 
+
 @media (max-width: 1200px) {
 
     .service-card-wrapper .capabilities-grid {
@@ -942,15 +964,11 @@ footer{
     }
     .service-card-wrapper .service-card-overview {
         width: 100%;
-    }
-    .service-card-wrapper .service-card-capabilities {
-        width: 100%;
-    }
-
-    .service-card-wrapper .service-card-overview {
         padding: 1.55rem 2rem 1rem 2rem;
     }
+
     .service-card-wrapper .service-card-capabilities {
+        width: 100%;
         padding: 1rem 2rem 5rem 2rem;
     }
 
@@ -991,6 +1009,23 @@ footer{
     .heroTextWrapper {
         width: 100%;
     }
+
+    .servicesRootWrapper .swiper-wrapper .swiper-slide {
+        width: 18rem;
+    }
+    .servicesRootWrapper .swiper-wrapper .swiper-slide .service-icon {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .service-card-capabilities h5, .service-card-wrapper .capabilities-grid{
+        display: none;
+    }
+    .service-card-wrapper .service-card-capabilities{
+        padding-bottom: 4rem;
+    }
+
     .event-grid-item {
         grid-template-columns: 1fr;
         grid-template-rows: 20rem auto auto;
