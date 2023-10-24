@@ -5,7 +5,7 @@ const caseImage = require.context('../images/cases', true );
 
 const MainCase = (props) => {
 
-  const { selectedCase } = props;
+  const { selectedCase, industryName, titleColor } = props;
 
   
   console.log("🍄 ~ file: MainCase.jsx:10 ~ selectedCase:", selectedCase)
@@ -13,7 +13,7 @@ const MainCase = (props) => {
   return (
     <section className='mainCaseWrapper'>
       <div className='containerFull'>
-        <h3><span className='text-orange-violet-pink'>Healthcare</span> case.</h3>
+        <h3><span className={ titleColor }>{ industryName }</span> case.</h3>
 
         <div className='mainCase-grid'>
           <div className='mainCase-grid-image'>

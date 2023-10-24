@@ -99,6 +99,8 @@
   #48DBFB 76.85%, 
   #55EFC4 43.97%);
 
+  --gradient-vertical-green-violet: linear-gradient(180deg, #1DD1A1 4.96473%, #341F97 61.6872%);
+
 }
 
 
@@ -169,6 +171,14 @@
 
 .text-violet-green {
   background: var(--gradient-violet-green);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*display: inline-block;*/
+}
+
+.text-green-violet {
+  background: var(--gradient-green-violet);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;

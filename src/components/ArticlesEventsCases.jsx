@@ -24,6 +24,8 @@ const ArticlesEventsCases = () => {
   const [selectedEvents, setSelectedEvents] = useState(EventsList)
   const [selectedCase, setSelectedCase] = useState(CasesList[0])
 
+  const [selectedIndustryName, setSelectedIndustryName] = useState(IndustryList[0].name);
+
   //const [loadedEvents, setLoadedEvents] = useState(3);
 
   /************  Tabs ************/
@@ -50,6 +52,7 @@ const ArticlesEventsCases = () => {
     setSelectedArticles(filteredArticles);
     setSelectedEvents(filteredEvents.slice(0, 3));
     setSelectedCase( filteredCases[0] );
+    setSelectedIndustryName ( IndustryList[ selectedTab - 1 ].name )
     
   }, [selectedTab]);
 
@@ -199,7 +202,11 @@ const ArticlesEventsCases = () => {
           </div>
         </div>
       </section>
-      <MainCase selectedCase={selectedCase} />
+      <MainCase 
+        industryName = { selectedIndustryName }
+        selectedCase={selectedCase} 
+        titleColor="text-orange-violet-pink"
+      />
     </>
   );
 };

@@ -192,6 +192,68 @@
     color: var(--navy-blue);
 }
 
+.expertise-services-grid {
+    margin-top: 3.75rem;
+    display: grid;
+    grid-template-columns: 43.25% 1fr;
+    grid-column-gap: 0.625rem;
+}
+
+.expertise-services-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+}
+.expertise-services-item {
+    width: 100%;
+    height: 7rem;
+    position: relative;
+    cursor: pointer;
+}
+.expertise-services-text {
+    position: relative;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2.68rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--navy-blue);
+    transition: color 250ms ease-in;
+}
+.expertise-services-label {
+    width: 100%;
+    height: 100%;
+    background-color: #ECF3FA;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: rotate(0);
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
+    transition: all 250ms ease-in;
+}
+.expertise-services-item:hover .expertise-services-label{
+    background-color: var(--midnight-blue);
+    transform: rotate(-2.08deg);
+    box-shadow: 20px 20px 20px rgb(0 0 0 / 20%);
+}
+.expertise-services-item:hover .expertise-services-text {
+    color: var(--white-color);
+}
+
+
+.expertise-services-content{
+    background-color: #ECF3FA;
+    padding: 7% 10.14%;
+    text-align: center;
+}
+.expertise-services-content p{
+    line-height: 2.2;
+}
 
 /******** MARKETS WE SERVE ********/
 
@@ -199,11 +261,12 @@
     position: relative;
     background-color: var(--white-color);
     overflow: hidden;
-    padding: 5rem 0;
+    padding: 2rem 0 0 0;
 }
 
 .payment-markets-wrapper {
     text-align: center;
+    padding: 4rem 0rem;
     margin: 0 auto;
     position: relative;
     z-index: 2;
@@ -220,7 +283,6 @@
 
 .payment-industry-item {
     position: relative;
-    overflow: hidden;
     padding-top: 100%;
 }
 
@@ -261,11 +323,13 @@
     transition: opacity 250ms ease-in;
 }
 
-.payment-industry-card:hover{
+.payment-industry-card:hover, 
+.payment-industry-item.active .payment-industry-card{
     transform: rotate(-3.65deg) scale(1.04);
     box-shadow: 20px 20px 20px rgb(0 0 0 / 20%);
 }
-.payment-industry-card:hover  .payment-industry-overlay{
+.payment-industry-card:hover .payment-industry-overlay, 
+.payment-industry-item.active .payment-industry-card .payment-industry-overlay{
     opacity: 0;
 }
 
@@ -275,4 +339,67 @@
     position: absolute;
     left: 0;
     top: 0;
+}
+
+/******** SOLUTIONS ********/
+
+.payment-solutions {
+    position: relative;
+    background: var(--gradient-vertical-green-violet);
+    overflow: hidden;
+    padding: 5rem 0 8rem 0;
+    
+}
+.payment-solutions h3{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.payment-solutions-wrapper {
+    margin: 0 auto;
+    max-width: 58.75rem;
+    position: relative;
+    z-index: 2;
+    color: var(--white-color);
+}
+
+.payment-industry-big-name {
+    font-size: 20rem;
+    line-height: 1;
+    color: rgb(0 0 0 / 15%);
+    mix-blend-mode: overlay;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -.5rem;
+    text-align: center;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.payment-solutions-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.payment-solutions-item h6{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.solutions-grid-capabilities-group {
+    display: flex;
+    column-gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.solutions-grid-capabilities-group .solutions-capability {
+    background-color: rgb(255 255 255 / 30%);
+    border-radius: 10rem;
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    line-height: 1;
 }

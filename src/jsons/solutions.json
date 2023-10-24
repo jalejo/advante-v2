@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Subscriptions",
+        "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
+        "capabilities":[1, 2],
+        "industry":[1,2],
+        "services":[1,4],
+        "icon-1": "ico-subscriptions-1.svg",
+        "icon-2": "ico-subscriptions-2.svg"
+    },
+    {
+        "id": 2,
+        "name": "Payments",
+        "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
+        "capabilities":[3, 4],
+        "industry":[1,2],
+        "services":[1,4],
+        "icon-1": "ico-payments-1.svg",
+        "icon-2": "ico-payments-2.svg"
+    },
+    {
+        "id": 3,
+        "name": "Subscription add-ons",
+        "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
+        "capabilities":[5, 6],
+        "industry":[1, 2],
+        "services":[1, 4],
+        "icon-1": "ico-addons-1.svg",
+        "icon-2": "ico-addons-2.svg"
+    },
+    {
+        "id": 4,
+        "name": "Tips",
+        "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
+        "capabilities":[7, 8],
+        "industry":[1,2],
+        "services":[1,4],
+        "icon-1": "ico-tips-1.svg",
+        "icon-2": "ico-tips-2.svg"
+    }
+]
