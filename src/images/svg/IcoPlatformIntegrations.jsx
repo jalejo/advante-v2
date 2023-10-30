@@ -1,5 +1,3 @@
-import React from 'react';
-
 function IcoPlatformIntegrations({ color = '#000000'}) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.5 151.5" fill={color}>

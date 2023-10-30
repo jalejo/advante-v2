@@ -1,0 +1,231 @@
+/******** DESIGN HEADER ********/
+
+.design-header{
+    position: relative;
+    padding: 3rem 0 5rem 0;
+}
+.dots-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../../images/dots-bgr.png);
+    opacity: 50%;
+    z-index: 1;
+}
+
+.design-header-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+    align-items: center;
+}
+
+.design-header-copy{
+    width: 53%;
+}
+
+.design-header-copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--navy-blue); 
+    text-align: center;
+    row-gap: 2rem;
+    justify-content: center;
+}
+.design-header-copy p{
+    line-height: 2;
+}
+
+.design-header-icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--light-gray);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 40px rgb(0 0 0 / 20%);
+}
+
+.design-header-icon svg{
+    width: 2.4rem;
+}
+
+.design-header-label {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    padding: 3.5rem 1rem;
+    margin: 2rem auto;
+    text-align: center;
+    color: var(--white-color);
+    background: var(--gradient-orange-pink-violet-blue);
+}
+
+.design-header-label::before {
+    content: "";
+    position: absolute;
+    width: 19.5rem;
+    height: 21rem;
+    right: 0;
+    top: 0rem;
+    transform: scaleX(-1);
+    background-image: url(../../images/union-grid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.design-header-label::after {
+    content: "";
+    position: absolute;
+    width: 19.5rem;
+    height: 21rem;
+    left: 0;
+    top: 3rem;
+    background-image: url(../../images/union-grid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.letter-a {
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    left: 4.5rem;
+    top: -5rem;
+}
+
+.letter-a img{
+    width: 100%;
+    display: block;
+}
+
+.circle-design-label{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    position: absolute;
+    right: -2.5rem;
+    top: 2rem;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .32) 20%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+/******** OUR DESIGN LAW ********/
+
+.design-laws{
+    background-color: var(--deep-blue);
+    color: var(--white-color);
+    padding: 5rem 0 8.5rem 0;
+    position: relative;
+}
+
+.design-laws::after {
+    content: "";
+    position: absolute;
+    width: 19.5rem;
+    height: 21rem;
+    left: 0;
+    bottom: 0rem;
+    transform: scaleY(-1);
+    background-image: url(../../images/union-grid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.design-laws::before {
+    content: "";
+    position: absolute;
+    width: 19.5rem;
+    height: 21rem;
+    right: 0;
+    top: 0rem;
+    transform: scaleX(-1);
+    background-image: url(../../images/union-grid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.design-laws-headline {
+    display: flex;
+    align-items: center;
+    column-gap: 4.875rem;
+}
+
+.design-laws-title h1{
+    font-size: 9.375rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.design-laws-title h1 span {
+    display: block;
+    line-height: 1.3;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.design-laws-copy {
+    max-width: 39rem;
+}
+
+.design-laws-copy p{
+    font-size: 1.251rem;
+    line-height: 1.75;
+}
+
+.design-laws-grid{
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr );
+    column-gap: 1.65rem;
+    row-gap: 6.25rem;
+    margin-top: 6.25rem;
+}
+
+.design-law-item {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding-top: 6.25rem;
+}
+.design-law-ico{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    max-width: 8.125rem;
+}
+
+.design-law-ico img{
+    width: 100%;
+    display: block;
+}
+.design-law-item-headline {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.25rem;
+    align-items: center;
+}
+
+.design-law-item-headline span{
+    width: 3.125rem;
+    height: 3.125rem;
+    display: block;
+    background-color: var(--sky-blue);
+    font-size: 1.875rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.design-law-item-headline h6{
+    font-size: 1.5rem;
+    flex: 1;
+    line-height: 1.15;
+}

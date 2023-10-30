@@ -1,5 +1,3 @@
-import React from 'react';
-
 function IcoSocialYoutube({ color = '#000000'}) {
 
 const iconStyles = {

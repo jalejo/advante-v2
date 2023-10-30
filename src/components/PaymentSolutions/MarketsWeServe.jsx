@@ -2,9 +2,6 @@
 import { useState } from "react";
 import MainCase from "../MainCase";
 
-
-import "./styles.css"
-
 import CasesList from '../../jsons/cases.json';
 import IndustryList from '../../jsons/industry.json'
 import SolutionsList from '../../jsons/solutions.json'

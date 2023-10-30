@@ -1,5 +1,3 @@
-import React from 'react';
-
 function IcoSocialFacebook({ color = '#000000'}) {
 
 const iconStyles = {

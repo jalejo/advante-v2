@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Brainstorm",
+        "copy": "In this stage, the design team gathers to generate initial ideas and concepts for the website. Different creative approaches are explored, laying the groundwork for the project.",
+        "ico":"ico-brainstorm.png"
+    },
+    {
+        "id": 2,
+        "title": "Research & Planning",
+        "copy": "Before diving into design, thorough research is essential. This includes studying the industry, competition, and identifying the needs and expectations of the target audience.",
+        "ico":"ico-research.png"
+    },
+    {
+        "id": 3,
+        "title": "Collect all the assets",
+        "copy": "In this phase, all the necessary resources for the website's design are gathered. This may include photographs, logos, text, and any other content that will be used on the site.",
+        "ico":"ico-collect.png"
+    },
+    {
+        "id": 4,
+        "title": "Wireframing",
+        "copy": "Wireframing involves creating low-detail sketches or layouts that represent the general arrangement of elements on each page of the website. It's a crucial stage for visual organization and site structure.",
+        "ico":"ico-wireframing.png"
+    },
+    {
+        "id": 5,
+        "title": "Create Graphics & Visual Elements",
+        "copy": "Here, we begin crafting specific visual elements for the website. This includes logos, buttons, illustrations, images, and other elements that will bring the design to life.",
+        "ico":"ico-elements.png"
+    },
+    {
+        "id": 6,
+        "title": "UI/UX Design",
+        "copy": "In this phase, the user interface (UI) and user experience (UX) design are created. This involves laying out visual elements, choosing colors, typography, and creating an engaging and functional navigation experience.",
+        "ico":"ico-uxuidesign.png"
+    },
+    {
+        "id": 7,
+        "title": "Testing & Review",
+        "copy": "After completing the design, comprehensive testing is carried out to ensure everything functions correctly. Feedback is sought from the team, and revisions are made to refine the design.",
+        "ico":"ico-testing.png"
+    },
+    {
+        "id": 8,
+        "title": "Launch",
+        "copy": "Finally, the website is ready for launch. It is published online and made accessible to the public. The launch marks the beginning of the website's online life and its availability to users.",
+        "ico":"ico-launch.png"
+    }
+]

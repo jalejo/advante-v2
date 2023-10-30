@@ -1,5 +1,3 @@
-import React from 'react';
-
 function IcoSocialInstagram({ color = '#000000'}) {
 
 const iconStyles = {

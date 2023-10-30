@@ -1,3 +1,4 @@
+import '../components/PaymentSolutions/payment-solutions.css'
 import ExpertiseServices from "../components/PaymentSolutions/ExpertiseServices";
 import Header from "../components/PaymentSolutions/Header"
 import TechnologyStack from "../components/PaymentSolutions/TechnologyStack";

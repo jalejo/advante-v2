@@ -1,4 +1,3 @@
-import "./styles.css"
 import AdvanteIcons from "../AdvanteIcons"; 
 import CreditCardBase from "./../../images/credit-card-base.png"
 import CreditCardEffect from "./../../images/credit-card-effect.png"

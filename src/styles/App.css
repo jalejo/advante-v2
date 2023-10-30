@@ -7,6 +7,7 @@
   --midnight-blue: #222F3E;
   --navy-blue: #3E5266;
   --pale-blue: #CBD2DE;
+  --deep-blue: #002136;
   --royal-purple: #341F97;
   --heart-purple: #5F27CD;
   --vivid-purple: #6C5CE7;
@@ -21,6 +22,9 @@
   --crimson-red: #EE5253;
   --slate-gray: #718096;
   --light-gray: #F4F5F7;
+
+  --logo-white: invert(1);
+  --logo-black: invert(0);
 
   --gradient-purple-pink-orange: linear-gradient(90deg, 
   #6C5CE7, 
@@ -78,6 +82,17 @@
   #74B9FF 61.17%, 
   #A29BFE 88.89%, 
   #F368E0 94.14%);
+
+  --gradient-blue-violet-pink-balanced: linear-gradient(to right, 
+  #0ABDE3 12.83%, 
+  #6C5CE7 48.33%, 
+  #F368E0 89.12%);
+
+  --gradient-orange-pink-violet-blue: linear-gradient(115deg, 
+  #FF9F43 10%, 
+  #F368E0 37.55%, 
+  #6C5CE7 70.58%, 
+  #0ABDE3 90%);
 
   --gradient-green-darkviolet: linear-gradient(to right, 
   #1DD1A1, 
@@ -179,6 +194,14 @@
 
 .text-green-violet {
   background: var(--gradient-green-violet);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*display: inline-block;*/
+}
+
+.text-orange-pink-violet-blue{
+  background: var(--gradient-orange-pink-violet-blue);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;

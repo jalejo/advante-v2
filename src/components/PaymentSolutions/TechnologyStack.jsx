@@ -1,5 +1,3 @@
-import "./styles.css"
-
 import LogoWoo from '../../images/logo-technologies/logo-woo.png'
 import LogoStripe from '../../images/logo-technologies/logo-stripe.png'
 import LogoPaypal from '../../images/logo-technologies/logo-paypal.png'

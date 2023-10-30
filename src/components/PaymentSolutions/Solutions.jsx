@@ -1,9 +1,5 @@
 import { useState } from "react";
-
 import CapabilitiesList from '../../jsons/capabilities.json'
-
-import "./styles.css"
-
 
 
 const Solutions = (props) => {
@@ -24,7 +20,7 @@ const Solutions = (props) => {
                 <div className="payment-solutions-list-wrapper">
                     {
                         solutionList.map((solution) => (
-                            <div className="payment-solutions-item"> 
+                            <div key={ solution.id } className="payment-solutions-item"> 
                                 <h6>{ solution.name }</h6>
                                 <p>{ solution.description }</p>
 

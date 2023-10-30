@@ -20,6 +20,7 @@ const Footer = () => {
       textButton: 'var(--white-color)',
       socialCircle:'var(--vivid-purple)',
       socialIcon:'var(--royal-purple)',
+      logo: 'var(--logo-white)',
     },
     '/': {
       background: 'var(--royal-purple)',
@@ -28,6 +29,7 @@ const Footer = () => {
       textButton: 'var(--white-color)',
       socialCircle:'var(--vivid-purple)',
       socialIcon:'var(--royal-purple)',
+      logo: 'var(--logo-white)',
     },
     '/payment-solutions': {
       background: 'var(--royal-purple)',
@@ -36,6 +38,16 @@ const Footer = () => {
       textButton: 'var(--white-color)',
       socialCircle:'var(--vivid-purple)',
       socialIcon:'var(--royal-purple)',
+      logo: 'var(--logo-white)',
+    },
+    '/graphic-design': {
+      background: 'var(--white-color)',
+      color: 'var(--navy-blue)',
+      button: 'var(--gradient-blue-violet-pink-balanced)', 
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--light-gray)',
+      socialIcon:'var(--slate-gray)',
+      logo: 'var(--logo-black)',
     }
   };
 
@@ -44,11 +56,12 @@ const Footer = () => {
   return (
     <footer 
       style={{ 
-        backgroundColor:currentPageData['background'] 
+        backgroundColor:currentPageData['background'],
+        color: currentPageData['color']
       }}>
       <div className='footerWrapper containerFull'>
         <div className='logo-and-social-section'>
-          <a  className='footerLogo'><img src={logo} alt="Logo Advante" /></a>
+          <a  className='footerLogo' style={{ filter:currentPageData['logo'] }}><img src={logo} alt="Logo Advante" /></a>
           <ul className='social-list-wrapper'>
             <li style={{ backgroundColor:currentPageData['socialCircle'] }}><IcoSocialLinkedin color={ currentPageData['socialIcon'] } /></li>
             <li style={{ backgroundColor:currentPageData['socialCircle'] }}><IcoSocialFacebook color={ currentPageData['socialIcon'] } /></li>
@@ -58,7 +71,7 @@ const Footer = () => {
         </div>
         <div className='btn-call-section'>
           <a className='thinButton' style={{ background: currentPageData['button'] }}>
-            <span>Tell us about your project</span>
+            <span style={{ color:currentPageData['textButton'] }} >Tell us about your project</span>
             <IcoArrowThin color='var(--white-color)' />
           </a>
 
