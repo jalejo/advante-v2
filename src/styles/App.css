@@ -114,7 +114,23 @@
   #48DBFB 76.85%, 
   #55EFC4 43.97%);
 
+
+  --gradient-pink-blue-violet: linear-gradient(to right, 
+  #F368E0 10%, 
+  #48DBFB 35%, 
+  #A29BFE 70%,
+  #6C5CE7 90%
+  );
+
+  --gradient-violet-pink-red: linear-gradient(to right, 
+  #6C5CE7 2.18%, 
+  #F368E0 76.85%, 
+  #E84393 43.97%);
+
+
   --gradient-vertical-green-violet: linear-gradient(180deg, #1DD1A1 4.96473%, #341F97 61.6872%);
+
+  --gradient-vertical-pink-violet:  linear-gradient(180deg, #F368E0 50%, #6C5CE7 50%);
 
 }
 
@@ -207,3 +223,20 @@
   background-clip: text;
   /*display: inline-block;*/
 }
+
+.text-pink-blue-violet{
+  background: var(--gradient-pink-blue-violet);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*display: inline-block;*/
+}
+
+.text-pink-blue-violet{
+  background: var(--gradient-violet-pink-red);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*display: inline-block;*/
+}
+

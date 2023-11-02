@@ -60,6 +60,8 @@ nav{
     justify-content: space-between;
 }
 
+.center{ text-align: center;}
+
 .baseButton{
     border-radius: 8px;
     display: flex;
@@ -93,11 +95,8 @@ nav{
     cursor: pointer;
 }
 .see-more-btn span{
-    background: var(--gradient-purple-pink-orange);
     font-weight: 500;
     color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
     display: inline-block;
     font-size: 0.87rem;
     line-height: 1;
@@ -730,9 +729,12 @@ ul.navBarList li a:hover{
 /*********** MainCase ************/
 
 .mainCaseWrapper{
+    position: relative;
     padding: 5rem 0;
     background-color: var(--midnight-blue);
     color: var(--white-color);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -916,6 +918,27 @@ footer{
 }
 
 
+
+.blur-circle{
+    border-radius: 50%;
+    filter: blur(200px);
+    position: absolute;
+    left: 50%;
+}
+.circle-orange{
+    background-color: var(--tangerine-orange);
+}
+.circle-pink{
+    background-color: var(--orchid-pink);
+}
+.circle-violet{
+    background-color: var(--vivid-purple);
+}
+.circle-blue{
+    background-color: var(--sky-blue);
+}
+
+
 @media (max-width: 1200px) {
 
     .service-card-wrapper .capabilities-grid {
@@ -1053,5 +1076,9 @@ footer{
     }
     .event-grid-day {
         font-size: 2rem;
+    }
+    .mainCase-grid-capabilities-group {
+        flex-wrap: wrap;
+        row-gap: 0.75rem;
     }
 }

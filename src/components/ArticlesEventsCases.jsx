@@ -135,19 +135,10 @@ const ArticlesEventsCases = () => {
               </div>
               <div className="articles-grid">
                 <Swiper
-                  slidesPerView={ 1 }
+                  slidesPerView={'auto'}
                   centeredSlides={false}
                   spaceBetween={10}
-                  breakpoints={{
-                    900: {
-                      slidesPerView: 2,
-                      spaceBetween: 20,
-                    },
-                    1200: {
-                      slidesPerView: 3,
-                      spaceBetween: 30,
-                    }
-                  }}
+        
                 >
                   {selectedArticles.map((article) => (
                     <SwiperSlide key={article.id}>
@@ -206,6 +197,7 @@ const ArticlesEventsCases = () => {
         industryName = { selectedIndustryName }
         selectedCase={selectedCase} 
         titleColor="text-orange-violet-pink"
+        arrow="var(--tangerine-orange)" 
       />
     </>
   );

@@ -48,6 +48,15 @@ const Footer = () => {
       socialCircle:'var(--light-gray)',
       socialIcon:'var(--slate-gray)',
       logo: 'var(--logo-black)',
+    },
+    '/ai': {
+      background: 'var(--deep-blue)',
+      color: 'var(--white-color)',
+      button: 'var(--gradient-pink-orange)', 
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--navy-blue)',
+      socialIcon:'var(--midnight-blue)',
+      logo: 'var(--logo-white)',
     }
   };
 

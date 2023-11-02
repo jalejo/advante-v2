@@ -15,7 +15,7 @@ const industryWithImagePayment = IndustryList.filter(item => item.hasOwnProperty
 const ExpertiseServices = () => {
 
     const [selectedIndustryId, setSelectedIndustryId] = useState(1);
-    const [selectedCase, setSelectedCase] = useState(CasesList[0])
+    const [selectedCase, setSelectedCase] = useState(CasesList[4])
     
     const [selectedIndustryName, setSelectedIndustryName] = useState(IndustryList[0].name);
 
@@ -61,6 +61,7 @@ const ExpertiseServices = () => {
                 selectedCase={selectedCase} 
                 industryName = "Relevant"
                 titleColor="text-green-violet"
+                arrow="var(--green-mint)"
             />
 
         </section>

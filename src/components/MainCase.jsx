@@ -5,13 +5,20 @@ const caseImage = require.context('../images/cases', true );
 
 const MainCase = (props) => {
 
-  const { selectedCase, industryName, titleColor } = props;
+  const { selectedCase, industryName, titleColor, arrow, backgroundImage, backgroundColor, textColor } = props;
 
   
   console.log("🍄 ~ file: MainCase.jsx:10 ~ selectedCase:", selectedCase)
 
   return (
-    <section className='mainCaseWrapper'>
+    <section 
+      className='mainCaseWrapper' 
+      style={{ 
+        backgroundImage: backgroundImage ? `url(${caseImage(`./${backgroundImage}`)})` : 'none', 
+        backgroundColor: backgroundColor ? backgroundColor : '',
+        color: textColor ? textColor : '',
+      }}
+    >
       <div className='containerFull'>
         <h3><span className={ titleColor }>{ industryName }</span> case.</h3>
 
@@ -39,8 +46,8 @@ const MainCase = (props) => {
           </div>
           <div className='mainCase-grid-footer'>
             <a className='see-more-btn'>
-              <span>See case</span> 
-              <IcoArrowThin color='var(--tangerine-orange)' />
+              <span className={ titleColor }>See case</span> 
+              <IcoArrowThin color={ arrow } />
             </a>
             
           </div>

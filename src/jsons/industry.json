@@ -2,7 +2,8 @@
     {
         "id": 1,
         "name": "Healthcare",
-        "image-payment": "healthcare-payment.jpg"
+        "image-payment": "healthcare-payment.jpg",
+        "service-design": true
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
     {
         "id": 4,
         "name": "Finance",
-        "image-payment": "finance-payment.jpg"
+        "image-payment": "finance-payment.jpg",
+        "service-design": true
     },
     {
         "id": 5,
@@ -32,7 +34,8 @@
     {
         "id": 8,
         "name": "Startups",
-        "image-payment": "startups-payment.jpg"
+        "image-payment": "startups-payment.jpg",
+        "service-design": true
     },
     {
         "id": 9,
@@ -42,15 +45,18 @@
     {
         "id": 10,
         "name": "Law",
-        "image-payment": "law-payment.jpg"
+        "image-payment": "law-payment.jpg",
+        "service-design": true
     },
     {
         "id": 11,
-        "name": "Digital Marketing"
+        "name": "Digital Marketing",
+        "service-design": true
     },
     {
         "id": 12,
         "name": "HHRR",
-        "image-payment": "hhrr-payment.jpg"
+        "image-payment": "hhrr-payment.jpg",
+        "service-design": true
     }
 ]

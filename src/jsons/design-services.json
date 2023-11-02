@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Web & App design",
+        "content": "<div></div>",
+        "ico":"ico-service-design-design.png"
+    },
+    {
+        "id": 2,
+        "title": "Wireframing",
+        "content": "<div></div>",
+        "ico":"ico-service-design-wireframing.png"
+    },
+    {
+        "id": 3,
+        "title": "Logo & Branding",
+        "content": "<div></div>",
+        "ico":"ico-service-design-branding.png"
+    },
+    {
+        "id": 4,
+        "title": "Art & Illustration",
+        "content": "<div></div>",
+        "ico":"ico-service-design-art.png"
+    }
+]
