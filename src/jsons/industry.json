@@ -3,33 +3,40 @@
         "id": 1,
         "name": "Healthcare",
         "image-payment": "healthcare-payment.jpg",
-        "service-design": true
+        "service-design": true,
+        "service-ai": true
     },
     {
         "id": 2,
-        "name": "Legal issues"
+        "name": "Legal issues",
+        "service-ai": true
     },
     {
         "id": 3,
-        "name": "E-commerce"
+        "name": "E-commerce",
+        "service-ai": true
     },
     {
         "id": 4,
         "name": "Finance",
         "image-payment": "finance-payment.jpg",
-        "service-design": true
+        "service-design": true,
+        "service-ai": true
     },
     {
         "id": 5,
-        "name": "Marketplaces"
+        "name": "Marketplaces",
+        "service-ai": true
     },
     {
         "id": 6,
-        "name": "Staffing"
+        "name": "Staffing",
+        "service-ai": true
     },
     {
         "id": 7,
-        "name": "Marketing"
+        "name": "Marketing",
+        "service-ai": true
     },
     {
         "id": 8,

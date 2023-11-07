@@ -68,6 +68,7 @@ const IndustriesWeWork = () => {
                                 },
                                 "& .MuiButtonBase-root":{
                                     minHeight: "1.875rem",
+                                    width: isMediumScreen ? 'auto' : '11.5rem',
                                     borderRadius: "10rem",
                                     color: "var(--white-color)",
                                     fontSize: "0.875rem",

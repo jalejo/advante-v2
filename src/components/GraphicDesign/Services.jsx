@@ -4,6 +4,7 @@ import ServicesList from "../../jsons/design-services.json"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import DesignServiceContent from "./DesignServiceContent";
 
 const designServiceImages = require.context('../../images/', true );
 
@@ -15,11 +16,14 @@ const Services = () => {
         setActiveService(itemNumber);
     };
 
+    const activeServiceObject = ServicesList.find((serv) => serv.id === activeService);
+
     return (
         <section className="designServicesWrapper">
             <div className="dots-background"></div>
             <div className="containerFull">
                 <h3>Services.</h3>
+
                 <div className="design-services-list">
                     <Swiper
                     slidesPerView={ 'auto' }
@@ -61,6 +65,10 @@ const Services = () => {
                     }
                     </Swiper>
                 </div>
+                
+                <DesignServiceContent 
+                    selectedService = { activeServiceObject }
+                />
                 
             </div>
         </section>

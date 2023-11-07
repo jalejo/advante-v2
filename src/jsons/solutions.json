@@ -6,8 +6,8 @@
         "capabilities":[1, 2],
         "industry":[1,2],
         "services":[1,4],
-        "icon-1": "ico-subscriptions-1.svg",
-        "icon-2": "ico-subscriptions-2.svg"
+        "icon1": "ico-subscriptions-1.svg",
+        "icon2": "ico-subscriptions-2.svg"
     },
     {
         "id": 2,
@@ -16,8 +16,8 @@
         "capabilities":[3, 4],
         "industry":[1,2],
         "services":[1,4,7],
-        "icon-1": "ico-payments-1.svg",
-        "icon-2": "ico-payments-2.svg"
+        "icon1": "ico-payments-1.svg",
+        "icon2": "ico-payments-2.svg"
     },
     {
         "id": 3,
@@ -26,8 +26,8 @@
         "capabilities":[5, 6],
         "industry":[1, 2],
         "services":[1, 4, 7],
-        "icon-1": "ico-addons-1.svg",
-        "icon-2": "ico-addons-2.svg"
+        "icon1": "ico-addons-1.svg",
+        "icon2": "ico-addons-2.svg"
     },
     {
         "id": 4,
@@ -36,7 +36,207 @@
         "capabilities":[7, 8],
         "industry":[1,2],
         "services":[1,4, 7],
-        "icon-1": "ico-tips-1.svg",
-        "icon-2": "ico-tips-2.svg"
+        "icon1": "ico-tips-1.svg",
+        "icon2": "ico-tips-2.svg"
+    },
+    {
+        "id": 5,
+        "name": "Medical Diagnosis",
+        "description": "Deep learning algorithms can assist in interpreting medical images, such as X-rays and MRIs.",
+        "capabilities":[6, 11, 15],
+        "industry":[1],
+        "services":[5],
+        "icon1": "ico-005-1.svg",
+        "icon2": "ico-005-2.svg"
+    },
+    {
+        "id": 6,
+        "name": "Patient Management",
+        "description": "AI software for patient tracking, medication reminders, and personalized recommendations.",
+        "capabilities":[6, 11, 15],
+        "industry":[1],
+        "services":[5],
+        "icon1": "ico-006-1.svg",
+        "icon2": "ico-006-2.svg"
+    },
+    {
+        "id": 7,
+        "name": "Clinical Data Analysis",
+        "description": "Identifying patterns in electronic health records to improve care and decision-making.",
+        "capabilities":[6, 11, 15],
+        "industry":[1],
+        "services":[5],
+        "icon1": "ico-007-1.svg",
+        "icon2": "ico-007-2.svg"
+    },
+    {
+        "id": 8,
+        "name": "Product Recommendations",
+        "description": "Personalized recommendation algorithms to boost retention and sales.",
+        "capabilities":[6, 11, 15],
+        "industry":[5],
+        "services":[5],
+        "icon1": "ico-008-1.svg",
+        "icon2": "ico-008-2.svg"
+    },
+    {
+        "id": 9,
+        "name": "Fraud Detection",
+        "description": "Real-time identification of suspicious activities, such as fraudulent transactions.",
+        "capabilities":[6, 11, 15],
+        "industry":[5],
+        "services":[5],
+        "icon1": "ico-009-1.svg",
+        "icon2": "ico-009-2.svg"
+    },
+    {
+        "id": 10,
+        "name": "Price Optimization",
+        "description": "Dynamic pricing adjustments based on demand and competition.",
+        "capabilities":[6, 11, 15],
+        "industry":[5],
+        "services":[5],
+        "icon1": "ico-010-1.svg",
+        "icon2": "ico-010-2.svg"
+    },
+    {
+        "id": 11,
+        "name": "Legal Document Review",
+        "description": "Natural language processing (NLP) for reviewing contracts and legal documents for specific clauses and terms.",
+        "capabilities":[6, 11, 15],
+        "industry":[2],
+        "services":[5],
+        "icon1": "ico-011-1.svg",
+        "icon2": "ico-011-2.svg"
+    },
+    {
+        "id": 12,
+        "name": "Legal Outcome Prediction",
+        "description": "AI models for predicting legal outcomes or the time required to resolve a case.",
+        "capabilities":[6, 11, 15],
+        "industry":[2],
+        "services":[5],
+        "icon1": "ico-012-1.svg",
+        "icon2": "ico-012-2.svg"
+    },
+    {
+        "id": 13,
+        "name": "Customer Service Chatbots",
+        "description": "Automation of responses to frequently asked questions and customer assistance.",
+        "capabilities":[6, 11, 15],
+        "industry":[3],
+        "services":[5],
+        "icon1": "ico-013-1.svg",
+        "icon2": "ico-013-2.svg"
+    },
+    {
+        "id": 14,
+        "name": "Customer Experience Personalization",
+        "description": "Personalized product and content recommendations.",
+        "capabilities":[6, 11, 15],
+        "industry":[3],
+        "services":[5],
+        "icon1": "ico-014-1.svg",
+        "icon2": "ico-014-2.svg"
+    },
+    {
+        "id": 15,
+        "name": "Inventory and Logistics Management",
+        "description": "Supply chain optimization and inventory management.",
+        "capabilities":[6, 11, 15],
+        "industry":[3],
+        "services":[5],
+        "icon1": "ico-015-1.svg",
+        "icon2": "ico-015-2.svg"
+    },
+    {
+        "id": 16,
+        "name": "Resume Screening and Recruitment",
+        "description": "AI for analyzing resumes and selecting suitable candidates.",
+        "capabilities":[6, 11, 15],
+        "industry":[6],
+        "services":[5],
+        "icon1": "ico-016-1.svg",
+        "icon2": "ico-016-2.svg"
+    },
+    {
+        "id": 17,
+        "name": "Virtual Interviews",
+        "description": "Online interview platforms with automated evaluation of responses.",
+        "capabilities":[6, 11, 15],
+        "industry":[6],
+        "services":[5],
+        "icon1": "ico-017-1.svg",
+        "icon2": "ico-017-2.svg"
+    },
+    {
+        "id": 18,
+        "name": "Employee Retention",
+        "description": "AI models to predict turnover risk and take preventive measures.",
+        "capabilities":[6, 11, 15],
+        "industry":[6],
+        "services":[5],
+        "icon1": "ico-018-1.svg",
+        "icon2": "ico-018-2.svg"
+    },
+    {
+        "id": 19,
+        "name": "Audience Segmentation",
+        "description": "Use AI to identify more relevant audience groups.",
+        "capabilities":[6, 11, 15],
+        "industry":[7],
+        "services":[5],
+        "icon1": "ico-019-1.svg",
+        "icon2": "ico-019-2.svg"
+    },
+    {
+        "id": 20,
+        "name": "Marketing Automation",
+        "description": "Send personalized messages and campaigns at the right times.",
+        "capabilities":[6, 11, 15],
+        "industry":[7],
+        "services":[5],
+        "icon1": "ico-020-1.svg",
+        "icon2": "ico-020-2.svg"
+    },
+    {
+        "id": 21,
+        "name": "Sentiment Analysis",
+        "description": "Monitor social media and analyze comments to understand customer perception.",
+        "capabilities":[6, 11, 15],
+        "industry":[7],
+        "services":[5],
+        "icon1": "ico-021-1.svg",
+        "icon2": "ico-021-2.svg"
+    },
+    {
+        "id": 22,
+        "name": "Risk Management",
+        "description": "AI models to assess and predict financial risks.",
+        "capabilities":[6, 11, 15],
+        "industry":[4],
+        "services":[5],
+        "icon1": "ico-022-1.svg",
+        "icon2": "ico-022-2.svg"
+    },
+    {
+        "id": 23,
+        "name": "Financial Fraud Detection",
+        "description": "Identification of fraudulent activities in financial transactions.",
+        "capabilities":[6, 11, 15],
+        "industry":[4],
+        "services":[5],
+        "icon1": "ico-023-1.svg",
+        "icon2": "ico-023-2.svg"
+    },
+    {
+        "id": 24,
+        "name": "Market Trend Prediction",
+        "description": "Analysis of financial and economic data to make informed investment decisions.",
+        "capabilities":[6, 11, 15],
+        "industry":[4],
+        "services":[5],
+        "icon1": "ico-024-1.svg",
+        "icon2": "ico-024-2.svg"
     }
 ]

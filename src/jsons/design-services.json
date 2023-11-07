@@ -3,24 +3,32 @@
         "id": 1,
         "title": "Web & App design",
         "content": "<div></div>",
-        "ico":"ico-service-design-design.png"
+        "ico":"ico-service-design-design.png",
+        "features": ["Website Design", "App Design", "UI/UX", "Landing Page", "Portfolio Page", "Library Design"],
+        "technologies":["logo-figma.png", "logo-adobe-ps.png", "logo-adobe-ai.png", "logo-coreldraw.png", "logo-canva.png"]
     },
     {
         "id": 2,
         "title": "Wireframing",
         "content": "<div></div>",
-        "ico":"ico-service-design-wireframing.png"
+        "ico":"ico-service-design-wireframing.png",
+        "features":["Website wireframe design", "Mobile app wireframes", "Interactive wireframe design", "E-commerce wireframes", "Software application wireframes", "Wireframes for rapid prototyping", "Wireframes for presentations and documentation"],
+        "technologies":["logo-figma.png", "logo-adobe-ai.png", "logo-invision.png", "logo-balsamiq.png", "logo-excalidraw.png"]
     },
     {
         "id": 3,
         "title": "Logo & Branding",
         "content": "<div></div>",
-        "ico":"ico-service-design-branding.png"
+        "ico":"ico-service-design-branding.png",
+        "features":["Logo Design", "Branding Strategy", "Social Media Design", "Corporate Presentations", "Visual Identity Design"],
+        "technologies":["logo-figma.png", "logo-adobe-ps.png", "logo-adobe-ai.png", "logo-coreldraw.png", "logo-blender.png"]
     },
     {
         "id": 4,
         "title": "Art & Illustration",
         "content": "<div></div>",
-        "ico":"ico-service-design-art.png"
+        "ico":"ico-service-design-art.png",
+        "features":["Character Illustration","Digital Illustration","Product Illustration","Infographic Illustration","Game Illustration","Storyboard Illustration"],
+        "technologies":["logo-figma.png", "logo-adobe-ps.png", "logo-adobe-ai.png", "logo-coreldraw.png", "logo-procreate.png", "logo-blender.png"]
     }
 ]

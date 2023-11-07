@@ -106,13 +106,13 @@
 
   --gradient-green-violet: linear-gradient(to left, 
   #6C5CE7 2.18%, 
-  #48DBFB 76.85%, 
-  #55EFC4 43.97%);
+  #48DBFB 43.97%, 
+  #55EFC4 76.85%);
 
   --gradient-violet-green: linear-gradient(to right, 
   #6C5CE7 2.18%, 
-  #48DBFB 76.85%, 
-  #55EFC4 43.97%);
+  #48DBFB 43.97%, 
+  #55EFC4 76.85%);
 
 
   --gradient-pink-blue-violet: linear-gradient(to right, 
@@ -124,8 +124,8 @@
 
   --gradient-violet-pink-red: linear-gradient(to right, 
   #6C5CE7 2.18%, 
-  #F368E0 76.85%, 
-  #E84393 43.97%);
+  #F368E0 43.97%, 
+  #E84393 76.85%);
 
 
   --gradient-vertical-green-violet: linear-gradient(180deg, #1DD1A1 4.96473%, #341F97 61.6872%);
@@ -232,7 +232,7 @@
   /*display: inline-block;*/
 }
 
-.text-pink-blue-violet{
+.text-violet-pink-red{
   background: var(--gradient-violet-pink-red);
   color: transparent;
   -webkit-background-clip: text;
