@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Dynamic Text Generation",
+        "mainContent":"<p>For a wide range of applications and purposes such as Customized Chatbots, Conversational AI, Content Generation, Text Summarization, Personalization and Recommendation, and Creative Writing Support.</p>",
+        "currentPlatforms":["current-platform-1.png", "current-platform-2.png"],
+        "mainImage":"ai-custom-solution-1.png",
+        "beforeContent":"<p>Manual Content Creation:</p><p>The company that sells through e-commerce, relies on human writers and agencies to manually create product descriptions, marketing copy, and other website content. This process is time-consuming and may lead to inconsistencies in messaging and tone.</p>",
+        "afterContent":"<p>Automated Content Creation:</p><p>With dynamic text generation powered by AI, the company automatically generates product descriptions, marketing copy, and other content, saving time and effort in content creation.</p>",
+        "seeMore":"xx"
+    },
+    {
+        "id": 2,
+        "title": "Delivery prediction and optimization",
+        "mainContent":"<p>Bring significant benefits to your business by improving the efficiency and accuracy of your delivery operations. This enhances customer experience, reduces costs, improves inventory management, and enables data-driven decision-making for better delivery performance  and operational efficiency.</p>",
+        "currentPlatforms":["current-platform-3.png", "current-platform-4.png"],
+        "mainImage":"ai-custom-solution-2.png",
+        "beforeContent":"<p>Unknown number of sales for the next weeks:</p><p>The company doesn't know what would be the most sold product on the next day or weeksso it doesn't prepare the adequate inventory and there is not enough units available.</p>",
+        "afterContent":"<p>Accurate product sales predictor:</p><p>After creating a model based on past data, the company is able to predict what product will be the most sold this and the next week.  This allows the company to highly increase revenue.</p>",
+        "seeMore":"xx"
+    },
+    {
+        "id": 3,
+        "title": "Text Classification / Sentiment Analysis",
+        "mainContent":"<p>A powerful tool that can automatically process large amounts of text and classify it into different categories, allowing for efficient organization and analysis of information. The system can automatically read, interpret, and categorize documents, emails, customer feedback, social media posts, or any other textual content you deal with.</p>",
+        "currentPlatforms":["current-platform-5.png", "current-platform-6.png", "current-platform-7.png", "current-platform-8.png", "current-platform-9.png", "current-platform-10.png", "current-platform-11.png", "current-platform-12.png"],
+        "mainImage":"ai-custom-solution-3.png",
+        "beforeContent":"<p>Limited Insights:</p> <p>It's highly time consuming and almost impossible to analyze the  sentiment and feedback of social media posts due to the large  volume of data, making it difficult to identify emerging trends  or sentiments quickly.</p>",
+        "afterContent":"<p>Automated Planning:</p> <p>After implementing an AI system that receives feedback and shows it on a panel, the company can evaluate the results of each of the social media posts automatically and in real time. This allows the company to greatly improve the communication.</p>",
+        "seeMore":"xx"
+    },
+    {
+        "id": 4,
+        "title": "Business Optimization",
+        "mainContent":"<p>Data is collected from specific situations to make a prediction of behavior to optimize your business processes, this allows you to save time and improve processes and avoid risky situations.</p>",
+        "currentPlatforms":["current-platform-13.png", "current-platform-14.png"],
+        "mainImage":"ai-custom-solution-4.png",
+        "beforeContent":"<p>Repetitive tasks that don't require a human:</p> <p>Coordination of multiple appointments and meetings that do not coincide often leads to a significant loss of time, confusion, and poorly arranged agreements.</p>",
+        "afterContent":"<p>Automating routine tasks:</p> <p>By integrating a business optimization system, the company automates meeting coordination and  stakeholder feedback, resulting in increased productivity and seamless communication.</p>",
+        "seeMore":"xx"
+    },
+    {
+        "id": 5,
+        "title": "AI Chats",
+        "mainContent":"<p>Our We create custom e-commerce websites for entrepreneurs looking to grow their business online. With our Shopify and WooCommerce development services, you can launch a full-featured online store that will certainly increase your sales.</p>",
+        "currentPlatforms":["current-platform-13.png", "current-platform-14.png"],
+        "mainImage":"ai-custom-solution-5.png",
+        "beforeContent":"<p>Default answers</p> <p>The answers of a common chatbot are usually fixed and predetermined, which makes the user waste time and demands to talk to a real person, the answers are usually limited and it is complicated to handle complex conversations, specific scripts are used.</p>",
+        "afterContent":"<p>Flexible responses, able to understand human language and adapt to varied queries, can deal with and learn from complex conversations, learns and improves with experience, advanced virtual assistants and superior customer service chat.</p>",
+        "seeMore":"xx"
+    }
+]

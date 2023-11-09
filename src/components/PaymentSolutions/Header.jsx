@@ -9,7 +9,7 @@ import PaymentDonut from "./../../images/payment-donut.png"
 const Header = () => {
     return (
         <section className='payment-header' >
-            <div className="payment-noise"></div>
+            <div className="bgr-noise"></div>
             <div className="containerFull">
                 <div className="payment-header-wrapper">
                     <div className="payment-header-copy">

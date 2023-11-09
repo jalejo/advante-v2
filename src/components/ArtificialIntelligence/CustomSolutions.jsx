@@ -1,13 +1,25 @@
+import CustomSolutionsList from '../../jsons/ai-solutions.json';
+import CustomSolutionGrid from './CustomSolutionGrid';
+
 
 const CustomSolutions = () => {
     return (
         <section className='ai-custom-solutions' >
           
-            <div className="payment-noise"></div>
+            <div className="bgr-noise"></div>
 
-            <div className="containerFull ai-custom-wrapper">
+            <div className="ai-custom-wrapper">
 
                     <h3><span className="text-pink-blue-violet">Custom</span> Solutions.</h3>
+
+                    {
+                        CustomSolutionsList.map( (custom) => (
+                            <CustomSolutionGrid 
+                                key={ custom.id }
+                                allData = { custom } 
+                            />
+                        ) )
+                    }
 
             </div>
                 

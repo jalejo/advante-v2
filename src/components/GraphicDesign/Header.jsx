@@ -4,7 +4,7 @@ import LetterA from "../../images/svg/design-A.svg"
 const Header = () => {
     return (
         <section className='design-header' >
-            <div className="dots-background"></div>
+            <div className="bgr-dots"></div>
         
             <div className="design-header-wrapper">
 

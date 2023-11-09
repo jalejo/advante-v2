@@ -44,6 +44,30 @@ h6{
 p{
     line-height: 1.5;
 }
+
+.bgr-noise{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/noise.png);
+    opacity: 50%;
+    z-index: 1;
+}
+
+.bgr-dots{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../images/dots-bgr.png);
+    opacity: 50%;
+    z-index: -1;
+}
+
+
 header {
     width: 100%;
     height: 7.5rem;

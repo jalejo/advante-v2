@@ -20,7 +20,7 @@ const Services = () => {
 
     return (
         <section className="designServicesWrapper">
-            <div className="dots-background"></div>
+            <div className="bgr-dots"></div>
             <div className="containerFull">
                 <h3>Services.</h3>
 

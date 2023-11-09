@@ -4,16 +4,7 @@
     position: relative;
     padding: 3rem 0 5rem 0;
 }
-.dots-background{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image: url(../../images/dots-bgr.png);
-    opacity: 50%;
-    z-index: -1;
-}
+
 
 .design-header-wrapper {
     width: 100%;

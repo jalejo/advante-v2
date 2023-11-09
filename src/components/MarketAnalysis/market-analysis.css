@@ -1,0 +1,20 @@
+/******** MARKET ANALYSIS HEADER ********/
+
+
+.market-analysis-header{
+    position: relative;
+    padding: 3rem 0 5rem 0;
+}
+
+.market-analysis-icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.market-analysis-icon svg{ 
+    width: 2.4rem;
+}

@@ -14,7 +14,7 @@ const Solutions = (props) => {
             <div className="payment-industry-big-name">
                 { industryName }
             </div>
-            <div className="payment-noise"></div>
+            <div className="bgr-noise"></div>
             <div className="containerFull payment-solutions-wrapper">
                 <h3>Solutions.</h3>
                 <div className="payment-solutions-list-wrapper">

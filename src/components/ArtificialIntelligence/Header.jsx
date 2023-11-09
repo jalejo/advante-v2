@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <section className='ai-header' >
           
-            <div className="payment-noise"></div>
+            <div className="bgr-noise"></div>
 
             <div className="blur-circle circle-ai circle-pink circle-ai-pink-1"></div>
             <div className="blur-circle circle-ai circle-violet circle-ai-violet-1"></div>

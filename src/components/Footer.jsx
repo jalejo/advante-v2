@@ -57,6 +57,15 @@ const Footer = () => {
       socialCircle:'var(--navy-blue)',
       socialIcon:'var(--midnight-blue)',
       logo: 'var(--logo-white)',
+    },
+    '/market-analysis': {
+      background: 'var(--deep-blue)',
+      color: 'var(--white-color)',
+      button: 'var(--sky-blue)', 
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--navy-blue)',
+      socialIcon:'var(--midnight-blue)',
+      logo: 'var(--logo-white)',
     }
   };
 
