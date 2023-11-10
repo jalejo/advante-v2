@@ -8,7 +8,7 @@ import SolutionsList from '../../jsons/solutions.json'
 import Solutions from './Solutions';
 
 
-const industryAi = IndustryList.filter(item => item.hasOwnProperty("service-ai"));
+const industryMarket = IndustryList.filter(item => item.hasOwnProperty("service-market"));
 
 
 const ChooseIndustry = () => {
@@ -19,23 +19,23 @@ const ChooseIndustry = () => {
     const [selectedTab, setSelectedTab] = useState(1);
     const [selectedCase, setSelectedCase] = useState(CasesList[6])
 
-    const filteredData = SolutionsList.filter(item => item.industry.includes(selectedTab) && item.services.includes(5));
+    const filteredData = SolutionsList.filter(item => item.industry.includes(selectedTab) && item.services.includes(8));
 
     const handleChange = (event, newValue) => {
         setSelectedTab(newValue);
     };
 
     return(
-        <section className="ai-industry">
-            <div className='aiIndustryWrapper'>
+        <section className="market-industry">
+            <div className='marketIndustryWrapper'>
                 <div className="containerFull">
-                    <h3 className='center'>Choose your <span className="text-violet-pink-red">industry</span>.</h3>
+                    <h3 className='center'>Choose the <span>Industry</span> you are interested in.</h3>
         
 
-                    <div className='ai-solutions-section' >
+                    <div className='market-solutions-section' >
                 
 
-                        <div className='ai-industry-list'>
+                        <div className='market-industry-list'>
                             <Tabs
                                 value={selectedTab}
                                 onChange={handleChange}
@@ -61,7 +61,7 @@ const ChooseIndustry = () => {
                                         textTransform: "inherit",
                                         fontWeight: "500",
                                         padding: "0.25rem 2rem",
-                                        backgroundColor:"var(--midnight-blue)",
+                                        backgroundColor:"var(--navy-blue)",
                                         transition: "all ease-in 150ms",
                                     },
                                     " .MuiTabs-flexContainer":{
@@ -74,7 +74,7 @@ const ChooseIndustry = () => {
                                     " .MuiButtonBase-root.Mui-selected":{
                                         fontWeight:"500",
                                         color: "var(--white-color)",
-                                        background:"var(--gradient-violet-pink-red)",
+                                        background:"var(--green-sea)",
                                         boxShadow:"10px 10px 20px rgb(0 0 0 / 10%)",
                                     },
                                     " .MuiButtonBase-root .MuiTouchRipple-root":{
@@ -87,7 +87,7 @@ const ChooseIndustry = () => {
                                 }}
                             >
                             {
-                                industryAi.map((industry) => (
+                                industryMarket.map((industry) => (
                                     <Tab
                                         key={industry.id}
                                         label={industry.name}

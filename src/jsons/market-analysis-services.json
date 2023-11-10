@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "<span>New</span> Startups.",
+        "content": "Keeping track of emerging startups and their disruptive potential in the market.",
+        "ico":"ico-bulb.png",
+        "ico_color":"#F368E0"
+    },
+    {
+        "id": 2,
+        "title": "<span>Tech</span> News.",
+        "content": "Staying updated on technology trends and innovations that may impact the industry.",
+        "ico":"ico-chip.png",
+        "ico_color":"#EE5253"
+    },
+    {
+        "id": 3,
+        "title": "Investment <br><span>Analysis.</span>",
+        "content": "Analyzing investment opportunities and trends in the industry to identify potential partnerships or acquisitions.",
+        "ico":"ico-wallet.png",
+        "ico_color":"#FF9F43"
+    },
+    {
+        "id": 4,
+        "title": "Economy and <br> <span>Market</span> Cycles.",
+        "content": "Analyzing economic conditions and market cycles can help businesses make strategic decisions based on overall economic health.",
+        "ico":"ico-bars.png",
+        "ico_color":"#2ECC71"
+    },
+    {
+        "id": 5,
+        "title": "<span>Product</span> Research.",
+        "content": "Investigating product features, quality, and customer satisfaction helps improve and develop products that meet market needs.",
+        "ico":"ico-flask.png",
+        "ico_color":"#0ABDE3"
+    },
+    {
+        "id": 6,
+        "title": "Custom Market <span>Studies.</span>",
+        "content": "Conducting surveys, market research, and specific focus groups to obtain customer-specific insights is an important part of market analysis.",
+        "ico":"ico-lens.png",
+        "ico_color":"#6C5CE7"
+    },
+    {
+        "id": 7,
+        "title": "Demographics <span>and</span> Segmentation.",
+        "content": "Studying the target population, their demographic composition, and buying behavior is essential to understand who potential customers are and how to effectively reach them.",
+        "ico":"ico-people.png",
+        "ico_color":"#2ECC71"
+    },
+    {
+        "id": 8,
+        "title": "Consumer <span>Trends.</span>",
+        "content": "Analyzing current and emerging consumer trends helps businesses tailor their products and marketing strategies to meet changing consumer needs.",
+        "ico":"ico-mountain.png",
+        "ico_color":"#F368E0"
+    }
+]

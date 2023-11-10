@@ -238,5 +238,36 @@
         "services":[5],
         "icon1": "ico-024-1.svg",
         "icon2": "ico-024-2.svg"
+    },
+    {
+        "id": 25,
+        "name": "Schedule optimization",
+        "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "capabilities":[6, 11, 15],
+        "industry":[1],
+        "services":[8],
+        "icon1": "ico-025-1.svg",
+        "icon2": "ico-025-2.svg"
+    },
+    {
+        "id": 26,
+        "name": "Assignments",
+        "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "capabilities":[6, 11, 15],
+        "industry":[1],
+        "services":[8],
+        "icon1": "ico-026-1.svg",
+        "icon2": "ico-026-2.svg"
+    },
+    {
+        "id": 27,
+        "name": "Sales prediction",
+        "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
+        "capabilities":[6, 11, 15],
+        "industry":[1],
+        "services":[8],
+        "icon1": "ico-027-1.svg",
+        "icon2": "ico-027-2.svg"
     }
+
 ]

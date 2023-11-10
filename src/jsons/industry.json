@@ -4,39 +4,46 @@
         "name": "Healthcare",
         "image-payment": "healthcare-payment.jpg",
         "service-design": true,
-        "service-ai": true
+        "service-ai": true,
+        "service-market": true
     },
     {
         "id": 2,
         "name": "Legal issues",
-        "service-ai": true
+        "service-ai": true,
+        "service-market": true
     },
     {
         "id": 3,
         "name": "E-commerce",
-        "service-ai": true
+        "service-ai": true,
+        "service-market": true
     },
     {
         "id": 4,
         "name": "Finance",
         "image-payment": "finance-payment.jpg",
         "service-design": true,
-        "service-ai": true
+        "service-ai": true,
+        "service-market": true
     },
     {
         "id": 5,
         "name": "Marketplaces",
-        "service-ai": true
+        "service-ai": true,
+        "service-market": true
     },
     {
         "id": 6,
         "name": "Staffing",
-        "service-ai": true
+        "service-ai": true,
+        "service-market": true
     },
     {
         "id": 7,
         "name": "Marketing",
-        "service-ai": true
+        "service-ai": true,
+        "service-market": true
     },
     {
         "id": 8,

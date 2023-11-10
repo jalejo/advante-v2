@@ -1,5 +1,6 @@
-/******** MARKET ANALYSIS HEADER ********/
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
+/******** MARKET ANALYSIS HEADER ********/
 
 .market-analysis-header{
     position: relative;
@@ -9,7 +10,7 @@
 .market-analysis-icon {
     width: 5rem;
     height: 5rem;
-    background-color: red;
+    background-color: var(--medium-gray);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -17,4 +18,375 @@
 
 .market-analysis-icon svg{ 
     width: 2.4rem;
+}
+
+.market-analysis-label {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+
+.market-analysis-label h2{
+    color: var(--medium-gray);
+}
+
+/******** WE STUDY  ********/
+
+.market-we-study{
+    position: relative;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--sunset-gold);
+    overflow: hidden;
+}
+
+.market-we-study h3{
+    color: var(--white-color);
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.market-we-study h3:before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -.5rem;
+    right: -1rem;
+    width: 8.5rem;
+    height: 1.3rem;
+    background-image: url(../../images/market-analysis/subline-red-sketch.svg);
+    z-index: -1;
+}
+
+.market-listNavigator{
+    display: flex;
+    width: 6.5rem;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.market-list-arrow{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.market-list-arrow circle{
+    fill: #FECA57;
+    stroke: #EE5253;
+    stroke-width: 2px;
+    transition: all ease-in 150ms;
+}
+.market-list-arrow path{
+    stroke: #EE5253;
+    transition: all ease-in 150ms;
+}
+
+.market-list-arrow:hover circle{
+    fill: #EE5253;
+}
+.market-list-arrow:hover path{
+    stroke: #FECA57;
+}
+
+.market-list-forward{
+    transform: rotate(180deg);
+}
+
+.market-services-list{
+    margin-top: 2rem;
+}
+
+.market-services-list .swiper{
+    overflow: visible;
+}
+
+.market-services-list .swiper-wrapper .swiper-slide {
+    background-color: var(--white-color);
+    box-sizing: border-box;
+    width: 18.75rem;
+    height: 27rem;
+    position: relative;
+    padding: 0.875rem 0.875rem 1.65rem 1.65rem;
+}
+
+.market-service-box{
+    width: 3rem;
+    height: 3rem;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    background-color: var(--white-color);
+}
+
+.market-services-list h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.75rem;
+}
+
+.market-services-list h5 span{
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: 100;
+    font-size: 2.25rem;
+}
+
+.market-services-list p {
+    line-height: 2.25;
+}
+
+/******** EMPOWERING SOLUTION  ********/
+
+.empowering-solution{
+    position: relative;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--deep-blue);
+    overflow: hidden;
+}
+
+.empowering-solution h3{
+    color: var(--white-color);
+
+}
+
+.empowering-solution h3 span{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.empowering-solution h3 span:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    background-color: var(--green-sea);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.empowering-list{
+    width: 100%;
+    max-width: 1170px;
+    margin: 10rem auto 0 auto;
+}
+
+.empower-item-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+
+.empower-item-texts{
+    color: var(--medium-gray);
+    box-sizing: border-box;
+    position: relative;
+    flex: 0 0 55%;
+    padding: 0 5.5rem  0 2.5rem;
+}
+
+.empower-item-image{
+    flex: 0 0 45%;
+}
+
+.empower-item-image img{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+}
+
+.empower-item-number{
+    position: absolute;
+    left: -2rem;
+    top: -2rem;
+    font-size: 18.75rem;
+    font-weight: 600;
+    color: var(--deep-blue);
+    -webkit-text-stroke: 1px rgb(222 222 222 / 40%);
+    z-index: 0;
+    line-height: 1;
+    user-select: none;
+}
+
+.empower-item-texts h5{
+    position: relative;
+    z-index: 2;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.empower-item-copy{
+    position: relative;
+    z-index: 2;
+}
+
+.empower-item-copy p{
+    line-height: 2.5;
+    margin-bottom: 1.5rem;
+}
+
+.empower-item-copy p span{
+    font-weight: 800;
+}
+
+.empower-item-copy ul{
+    padding-left: 1rem;
+    margin: 2rem 0;
+}
+
+.empower-item-copy ul li{
+    list-style: disc;
+    line-height: 2.5;
+}
+
+/******** CHOOSE INDUSTRY  ********/
+
+.marketIndustryWrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 56rem;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--white-color);
+}
+
+.ai-industry-list {
+    margin-top: 2rem;
+    margin-bottom: 5.5rem;
+}
+
+.marketIndustryWrapper h3 {
+    color: var(--deep-blue);
+}
+
+.marketIndustryWrapper h3 span{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    background-image:  url(../../images/market-analysis/circle-sketch.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 1.5;
+}
+
+.ai-solutions-list{
+    width: 100%;
+    max-width: 1090px;
+}
+
+.market-solutions {
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 0 3rem 0;
+}
+
+.market-solutions-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+.market-solutions-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.5rem;
+}
+
+.market-solutions-item {
+    display: flex;
+    column-gap: 2.375rem;
+}
+.market-solutions-item-ico {
+    width: 5.6rem;
+    height: 5.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.market-solutions-item-ico img {
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.market-solutions-item h6 {
+    font-size: 1.125rem;
+    margin-bottom: 0.7rem;
+    color: var(--green-sea);
+}
+.market-solutions-item p {
+    font-size: 0.75rem;
+    color: var(--navy-blue);
+}
+
+.market-solutions-item .solutions-grid-capabilities-group .solutions-capability{
+    background-color:var(--medium-gray)
+}
+
+
+@media (max-width: 900px) {
+    .empowering-list{
+        margin-top: 5rem;
+    }
+    .empower-item-box {
+        flex-direction: column;
+    }
+    .empower-item-texts{
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    .empower-item-image img {
+        margin: auto;
+        max-width: 30rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .market-analysis-label {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 1rem;
+    }
+
+    .market-services-list .swiper-wrapper .swiper-slide {
+        width: 16rem;
+    }
+    .empower-item-box {
+        margin-bottom: 6rem;
+    }
+    .empower-item-image img {
+        margin: auto;
+        width: 100%;
+    }
+    .market-industry-list {
+        margin-bottom: 2rem;
+    }
+    .market-solutions-list-wrapper {
+        row-gap: 3rem;
+    }
+    .empower-item-texts {
+        padding: 0 1rem;
+    }
+    .market-solutions-item {
+        flex-direction: column;
+        row-gap: 0.75rem;
+    }
+    .market-solutions-item-ico {
+        justify-content: flex-start;
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    .empower-item-number {
+        font-size: 8rem;
+    }
 }

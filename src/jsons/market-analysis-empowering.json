@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Industry Overview.",
+        "content": "<p>In this phase, we provide an overview of your industry and discuss its current trajectory. It's crucial to incorporate key industry metrics such as size, trends, and projected growth.</p><p>Industry research and analysis differ from market research. While market research focuses on understanding your customers, industry research involves examining all businesses similar to yours.</p>",
+        "image":"empower-item-1.png"
+    },
+    {
+        "id": 2,
+        "title": "Defining your Target Market.",
+        "content": "<p>The target market is a critical component of our industry analysis. This is where we define your ideal client. During the analysis, we can identify several customer segments. This involves grouping similar customers into segments and describing the characteristics of each segment.</p> <p>The components we follow:</p> <p><span>Market size: </span> Your market size is the number of potential customers for your product or service. At Advante Digital, we explore effective methods to determine the size of our market.</p> <p><span>Demographics: </span>We need to collect information on the typical age, gender, education, income, and more of your clients. We create a prototype of your ideal client.</p> <p><span>Location: </span>In this step, we need to know where your clients are located, specifying the region, state, city, or county. This allows us to make geographic segmentation and make informed decisions regarding the commercial location.</p> <p><span>Psychographics: </span>As a company, we aim to understand your customers' preferences, lifestyles, and personalities. This information helps us improve our competitive analysis.</p> <p><span>Trends: </span>Your customers' behavior continually evolves, and we strive to stay up to date with the trends of the target market.</p>",
+        "image":"empower-item-2.png"
+    },
+    {
+        "id": 3,
+        "title": "Assessing the Competitive Landscape",
+        "content": "<p>A thorough market analysis necessitates considering your competition. We differentiate your offerings by addressing gaps unattended by competitors.</p> <p>When analyzing competition, we pay attention to the following areas:</p><ul><li>Direct Competition</li> <li>Indirect Competitors</li><li>Our Unique Selling Proposition (USP)</li><li>Barriers to Entry</li></ul>",
+        "image":"empower-item-3.png"
+    },
+    {
+        "id": 4,
+        "title": "Pricing strategy and sales forecast.",
+        "content": "<p>The final stage involves determining your pricing strategy and creating a sales forecast to estimate the share of the market we think your company can capture.</p> <p>The steps to consider are:</p> <p>Set the price of our product or service and forecast the initial sales volume.</p>",
+        "image":"empower-item-4.png"
+    }
+]

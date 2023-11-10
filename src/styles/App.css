@@ -14,6 +14,7 @@
   --sunset-gold: #FECA57;
   --tangerine-orange: #FF9F43;
   --green-mint: #1DD1A1;
+  --green-sea: #2ECC71;
   --azure-blue: #74B9FF;
   --sky-blue: #48DBFB;
   --light-purple: #A29BFE;
@@ -21,7 +22,9 @@
   --rose-red: #E84393;
   --crimson-red: #EE5253;
   --slate-gray: #718096;
+  --medium-gray: #DEDEDE;
   --light-gray: #F4F5F7;
+
 
   --logo-white: invert(1);
   --logo-black: invert(0);
