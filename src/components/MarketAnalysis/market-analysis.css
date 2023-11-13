@@ -8,6 +8,7 @@
 }
 
 .market-analysis-icon {
+    flex: 0 0 5rem;
     width: 5rem;
     height: 5rem;
     background-color: var(--medium-gray);
@@ -28,6 +29,104 @@
 
 .market-analysis-label h2{
     color: var(--medium-gray);
+}
+
+.market-analysis-headline{
+    margin-top: 4rem;
+
+}
+
+.market-analysis-headline h1{
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+}
+
+.market-analysis-headline h1 span{
+    font-family: 'Reenie Beanie', cursive;
+    color: var(--sky-blue);
+    font-size: 15.625rem;
+    font-weight: 400;
+    position: relative;
+    letter-spacing: -1.5rem;
+    line-height: 0;
+    display: inline-block;
+    top: 1rem;
+    left: -1rem;
+}
+
+.market-analysis-headline-copy{
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 36.5rem;
+}
+
+.market-analysis-headline-copy p{
+    font-size: 1rem;
+    line-height: 2.25;
+}
+
+.image-steps {
+    width: 100%;
+    margin-top: 3rem;
+    position: relative;
+    padding-top: 50%;
+}
+
+.data-collection-img {
+    width: 33%;
+    position: absolute;
+    right: 60%;
+    top: 0;
+}
+
+.data-collection-img img{
+    width: 100%;
+}
+
+.arrow-step-1 {
+    position: absolute;
+    top: 66%;
+    right: -28%;
+    width: 30%;
+}
+
+.market-segmentation-img{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    left: 120%;
+}
+
+.market-segmentation-img img{
+    width: 100%;
+}
+
+.arrow-step-2 {
+    position: absolute;
+    top: -40%;
+    left: 29%;
+    width: 24%;
+}
+
+.identification-opportunities-img{
+    width: 100%;
+    position: absolute;
+    top: -90%;
+    left: 60%;
+}
+
+.arrow-step-3 {
+    position: absolute;
+    top: 100%;
+    right: 36%;
+    width: 7%;
+}
+
+.implementation-img{
+    width: 100%;
+    position: absolute;
+    bottom: -230%;
+    left: 0;
 }
 
 /******** WE STUDY  ********/
@@ -332,8 +431,34 @@
     background-color:var(--medium-gray)
 }
 
+@media (max-width: 1200px) {
+    .data-collection-img {
+        top: 20%;
+    }
+
+}
+
 
 @media (max-width: 900px) {
+
+    .market-analysis-headline h1 {
+        font-size: 4.25rem;
+        line-height: 4.55rem;
+    }
+    .market-analysis-headline h1 span {
+        font-size: 11rem;
+    }
+
+    .image-steps {
+        padding-top: 80%;
+    }
+
+    .data-collection-img {
+        left: 0;
+        width: 38%;
+        top: 30%;
+    }
+    
     .empowering-list{
         margin-top: 5rem;
     }
@@ -353,9 +478,17 @@
 @media (max-width: 600px) {
 
     .market-analysis-label {
-        flex-direction: column;
         align-items: flex-start;
         row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    .market-analysis-label h2{
+        font-size: 2.75rem;
+        line-height: 1;
+    }
+
+    .market-analysis-headline h1 br{
+        display: none;
     }
 
     .market-services-list .swiper-wrapper .swiper-slide {
