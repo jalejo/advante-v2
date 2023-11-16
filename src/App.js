@@ -7,7 +7,7 @@ import PaymentSolutions from './pages/PaymentSolutions';
 import GraphicDesign from './pages/GraphicDesign';
 import ArtificialIntelligence from './pages/ArtificialIntelligence';
 import MarketAnalysis from './pages/MarketAnalysis';
-
+import Ecommerce from './pages/Ecommerce';
 
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './styles/Theme'; 
@@ -29,6 +29,7 @@ const App = () => {
           <Route path="/graphic-design" element={<GraphicDesign />} />
           <Route path="/ai" element={<ArtificialIntelligence />} />
           <Route path="/market-analysis" element={<MarketAnalysis />} />
+          <Route path="/e-commerce" element={<Ecommerce />} />
           {/* <Route path='/' element={<Home />} />
           <Route path="/ai" element={<ArtificialIntelligence />} />
           <Route path="/graphic-design" element={<GraphicDesign />} /> */}

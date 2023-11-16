@@ -5,13 +5,15 @@
         "image-payment": "healthcare-payment.jpg",
         "service-design": true,
         "service-ai": true,
-        "service-market": true
+        "service-market": true,
+        "image-ecommerce": "ico-heart.png"
     },
     {
         "id": 2,
         "name": "Legal issues",
         "service-ai": true,
-        "service-market": true
+        "service-market": true, 
+        "image-ecommerce":"ico-hammer.png"
     },
     {
         "id": 3,
@@ -25,25 +27,29 @@
         "image-payment": "finance-payment.jpg",
         "service-design": true,
         "service-ai": true,
-        "service-market": true
+        "service-market": true, 
+        "image-ecommerce":"ico-statistics.png"
     },
     {
         "id": 5,
         "name": "Marketplaces",
         "service-ai": true,
-        "service-market": true
+        "service-market": true, 
+        "image-ecommerce":"ico-bag.png"
     },
     {
         "id": 6,
         "name": "Staffing",
         "service-ai": true,
-        "service-market": true
+        "service-market": true, 
+        "image-ecommerce":"ico-puzzle.png"
     },
     {
         "id": 7,
         "name": "Marketing",
         "service-ai": true,
-        "service-market": true
+        "service-market": true, 
+        "image-ecommerce":"ico-campaign.png"
     },
     {
         "id": 8,
@@ -54,7 +60,8 @@
     {
         "id": 9,
         "name": "Retail",
-        "image-payment": "retail-payment.jpg"
+        "image-payment": "retail-payment.jpg",
+        "image-ecommerce":"ico-store.png"
     },
     {
         "id": 10,

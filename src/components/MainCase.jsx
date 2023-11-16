@@ -5,14 +5,14 @@ const caseImage = require.context('../images/cases', true );
 
 const MainCase = (props) => {
 
-  const { selectedCase, industryName, titleColor, arrow, backgroundImage, backgroundColor, textColor } = props;
+  const { selectedCase, className, industryName, titleColor, arrow, backgroundImage, backgroundColor, textColor } = props;
 
   
   console.log("🍄 ~ file: MainCase.jsx:10 ~ selectedCase:", selectedCase)
 
   return (
     <section 
-      className='mainCaseWrapper' 
+      className={`mainCaseWrapper ${className ? 'case-'+className : ''}`}
       style={{ 
         backgroundImage: backgroundImage ? `url(${caseImage(`./${backgroundImage}`)})` : 'none', 
         backgroundColor: backgroundColor ? backgroundColor : '',

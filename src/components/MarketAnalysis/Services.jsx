@@ -1,16 +1,21 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
 
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 import ServicesList from "../../jsons/market-analysis-services.json"
-import MarketArrow from './MarketArrow';
+import MarketArrow from '../../images/MarketArrow';
 
 const Services = () => {
 
-  const navigationNextRef = useRef(null);
-  const navigationPrevRef = useRef(null);
+    const [swiper, setSwiper] = useState(null)
 
+    const nextTo = () => {
+        swiper.slideNext();
+    };
+    const prevTo = () => {
+        swiper.slidePrev();
+    };
+  
   return (
     <section className="market-we-study">
   
@@ -19,27 +24,22 @@ const Services = () => {
         <h3>We study</h3>
         
         <div className='market-listNavigator'>
-            <div className='market-list-arrow market-list-backward'><MarketArrow /></div>
-            <div className='market-list-arrow market-list-forward'><MarketArrow /></div>
+            <div className='market-list-arrow market-list-backward' onClick={ prevTo } ><MarketArrow /></div>
+            <div className='market-list-arrow market-list-forward' onClick={ nextTo } ><MarketArrow /></div>
         </div>
         
 
         <div className="market-services-list">
                 <Swiper
 
-                modules={[Navigation]}
-                navigation={{
-                prevEl: navigationPrevRef.current,
-                nextEl: navigationNextRef.current,
-                }}
-                onBeforeInit={(swiper) => {
-                swiper.navigation.nextEl = navigationNextRef.current;
-                swiper.navigation.prevEl = navigationPrevRef.current;
-                }}
-
                 slidesPerView={ 'auto' }
                 centeredSlides={false}
                 spaceBetween= {20}
+
+                onSwiper={(s) => {
+                    console.log("initialize swiper", s);
+                    setSwiper(s);
+                }}
 
                 breakpoints={{
                     900: {
@@ -64,13 +64,7 @@ const Services = () => {
                         ) )
                     }
                 </Swiper>
-                { /*
-                <div>
-                    <button ref={navigationNextRef}>Next</button>
-                    <button ref={navigationPrevRef}>Prev</button>
-                </div>
-                */}
-
+              
             </div>
         </div>
     </section>

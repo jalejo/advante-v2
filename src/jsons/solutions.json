@@ -268,6 +268,206 @@
         "services":[8],
         "icon1": "ico-027-1.svg",
         "icon2": "ico-027-2.svg"
+    },
+    {
+        "id": 28,
+        "name": "Telemedicine Platform Development",
+        "description": "<p>Creating secure and user-friendly telemedicine platforms that enable healthcare professionals to conduct online medical consultations.</p> <p>Integration of video conferencing, chat, and medical record management tools.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[1],
+        "services":[2]
+    },
+    {
+        "id": 29,
+        "name": "Healthcare Marketplaces",
+        "description": "<p>Developing online marketplaces where patients can search and compare healthcare services, doctors, hospitals, and other healthcare providers.</p> <p>Integration of ratings, reviews, and online booking features.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[1],
+        "services":[2]
+    },
+    {
+        "id": 30,
+        "name": "Content Management and Online Health Education",
+        "description": "<p>Creating online education platforms for healthcare professionals and patients.</p> <p>Developing health-related educational content.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[1],
+        "services":[2]
+    },
+    {
+        "id": 31,
+        "name": "Medical Research Applications",
+        "description": "<p>Developing clinical research applications that allow healthcare professionals to participate in online research studies and clinical trials.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[1],
+        "services":[2]
+    },
+    {
+        "id": 32,
+        "name": "Legal Case Management Systems",
+        "description": "<p>Developing legal case management platforms that enable lawyers and litigation teams to effectively manage case details, schedule hearings, and keep track of legal documents.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[2],
+        "services":[2]
+    },
+    {
+        "id": 33,
+        "name": "Client Portals",
+        "description": "<p>Creating online client portals where legal clients can access information about their cases, legal documents, billing, and communicate with their attorneys.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[2],
+        "services":[2]
+    },
+    {
+        "id": 34,
+        "name": "LegalTech for Startups",
+        "description": "<p>Offering technological solutions to legal startups that require assistance in developing applications and systems to deliver legal services online.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[2],
+        "services":[2]
+    },
+    {
+        "id": 35,
+        "name": "Online Legal Education",
+        "description": "<p>Building online legal education platforms that offer courses and training materials for law students and professionals.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[2],
+        "services":[2]
+    },
+    {
+        "id": 36,
+        "name": "Legal Technology Consulting",
+        "description": "<p>Building online legal education platforms that offer courses and training materials for law students and professionals.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[2],
+        "services":[2]
+    },
+    {
+        "id": 37,
+        "name": "Custom Online Store Development.",
+        "description": "<p>Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[4, 5, 9],
+        "services":[2]
+    },
+    {
+        "id": 38,
+        "name": "Integration of Existing E-Commerce Platforms.",
+        "description": "<p>Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[4, 5, 9],
+        "services":[2]
+    },
+    {
+        "id": 39,
+        "name": "Mobile E-Commerce App Development.",
+        "description": "<p>Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[4, 5, 9],
+        "services":[2]
+    },
+    {
+        "id": 40,
+        "name": "Payment Gateway Integration.",
+        "description": "<p>Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[4, 5, 9],
+        "services":[2]
+    },
+    {
+        "id": 41,
+        "name": "Human Resources Information Systems (HRIS)",
+        "description": "<p>Developing human resources information systems for comprehensive employee management, including payroll, benefits, and time and attendance.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[6],
+        "services":[2]
+    },
+    {
+        "id": 42,
+        "name": "Online Recruitment Platforms",
+        "description": "<p>Creating web and mobile applications for candidate search and selection, with filtering, tracking, and online interview features.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[6],
+        "services":[2]
+    },
+    {
+        "id": 43,
+        "name": "Employee Profile Management",
+        "description": "<p>Developing systems for managing and keeping employee profiles up to date, including personal information, skills, and experiences.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[6],
+        "services":[2]
+    },
+    {
+        "id": 44,
+        "name": "Candidate Assessment and Online Testing",
+        "description": "<p>Building online assessment solutions that help measure candidates' skills and competencies.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[6],
+        "services":[2]
+    },
+    {
+        "id": 45,
+        "name": "Integration of Payroll and Benefits Systems",
+        "description": "<p>Integrating payroll and benefits systems for easier employee compensation and benefits administration.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[6],
+        "services":[2]
+    },
+    {
+        "id": 46,
+        "name": "Performance Management and Employee Evaluation",
+        "description": "<p>Developing systems that facilitate performance reviews, set goals, and automate the evaluation process.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[6],
+        "services":[2]
+    },
+    {
+        "id": 47,
+        "name": "Workplace Collaboration Applications",
+        "description": "<p>Creating workplace collaboration applications that facilitate communication and project management among teams.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[6],
+        "services":[2]
+    },
+    {
+        "id": 48,
+        "name": "Marketing Automation Systems",
+        "description": "<p>Developing marketing automation platforms that enable efficient campaign management, email marketing, audience segmentation, and performance tracking.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[7],
+        "services":[2]
+    },
+    {
+        "id": 49,
+        "name": "Customer Relationship Management (CRM)",
+        "description": "<p>Developing and integrating CRM systems to help businesses manage and nurture customer relationships.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[7],
+        "services":[2]
+    },
+    {
+        "id": 50,
+        "name": "Content Marketing Platforms",
+        "description": "<p>Creating content management systems (CMS) and blogs that allow businesses to effectively publish and promote content.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[7],
+        "services":[2]
+    },
+    {
+        "id": 51,
+        "name": "Data Analysis and Business Intelligence",
+        "description": "<p>Developing data analysis and business intelligence tools to help businesses collect, analyze, and visualize marketing data for informed decision-making.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[7],
+        "services":[2]
+    },
+    {
+        "id": 52,
+        "name": "Content and Social Media Marketing",
+        "description": "<p>Creating solutions for social media content management, post scheduling, and audience engagement tracking.</p>",
+        "capabilities":[15, 1, 5],
+        "industry":[7],
+        "services":[2]
     }
 
 ]

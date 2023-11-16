@@ -71,12 +71,12 @@
     },
     {
         "id": 8,
-        "case": "Healthcare",
-        "title": "Online Expansion and Market Positioning Strategy",
-        "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
-        "industry": [7, 8, 9],
+        "case": "E-commerce",
+        "title": "Revolutionizing E-commerce with AI-Powered Personalization",
+        "content":"In a groundbreaking move, XYZ Retail implemented state-of-the-art AI algorithms to analyze customer preferences. The result? Tailored product recommendations and a 30% increase in conversion rates. This innovation reshaped the e-commerce landscape, providing a personalized shopping experience like never before.",
+        "industry": [3, 8, 9],
         "capabilities": [6, 11, 15 ],
-        "image":"case-03.jpg",
+        "image":"case-08.jpg",
         "url":""
     },
     {

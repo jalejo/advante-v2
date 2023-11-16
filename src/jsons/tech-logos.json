@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Twilio",
+    "file": "logo-twilio.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 2,
+    "name": "Stripe",
+    "file": "logo-stripe.png",
+    "services": [2, 4],
+    "color": ""
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "file": "logo-pipedrive.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 4,
+    "name": "Zoom",
+    "file": "logo-zoom.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 5,
+    "name": "Calendly",
+    "file": "logo-calendly.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 6,
+    "name": "Quickbooks",
+    "file": "logo-quickbooks.png",
+    "services": [2, 4],
+    "color": ""
+  },
+  {
+    "id": 7,
+    "name": "Highlevel",
+    "file": "logo-highlevel.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 8,
+    "name": "Maps",
+    "file": "logo-maps.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 9,
+    "name": "Mailchimp",
+    "file": "logo-mailchimp.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 10,
+    "name": "Roposo",
+    "file": "logo-roposo.png",
+    "services": [2],
+    "color": ""
+  },
+  {
+    "id": 11,
+    "name": "Mailgun",
+    "file": "logo-mailgun.png",
+    "services": [2],
+    "color": ""
+  }
+]

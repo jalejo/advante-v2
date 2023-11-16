@@ -170,21 +170,21 @@
 }
 
 .market-list-arrow circle{
-    fill: #FECA57;
-    stroke: #EE5253;
+    fill: var(--sunset-gold);
+    stroke: var(--crimson-red);
     stroke-width: 2px;
     transition: all ease-in 150ms;
 }
 .market-list-arrow path{
-    stroke: #EE5253;
+    stroke: var(--crimson-red);
     transition: all ease-in 150ms;
 }
 
 .market-list-arrow:hover circle{
-    fill: #EE5253;
+    fill: var(--crimson-red);
 }
 .market-list-arrow:hover path{
-    stroke: #FECA57;
+    stroke: var(--sunset-gold);
 }
 
 .market-list-forward{

@@ -1,0 +1,399 @@
+.e-commerce-header {
+    position: relative;
+    box-sizing: border-box;
+    padding: 10.25rem 0;
+    background-image: url("../../images/e-commerce/bgr-e-commerce.jpg");
+    background-position: center center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.e-commerce-label {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+.e-commerce-icon {
+    flex: 0 0 5rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.e-commerce-icon svg {
+    width: 2.4rem;
+}
+.e-commerce-icon svg path{
+    fill: var(--midnight-blue);
+}
+
+.e-commerce-label h2 {
+    color: var(--white-color);
+}
+.e-commerce-headline {
+    margin-top: 4rem;
+}
+.e-commerce-headline h1 {
+    font-size: 9.3rem;
+    line-height: 9.3rem;
+    color: var(--white-color);
+    mix-blend-mode: soft-light;
+}
+.e-commerce-headline-copy {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 36.5rem;
+    color: var(--white-color);
+}
+.e-commerce-headline-copy p {
+    font-size: 1rem;
+    line-height: 2.25;
+}
+
+/******** OUR INTEGRATION ********/
+
+.our-integration {
+    position: relative;
+    background-color: var(--deep-blue);
+    overflow: hidden;
+    padding: 5rem 0;
+}
+
+.our-integration-wrapper {
+    text-align: center;
+    color: var(--white-color);
+}
+
+.our-integration-wrapper h3 {
+    margin-bottom: 3rem; 
+}
+
+.double-underline{
+    position: relative;
+}
+
+.double-underline::before {
+    content: "";
+    top: 88%;
+    position: absolute;
+    width: 100%;
+    height: 1.5rem;
+    background-image: url("../../images/double-underline.svg");
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.our-integration-wrapper p {
+    line-height: 2.45;
+}
+.our-integration-text {
+    width: 100%;
+    max-width: 58.75rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.our-integration-logo-list {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.our-integration-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem .5rem;
+}
+
+.our-integration-logo-item {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    max-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-integration-logo-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-glow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    filter: blur(10px);
+    display: flex;
+    opacity: .75;
+    justify-content: center;
+}
+
+/******** OUR EXPERTISE ********/
+
+.e-commerce-expertise{
+    position: relative;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--bone-white);
+    overflow: hidden;
+}
+
+.e-commerce-expertise h3{
+    font-size: 4rem;
+    line-height: 1;
+    color: var(--midnight-blue);
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.e-commerce-expertise h3 span{
+    position: relative;
+}
+.e-commerce-expertise h3 span::after{
+    content: "";
+    width: 18rem;
+    height: 9rem;
+    position: absolute;
+    right: 0;
+    top: -1rem;
+    z-index: -1;
+    display: inline-block;
+    background-image: url(../../images/svg/circle-sketch.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.e-commerce-list-arrow {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.e-commerce-listNavigator {
+    display: flex;
+    margin-top: 3rem;
+    width: 6.5rem;
+    margin-left: auto;
+    justify-content: space-between;
+}
+.e-commerce-list-arrow circle{
+    fill: var(--bone-white);
+    stroke: var(--midnight-blue);
+    stroke-width: 2px;
+    transition: all ease-in 150ms;
+}
+.e-commerce-list-arrow path{
+    stroke: var(--midnight-blue);
+    transition: all ease-in 150ms;
+}
+
+.e-commerce-list-arrow:hover circle{
+    fill: var(--midnight-blue);
+}
+.e-commerce-list-arrow:hover path{
+    stroke: var(--bone-white);
+}
+
+.e-commerce-list-forward{
+    transform: rotate(180deg);
+}
+
+.e-commerce-solutions-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    gap: 6.5rem;
+}
+.e-commerce-solutions-select {
+    width: 16.875rem;
+}
+/*
+.e-commerce-solutions-select ul{
+    position: relative;
+}
+
+.e-commerce-solutions-select li{
+    display: flex;
+    height: 4rem;
+    padding-left: 3.5rem;
+    align-items: center;
+    border-left: 2px var(--midnight-blue) solid;
+    column-gap: 1rem;
+    cursor: pointer;
+    position: relative;
+}*/
+/*
+.e-commerce-solutions-select ul::before{
+    content: "";
+    position: absolute;
+    background-color: var(--azure-blue);
+    width: 6px;
+    height: 4rem;
+    left: -2px;
+    top: 0;
+    z-index: 2;
+    border-radius: 3px;
+}
+*/
+/*
+.e-commerce-solutions-select li p{
+    font-size: 1.5rem;
+    color: var(--midnight-blue);
+}
+
+.e-commerce-solutions-select li img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+*/
+.e-commerce-solutions-swiper {
+    margin-top: 2rem;
+    width: calc( 100% - 16.875rem - 6.5rem);
+}
+.e-commerce-solutions-list{
+    overflow: hidden;
+}
+.e-commerce-solutions-list .swiper {
+    overflow: visible;
+}
+.e-commerce-solutions-list .swiper-wrapper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255 255 255 / 50%);
+    box-sizing: border-box;
+    width: 20rem;
+    height: 28.75rem;
+    position: relative;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+    border: solid 2px var(--midnight-blue);
+    border-radius: 30px;
+}
+.e-commerce-solutions-list h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    
+}
+.e-commerce-solution-text{
+    flex: 1;
+}
+.e-commerce-solutions-list p {
+    font-size: 0.85rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.case-e-commerce {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.case-e-commerce .see-more-btn span{
+    color: var(--deep-blue);
+}
+
+@media (max-width: 1200px) {
+
+    .e-commerce-headline h1 {
+        font-size: 7.5rem;
+    }
+    .our-integration-list {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .e-commerce-headline h1 {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .e-commerce-solutions-wrapper {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .e-commerce-expertise h3 {
+        font-size: 3.5rem;
+    }
+    .e-commerce-expertise h3 span::after {
+        width: 15rem;
+        height: 8rem;
+    }
+    .e-commerce-expertise h3 br{
+        display: none;
+    }
+    .e-commerce-solutions-select {
+        width: 100%;
+    }
+    .e-commerce-solutions-swiper{
+        width: 100%;
+    }
+    .e-commerce-listNavigator{
+        display: none;
+    }
+    .e-commerce-solutions-swiper {
+        margin-top: 0rem;
+    }
+    .e-commerce-solutions-list {
+        overflow: visible;
+    }
+}
+
+@media (max-width: 600px) {
+    .e-commerce-header {
+        padding: 5.25rem 0;
+    }
+    .e-commerce-label {
+        align-items: center;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    .e-commerce-label h2 {
+        font-size: 2rem;
+    }
+    .e-commerce-icon {
+        flex: 0 0 3.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .e-commerce-headline h1 {
+        font-size: 3rem;
+        line-height: 1.25;
+    }
+    .e-commerce-expertise h3 {
+        font-size: 3rem;
+        line-height: 1.15;
+    }
+    .e-commerce-expertise h3 span::after {
+        width: 12.5rem;
+        height: 6rem;
+    }
+    .e-commerce-headline-copy p {
+        font-size: 1rem;
+        line-height: 2;
+    }
+
+    .e-commerce-solutions-list .swiper-wrapper .swiper-slide {
+        width: 18rem;
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
+        border-radius: 20px;
+    }
+    .e-commerce-solutions-list h5 {
+        font-size: 1.25rem;
+    }
+    .e-commerce-solutions-list .solutions-grid-capabilities-group .solutions-capability{
+        background-color: var(--bone-white);
+        color: var(--navy-blue);
+    }
+}

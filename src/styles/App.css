@@ -24,6 +24,7 @@
   --slate-gray: #718096;
   --medium-gray: #DEDEDE;
   --light-gray: #F4F5F7;
+  --bone-white: #f6f5f0;
 
 
   --logo-white: invert(1);
@@ -130,11 +131,24 @@
   #F368E0 43.97%, 
   #E84393 76.85%);
 
+  --gradient-vertical-green-violet: linear-gradient(180deg, 
+  #1DD1A1 4.96473%, 
+  #341F97 61.6872%);
 
-  --gradient-vertical-green-violet: linear-gradient(180deg, #1DD1A1 4.96473%, #341F97 61.6872%);
+  --gradient-vertical-pink-violet:  linear-gradient(180deg, 
+  #F368E0 50%, 
+  #6C5CE7 50%);
 
-  --gradient-vertical-pink-violet:  linear-gradient(180deg, #F368E0 50%, #6C5CE7 50%);
+  --gradient-blue-orange-pink: linear-gradient(to right, 
+  #3498DB 2.18%, 
+  #FF9F43 43.97%, 
+  #FD79A8 76.85%);
 
+  --gradient-red-blue-orange-pink: linear-gradient(to right, 
+  #E84393 10%, 
+  #3498DB 35%, 
+  #FF9F43 70%,
+  #F368E0 90%);
 }
 
 
@@ -160,7 +174,10 @@
   background: var(--gradient-blue-violet-pink);
   color: var(--white-color);
 }
-
+.blueOrangePinkBttn{
+  background: var(--gradient-blue-violet-pink);
+  color: var(--white-color);
+}
 /******* Gradients Texts *******/
 
 .text-pink-orange{
@@ -243,3 +260,10 @@
   /*display: inline-block;*/
 }
 
+.text-red-blue-orange-pink{
+  background: var(--gradient-red-blue-orange-pink);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*display: inline-block;*/
+}
