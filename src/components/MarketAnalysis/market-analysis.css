@@ -354,7 +354,7 @@
     background-color: var(--white-color);
 }
 
-.ai-industry-list {
+.market-industry-list {
     margin-top: 2rem;
     margin-bottom: 5.5rem;
 }
@@ -375,7 +375,7 @@
     line-height: 1.5;
 }
 
-.ai-solutions-list{
+.market-solutions-list{
     width: 100%;
     max-width: 1090px;
 }

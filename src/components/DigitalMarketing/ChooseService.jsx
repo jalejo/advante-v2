@@ -1,12 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { useRef, useState } from 'react';
-import MainCase from "../MainCase";
 
 import CasesList from '../../jsons/cases.json';
 import SolutionsList from '../../jsons/solutions.json'
 import IndustryList from '../../jsons/industry.json'
-import CapabilitiesList from '../../jsons/capabilities.json'
+import DigitalServicesList from '../../jsons/digital-marketing-services.json'
 
 import MarketArrow from '../../images/MarketArrow';
 
@@ -17,7 +16,7 @@ import { Tab, Tabs, useMediaQuery, useTheme } from '@mui/material';
 const industryIcons = require.context('../../images/icons', true );
 const industryWithEcommerce = IndustryList.filter(item => item.hasOwnProperty("image-ecommerce"));
 
-const ChooseIndustry = () => {
+const ChooseService = () => {
 
     const [swiper, setSwiper] = useState(null)
 
@@ -39,23 +38,19 @@ const ChooseIndustry = () => {
 
     const handleChange = (event, newValue) => {
         setSelectedTab(newValue);
+        swiper.slideTo( newValue - 1 );
     };
+
 
   return (
     <>
-        <section className="e-commerce-expertise">
+        <section className="digital-marketing-expertise">
     
             <div className="containerFull">
-        
-                <h3>Our broad <span>industry</span> <br />expertise.</h3>
-            
-                <div className='e-commerce-listNavigator'>
-                    <div className='e-commerce-list-arrow e-commerce-list-backward' onClick={ prevTo } ><MarketArrow /></div>
-                    <div className='e-commerce-list-arrow e-commerce-list-forward' onClick={ nextTo } ><MarketArrow /></div>
-                </div>
-            
-                <div className='e-commerce-solutions-wrapper'>
-                    <div className='e-commerce-solutions-select'>
+
+                <div className='digital-marketing-services-wrapper'>
+                    <div className='digital-marketing-services-select'>
+                        <h3>We Do:</h3>
                         <Tabs
                             value={selectedTab}
                             onChange={handleChange}
@@ -64,55 +59,37 @@ const ChooseIndustry = () => {
                             orientation={ isMediumScreen ? 'horizontal' : 'vertical' }
 
                             sx={{
-                                borderLeft: 1, 
-                                borderColor: 'var(--midnight-blue)',
-                                borderWidth: isMediumScreen ? '0px' : '2px',
-                                overflow: "visible",
-                                /*minHeight:"2rem",*/
-                                "& .MuiButtonBase-root":{
-                                    /*minHeight: "1.875rem",*/
-                                    //width: isMediumScreen ? 'auto' : '11.5rem',
                                 
-                                    color: "var(--midnight-blue)",
-                                    fontSize: isMediumScreen ? '1rem' : '1.5rem',
+                                overflow: "visible",
+
+                                "& .MuiButtonBase-root":{
+                                    color: "var(--navy-blue)",
+                                    fontSize: isMediumScreen ? '1rem' : '1.25rem',
                                     textTransform: "inherit",
                                     fontWeight: "400",
-                                    padding: isMediumScreen ? '0 0 0 0rem' : '0 0 0 3.5rem',
+                                    padding: '0 0 0 0rem',
                                     transition: "all ease-in 150ms",
-                                    flexDirection: isMediumScreen ? 'row' : 'row-reverse',
                                     alignItems: "center",
+                                    textAlign: "left",
                                     columnGap: isMediumScreen ? '.5rem' : '1rem',
-                                    //minHeight:"2rem",
+                                    minWidth: "auto"
                                 },
                                 "& .MuiTabs-scroller":{
-                                    /*marginRight: "0px",
-                                    paddingRight: "2rem",
-                                    paddingTop: "1.75rem",
-                                    paddingBottom: "1.75rem"*/
-                                    //overflow:  { isMediumScreen ? 'hidden' : 'visible' }
                                     overflowX:  isMediumScreen ? 'auto' : 'visible' ,
                                     overflowY:  isMediumScreen ? 'hidden' : 'visible' ,
                                 },
-                                "& .MuiTab-iconWrapper":{
-                                    width: isMediumScreen ? '1.3rem' : '1.8rem',
-                                    marginBottom: "0px !important"
-                                },
                                 "& .MuiTabs-flexContainer":{
-                                    rowGap: ".25rem",
                                     alignItems: "flex-start"
                                 },
                                 "& .MuiTabs-indicator":{
-                                    left: "-4px",
-                                    width: "6px",
-                                    borderRadius: "3px",
-                                    backgroundColor:"var(--azure-blue)",
-                                    display: isMediumScreen ? 'none' : 'block' ,
+                                    display: 'none' ,
                                 },
                                 " .MuiTabs-flexContainer button":{
                                     marginRight: isMediumScreen ? '1.55rem' : '0rem',
                                 },
                                 " .MuiButtonBase-root.Mui-selected":{
-                                    color: "var(--azure-blue)",
+                                    fontWeight: "600",
+                                    color: "var(--navy-blue)",
                                 },
                                 " .MuiButtonBase-root .MuiTouchRipple-root":{
                                 display: "none"
@@ -125,52 +102,74 @@ const ChooseIndustry = () => {
                         
                         >
                         {
-                            industryWithEcommerce.map( (industry) => (
+                            DigitalServicesList.map( (digiService) => (
                                 <Tab
-                                    key={industry.id}
-                                    label={industry.name}
-                                    value={industry.id}
-                                    icon={<img src={industryIcons(`./${industry["image-ecommerce"]}`)} alt={industry.name} />}
+                                    key={digiService.id}
+                                    label={digiService.title}
+                                    value={digiService.id}
                                 />
                             ) )
                         }
                         </Tabs>
                     </div>
-                    <div className='e-commerce-solutions-swiper'>
-                        <div className="e-commerce-solutions-list">
+                    <div className='digital-marketing-services-swiper'>
+                        <div className="digital-marketing-services-list">
                             <Swiper
 
-                            slidesPerView={ 'auto' }
-                            centeredSlides={false}
+                            slidesPerView={ 1 }
+                            centeredSlides={true}
                             spaceBetween= {20}
-
+                            
                             onSwiper={(s) => {
                                 console.log("initialize swiper", s);
                                 setSwiper(s);
                             }}
 
                             breakpoints={{
-                                900: {
-                                slidesPerView: 'auto',
+                                600: {
+                                slidesPerView: 1,
                                 spaceBetween: 20,
                                 },
-                                1200: {
-                                slidesPerView: 'auto',
+                                800: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                                },
+                                1350: {
+                                slidesPerView: 3,
                                 spaceBetween: 30,
                                 }
                             }}
                             >
                                 {
-                                    filteredData.map( ( solution ) => (
-                                        <SwiperSlide key={ solution.id }>
-                                            <h5>{solution.name}</h5>
-                                            <div className='e-commerce-solution-text' dangerouslySetInnerHTML={{ __html: solution.description }} />
-
-                                            <div className="solutions-grid-capabilities-group">
-                                                { solution.capabilities.map((capId) => {
-                                                    const capability = CapabilitiesList.find((c) => c.id === capId);
-                                                    return <div key={ capability.id } className="solutions-capability">{capability.name}</div>;
-                                                })}
+                                    DigitalServicesList.map( ( digiService ) => (
+                                        <SwiperSlide key={ digiService.id } onClick={( event ) => handleChange( event, digiService.id )} >
+                                            <div className='digital-service-box-colors'>
+                                                <svg viewBox="0 0 453.5 453.5">
+                                                    <path/>
+                                                </svg>
+                                                <svg viewBox="0 0 453.5 453.5">
+                                                    <path />
+                                                </svg>
+                                                <svg viewBox="0 0 453.5 453.5">
+                                                    <path />
+                                                </svg>
+                                                <svg viewBox="0 0 453.5 453.5">
+                                                    <path />
+                                                </svg>
+                                                <svg viewBox="0 0 453.5 453.5">
+                                                    <path />
+                                                </svg>
+                                            </div>
+                                            <div className="bgr-noise"></div>
+                                            <div className='digital-service-box'>
+                                                <div className='digital-service-headline'>
+                                                    <h5>{digiService.title}</h5>
+                                                    <a href='' className='digital-service-arrow'>
+                                                    <MarketArrow />
+                                                    </a>
+                                                </div>
+                                                
+                                                <div className='digital-marketing-services-text' dangerouslySetInnerHTML={{ __html: digiService.content }} />
                                             </div>
                                         </SwiperSlide>
                                     ) )
@@ -185,14 +184,9 @@ const ChooseIndustry = () => {
             
 
         </section>
-        <MainCase
-            className = { "e-commerce" } 
-            selectedCase={selectedCase} 
-            industryName = "Relevant"
-            arrow="var(--deep-blue)"
-        />
+
     </>
   );
 };
 
-export default ChooseIndustry;
+export default ChooseService;

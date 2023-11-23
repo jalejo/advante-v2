@@ -149,6 +149,12 @@
   #3498DB 35%, 
   #FF9F43 70%,
   #F368E0 90%);
+
+  --gradient-violet-red-orange: linear-gradient(to right, 
+  #6C5CE7 2.18%, 
+  #EE5253 63.97%, 
+  #FF9F43 86.85%);
+
 }
 
 

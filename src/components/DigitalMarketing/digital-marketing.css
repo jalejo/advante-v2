@@ -1,0 +1,613 @@
+/******** DIGITAL MARKETING HEADER ********/
+
+.digital-marketing-header {
+    position: relative;
+    box-sizing: border-box;
+    padding: 8rem 0;
+    background-image: url(../../images/bgr-multicolor-flat.jpg);
+    background-position: center center;
+    background-size: cover;
+    z-index: 2;
+}
+.digital-marketing-header .containerFull{
+    position: relative;
+    z-index: 1;
+}
+.digital-marketing-label {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+.digital-marketing-icon {
+    flex: 0 0 5rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--midnight-blue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 50%);
+}
+.digital-marketing-icon svg {
+    width: 2.4rem;
+}
+.digital-marketing-label h2 {
+    color: var(--midnight-blue);
+}
+.digital-marketing-headline {
+    margin-top: 4rem;
+}
+.digital-marketing-headline h1 {
+    font-size: 5rem;
+    line-height: 1.15;
+    color: rgb(255 255 255 / 50%);
+}
+
+/******** WE DO ********/
+
+.digital-marketing-expertise {
+    position: relative;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--bone-white);
+    overflow: hidden;
+}
+.digital-marketing-expertise h3 {
+    text-transform: uppercase;
+}
+.digital-marketing-services-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    gap: 6rem;
+}
+.digital-marketing-services-select {
+    width: 14rem;
+}
+.digital-marketing-services-select .MuiTabs-vertical{
+    margin-top: 1.5rem;
+}
+.digital-marketing-services-swiper {
+    width: calc( 100% - 14rem - 6rem);
+}
+.digital-marketing-services-list {
+    overflow: hidden;
+}
+.digital-marketing-services-list .swiper {
+    overflow: visible;
+}
+.digital-marketing-services-list .swiper-wrapper .swiper-slide {
+ 
+    height: 28.75rem;
+    background: var(--midnight-blue);
+    position: relative;
+    transition: all ease-in 150ms ;
+    overflow: hidden;
+}
+
+.digital-marketing-services-list .swiper-wrapper .swiper-slide .digital-service-box-colors{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background: var(--gradient-vertical-green-violet);
+    transition: opacity 125ms ease-in;
+}
+
+.digital-marketing-services-list .swiper-wrapper .swiper-slide:hover .digital-service-box-colors,
+.digital-marketing-services-list .swiper-wrapper .swiper-slide.swiper-slide-active .digital-service-box-colors{
+    opacity: 1;
+}
+
+.digital-service-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -75%;
+    left: 0;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+    transition: bottom ease-in 150ms ;
+    z-index: 5;
+}
+
+.digital-marketing-services-list .swiper-wrapper .swiper-slide:hover .digital-service-box,
+.digital-marketing-services-list .swiper-wrapper .swiper-slide.swiper-slide-active .digital-service-box{
+    bottom: -30%;
+} 
+
+.digital-service-headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.digital-service-headline a{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    flex: 0 0 3rem;
+    transform: rotate(180deg);
+}
+.digital-marketing-services-list h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    flex: 1;
+}
+.digital-marketing-services-text {
+    flex: 1 1;
+    padding-top: 1.75rem;
+    border-top: 2px solid var(--white-color);
+    margin-top: 1.75rem;
+}
+.digital-marketing-services-list p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.digital-service-arrow{
+    opacity: 0;
+    transition: opacity 125ms ease-in;
+}
+
+.digital-service-arrow path {
+    stroke: var(--white-color);
+    transition: all ease-in 150ms;
+}
+.digital-service-arrow circle {
+    fill: rgb(255 255 255 / 0%);
+    stroke: var(--white-color);
+    stroke-width: 2px;
+    transition: all ease-in 150ms;
+}
+.digital-service-arrow:hover circle {
+    fill: var(--white-color);
+}
+.digital-service-arrow:hover path {
+    stroke: var(--midnight-blue);
+}
+
+.digital-marketing-services-list .swiper-wrapper .swiper-slide:hover .digital-service-arrow,
+.digital-marketing-services-list .swiper-wrapper .swiper-slide.swiper-slide-active .digital-service-arrow
+{
+    opacity: 1;
+}
+
+.digital-marketing-services-list .digital-service-box-colors svg path {
+    animation: figureMove 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.digital-marketing-services-list .digital-service-box-colors svg{
+    position: absolute;
+    opacity: 0.8;
+    filter: blur(40px);
+    animation: figureScale 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(1){
+    width: 30rem;
+    top: -50%;
+    left: -70%;
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(1) path{
+    fill: #fff;
+    opacity: 0.5;
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(2){
+    width: 24rem;
+    top: -10%;
+    left: 50%;
+    transform: rotate(180deg);
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(2) path{
+    fill: #97FF6D;
+
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(3){
+    width: 22rem;
+    top: 40%;
+    left: -30%;
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(3) path{
+    fill: #FF9F43;
+
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(4){
+    width: 15rem;
+    top: 30%;
+    left: 10%;
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(4) path{
+    fill: #ba00a0;
+
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(5){
+    width: 20rem;
+    top: 70%;
+    left: 40%;
+}
+.digital-marketing-services-list .digital-service-box-colors svg:nth-child(5) path{
+    fill: #FFFFFF;
+    opacity: 0.5;
+}
+
+.digital-marketing-services-list .bgr-noise{
+    mix-blend-mode: soft-light;
+}
+
+@keyframes figureMove {
+    0% { 
+        d: path("M117.3,400.1c171,83,268.9-31.6,202-74c-183-116,162-268,56.3-303.4c-84.2-28.2-206.1,2.7-275.3,115.4C31,250.8,37.4,361.3,117.3,400.1z"); 
+    }
+    25% { 
+        d: path("M117.3,400.1c96,40,220-51,259-123c54-99.7,65-223-0.7-254.4c-80.1-38.3-206.1,2.7-275.3,115.4C31,250.8,35.3,366,117.3,400.1z");
+    }
+    50% { 
+        d: path("M202.3,290.1c87,56.9,51.4,141.5,133,135c125-10,144-378,40.3-402.4C117.3-38.1-45.3,182.1,36.3,272.1C94.3,336.1,163.3,264.6,202.3,290.1z");
+    }
+    75% { 
+        d: path("M76.3,394.1c87,56.9,250.2,7.8,299-58c89-120-43-310.3-103-310c-180.9,0.9-3,219-182,230C-12.7,262.4,37.3,368.6,76.3,394.1z");
+    }
+    100% { 
+        d: path("M117.3,400.1c171,83,268.9-31.6,202-74c-183-116,162-268,56.3-303.4c-84.2-28.2-206.1,2.7-275.3,115.4C31,250.8,37.4,361.3,117.3,400.1z");
+    }
+  }
+
+  @keyframes figureScale {
+    0% { 
+        transform: scale(1) translateY(0rem);
+    }
+    25% { 
+        transform: scale(1.15) translateY(2.5rem);
+    }
+    50% { 
+        transform: scale(1.25) translateY(5rem); 
+    }
+    75% { 
+        transform: scale(1.15) translateY(2.5rem); 
+    }
+    100% { 
+        transform: scale(1) translateY(0rem); 
+    }
+  }
+
+
+  /******** DIGITAL  TOOLS ********/
+
+
+.digital-marketing-tools{
+    background-color: var(--midnight-blue);
+    height: 33.65rem;
+    overflow: hidden;
+}
+.digital-marketing-tools-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tools-text{
+    height: 100%;
+    width: 44.5rem;
+    font-size: 25rem;
+    font-weight: 600;
+    position: relative;
+    line-height: 1;
+    display: block;
+    
+}
+
+.tools-text span{
+    position: absolute;
+    display: block;
+    color: transparent;
+}
+
+.tools-text span:nth-child(1){
+    top: -15%;
+    left: -5%;
+    background: linear-gradient(198deg, #FFFFFF 24.96473%, rgb(255 255 255 / 0%) 71.6872%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.tools-text span:nth-child(2){
+    top: -12%;
+    left: 21%;
+    background: linear-gradient(0deg, #FFFFFF 26.96473%, rgb(255 255 255 / 0%) 81.6872%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.tools-text span:nth-child(3){
+    top: 40%;
+    left: -10%;
+    background: linear-gradient(170deg, #FFFFFF 28.96473%, rgb(255 255 255 / 0%) 75.6872%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.tools-text span:nth-child(4){
+    top: 42%;
+    left: 34%;
+    background: linear-gradient(0deg, #FFFFFF 24.96473%, rgb(255 255 255 / 0%) 71.6872%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.tools-text span:nth-child(5){
+    top: 30%;
+    left: 52%;
+    background: linear-gradient(-20deg, #FFFFFF 34.96473%, rgb(255 255 255 / 0%) 82.6872%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/******** CHOOSE INDUSTRY  ********/
+
+.digitalIndustryWrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 56rem;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--white-color);
+}
+
+.digital-industry-list {
+    height: 6.5rem;
+    margin-top: 2rem;
+    margin-bottom: 5.5rem;
+    position: relative;
+    transform: rotate(-1.5deg);
+}
+.digital-industry-list::before {
+    content: "";
+    width: 100%;
+    height: 3.125rem;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--midnight-blue);
+}
+
+.digital-industry-list .MuiTabs-indicator{
+    background-image: url(../../images/bgr-multicolor-flat.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.digital-industry-list .MuiTabs-indicator::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/noise.png);
+    mix-blend-mode: soft-light;
+}
+
+.digitalIndustryWrapper h3 {
+    color: var(--deep-blue);
+    text-align: left;
+}
+
+.digitalIndustryWrapper h3 span{
+    color: var(--rose-red);
+}
+
+.digital-solutions-list{
+    width: 100%;
+    max-width: 1090px;
+}
+
+.digital-solutions {
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 0 3rem 0;
+}
+
+.digital-solutions-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+.digital-solutions-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.5rem;
+}
+
+.digital-solutions-item {
+    display: flex;
+    column-gap: 5.45rem;
+}
+.digital-solutions-item-ico {
+    width: 13.45rem;
+    height: 13.45rem;
+    flex: 0 0 13.45rem;
+    background-color: var(--light-gray);
+    box-shadow: 15px 10px 15px rgb(0 0 0 / 10%);
+}
+.digital-solutions-item-ico img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.digital-solutions-item h6 {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    margin-bottom: 0.7rem;
+    color: var(--vivid-purple);
+}
+.digital-solutions-item p {
+    font-size: 0.75rem;
+    color: var(--navy-blue);
+}
+
+.digital-solutions-item .solutions-grid-capabilities-group .solutions-capability{
+    background-color:rgb(108 92 231 / 13%);
+    color: var(--vivid-purple);
+}
+
+/******** MAIN CASE  ********/
+
+.mainCaseWrapper.case-digital-marketing{
+    background-image: url(../../images/bgr-multicolor-large.jpg);
+    position: relative;
+}
+.mainCaseWrapper.case-digital-marketing .see-more-btn span{
+    color: var(--deep-blue);
+}
+.mainCaseWrapper.case-digital-marketing::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/noise.png);
+    mix-blend-mode: soft-light;
+}
+
+/******** FOOTER  ********/
+
+.footer-digital-marketing .thinButton{
+    background-image: url(../../images/bgr-multicolor-flat.jpg);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.footer-digital-marketing .thinButton::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/noise.png);
+    mix-blend-mode: overlay;
+}
+
+
+@media (max-width: 1200px) {
+    .digital-marketing-services-wrapper {
+        gap: 2rem;
+    }
+    .digital-marketing-services-swiper {
+        width: calc( 100% - 14rem - 2rem);
+    }
+}
+
+@media (max-width: 900px) {
+    .digital-marketing-header {
+        padding: 5rem 0 7rem 0;
+    }
+    .digital-marketing-headline h1 {
+        font-size: 4.5rem;
+    }
+    .digital-marketing-tools {
+        height: 26.65rem;
+        padding: 3rem 0;
+    }
+    .digital-marketing-tools-wrapper {
+        flex-direction: column;
+    }
+    .tools-text {
+        width: 100%;
+        font-size: 16rem;
+        max-width: 30.05rem;
+    }
+    .tools-text span:nth-child(1) {
+        top: -3%;
+        left: -12%;
+        background: linear-gradient(131deg, #FFFFFF 24.96473%, rgb(255 255 255 / 0%) 61.6872%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    .tools-text span:nth-child(2) {
+        top: 14%;
+        left: 2%;
+        background: linear-gradient(62deg, #FFFFFF 26.96473%, rgb(255 255 255 / 0%) 77.6872%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    .tools-text span:nth-child(3) {
+        top: -3%;
+        left: 36%;
+        background: linear-gradient(150deg, #FFFFFF 38.96473%, rgb(255 255 255 / 0%) 79.6872%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    .tools-text span:nth-child(4) {
+        top: 14%;
+        left: 71%;
+        background: linear-gradient(-61deg, #FFFFFF 26.96473%, rgb(255 255 255 / 0%) 70.6872%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    .tools-text span:nth-child(5) {
+        top: -3%;
+        left: 81%;
+    }
+    .digital-marketing-services-wrapper {
+        flex-direction: column;
+    }
+    .digital-marketing-services-select{
+        width: 100%;
+    }
+    .digital-marketing-services-swiper {
+        width: 100%;
+    }
+    .digital-solutions-list-wrapper {
+        row-gap: 3rem;
+    }
+    .digital-solutions-item {
+        flex-direction: column;
+        row-gap: 0.75rem;
+    }
+    .digital-solutions-item-ico {
+        justify-content: flex-start;
+        width: 100%;
+        max-width: 32rem;
+        height: 12.75rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .digital-marketing-label {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 1rem;
+    }
+    .digital-marketing-headline {
+        margin-top: 3rem;
+    }
+    .digital-marketing-headline h1 {
+        font-size: 3.5rem;
+    }
+    .digital-marketing-tools {
+        height: 22rem;
+    }
+    .tools-text {
+        width: 100%;
+        font-size: 10rem;
+    }
+    .digital-industry-list {
+        margin-bottom: 2rem;
+    }
+    .digital-industry-list .containerFull{
+        width: 100%;
+    }
+
+}

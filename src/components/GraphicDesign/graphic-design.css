@@ -491,6 +491,18 @@
     transform: translateX(70%);
 }
 
+/******** MAIN CASE  ********/
+
+
+.mainCaseWrapper.case-graphic-design {
+    background-image: url(../../images/cases/background-case-design.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+
 @media (max-width: 1200px) {
 
     .design-laws-headline {
@@ -604,6 +616,7 @@
 
     .design-service-technologies-list {
         gap: 2rem 2rem;
+        justify-content: center;
     }
     .design-service-technologies-list li {
         width: 2.75rem;

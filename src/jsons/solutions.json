@@ -245,9 +245,10 @@
         "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
         "capabilities":[6, 11, 15],
         "industry":[1],
-        "services":[8],
+        "services":[8, 9],
         "icon1": "ico-025-1.svg",
-        "icon2": "ico-025-2.svg"
+        "icon2": "ico-025-2.svg",
+        "image1": "image-025-3.jpg"
     },
     {
         "id": 26,
@@ -255,9 +256,10 @@
         "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
         "capabilities":[6, 11, 15],
         "industry":[1],
-        "services":[8],
+        "services":[8, 9],
         "icon1": "ico-026-1.svg",
-        "icon2": "ico-026-2.svg"
+        "icon2": "ico-026-2.svg",
+        "image1": "image-026-3.jpg"
     },
     {
         "id": 27,
@@ -265,9 +267,10 @@
         "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
         "capabilities":[6, 11, 15],
         "industry":[1],
-        "services":[8],
+        "services":[8, 9],
         "icon1": "ico-027-1.svg",
-        "icon2": "ico-027-2.svg"
+        "icon2": "ico-027-2.svg",
+        "image1": "image-027-3.jpg"
     },
     {
         "id": 28,

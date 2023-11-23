@@ -75,13 +75,23 @@ const Footer = () => {
       socialCircle:'var(--light-gray)',
       socialIcon:'var(--slate-gray)',
       logo: 'var(--logo-black)',
-    }
+    },
+    '/digital-marketing': {
+      background: 'var(--white-color)',
+      color: 'var(--navy-blue)',
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--light-gray)',
+      socialIcon:'var(--slate-gray)',
+      logo: 'var(--logo-black)',
+      className: 'footer-digital-marketing'
+    },
   };
 
   const currentPageData = pageData[location.pathname] || pageData.default;
 
   return (
-    <footer 
+    <footer
+      className={currentPageData['className'] ? currentPageData['className'] : ''}
       style={{ 
         backgroundColor:currentPageData['background'],
         color: currentPageData['color']

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import './styles/App.css'
 import './styles/layout.css'
 import Navbar from './components/Navbar'
@@ -8,6 +8,7 @@ import GraphicDesign from './pages/GraphicDesign';
 import ArtificialIntelligence from './pages/ArtificialIntelligence';
 import MarketAnalysis from './pages/MarketAnalysis';
 import Ecommerce from './pages/Ecommerce';
+import DigitalMarketing from './pages/DigitalMarketing';
 
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './styles/Theme'; 
@@ -30,9 +31,7 @@ const App = () => {
           <Route path="/ai" element={<ArtificialIntelligence />} />
           <Route path="/market-analysis" element={<MarketAnalysis />} />
           <Route path="/e-commerce" element={<Ecommerce />} />
-          {/* <Route path='/' element={<Home />} />
-          <Route path="/ai" element={<ArtificialIntelligence />} />
-          <Route path="/graphic-design" element={<GraphicDesign />} /> */}
+          <Route path="/digital-marketing" element={<DigitalMarketing />} />
         </Routes>
         <Footer />
       </Router>

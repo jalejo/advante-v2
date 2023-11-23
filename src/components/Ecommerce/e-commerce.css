@@ -292,13 +292,18 @@
     line-height: 1.75;
 }
 
-.case-e-commerce {
+/******** MAIN CASE  ********/
+
+
+.mainCaseWrapper.case-e-commerce {
+    background-image: url(../../images/cases/background-case-e-commerce.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: top center;
+    background-color: var(--deep-blue);
 }
 
-.case-e-commerce .see-more-btn span{
+.mainCaseWrapper.case-e-commerce .see-more-btn span{
     color: var(--deep-blue);
 }
 

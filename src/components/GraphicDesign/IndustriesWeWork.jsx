@@ -121,12 +121,12 @@ const IndustriesWeWork = () => {
 
             </div>
             
-            <MainCase 
+            <MainCase
+                className = { "graphic-design" }  
                 selectedCase={selectedCase} 
                 industryName = "Relevant"
                 titleColor="text-orange-pink-violet-blue"
                 arrow="var(--tangerine-orange)"
-                backgroundImage="background-case-design.jpg"
             />
          
         </section>

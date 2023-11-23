@@ -118,5 +118,15 @@
         "capabilities": [6, 11, 15 ],
         "image":"case-03.jpg",
         "url":""
+    },
+    {
+        "id": 13,
+        "case": "Healthcare",
+        "title": "DIGITAL TUNEUP.",
+        "content":"Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        "industry": [7, 8, 9],
+        "capabilities": [6, 11, 15 ],
+        "image":"case-13.jpg",
+        "url":""
     }
 ]

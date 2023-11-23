@@ -138,7 +138,16 @@ const ArticlesEventsCases = () => {
                   slidesPerView={'auto'}
                   centeredSlides={false}
                   spaceBetween={10}
-        
+                  breakpoints={{
+                    1200: {
+                      slidesPerView: 3,
+                      spaceBetween: 20,
+                    },
+                    900: {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    }
+                  }}
                 >
                   {selectedArticles.map((article) => (
                     <SwiperSlide key={article.id}>

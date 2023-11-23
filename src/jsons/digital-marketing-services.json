@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Banners",
+        "content": "<p>Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</p>",
+        "url":"url"
+    },
+    {
+        "id": 2,
+        "title": "SEO",
+        "content": "<p>Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</p>",
+        "url":"url"
+    },
+    {
+        "id": 3,
+        "title": "Email campaigns",
+        "content": "<p>Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</p>",
+        "url":"url"
+    },
+    {
+        "id": 4,
+        "title": "Campaign website",
+        "content": "<p>Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</p>",
+        "url":"url"
+    },
+    {
+        "id": 5,
+        "title": "Campaign apps",
+        "content": "<p>Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</p>",
+        "url":"url"
+    }
+]
