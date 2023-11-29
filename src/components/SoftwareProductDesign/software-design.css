@@ -734,7 +734,7 @@
 
     .software-layout-container {
         width: 100%;
-        background-color: #F6F1EB;
+        background-color: var(--bone-white);
         justify-content: center;
     }
     

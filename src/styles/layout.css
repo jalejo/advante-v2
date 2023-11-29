@@ -308,6 +308,7 @@ ul.navBarList li a:hover{
     transition: width ease-in-out .450s;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
     /*padding: 2rem 2.52rem;*/
 }
 
@@ -331,6 +332,13 @@ ul.navBarList li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.service-card-capabilities .see-more-btn span{
+    background: var(--gradient-purple-pink-orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .servicesRootWrapper .swiper-wrapper .swiper-slide .service-icon{

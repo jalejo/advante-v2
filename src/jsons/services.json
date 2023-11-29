@@ -4,63 +4,72 @@
       "name": "Software Development",
       "description": "Our team is dedicated to creating technology solutions that improve efficiency, increase productivity, and expand your market reach, from mobile applications and ",
       "iconComponent": "IcoSoftwareDevelopment",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "software-development"
     },
     {
       "id": 2,
       "name": "E-commerce",
       "description": "We created a platform to showcase your products, interact with your loyal customers, and receive inquiries about product specifications.",
       "iconComponent": "IcoEcommerce",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "e-commerce"
     },
     {
       "id": 3,
       "name": "Platform Integrations",
       "description": "We specialize in integrating various business tools such as communication and AI to boost efficiency, reduce costs, and enhance competitiveness.",
       "iconComponent": "IcoPlatformIntegrations",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "platform-integrations"
     },
     {
       "id": 4,
       "name": "Payments Solutions",
       "description": "We facilitate the payment process, we provide support so that your customers can buy in the best way on your website and if you require it in a physical way for your store.",
       "iconComponent": "IcoPaymentsSolutions",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "payments-solutions"
     },
     {
       "id": 5,
       "name": "Artificial Intelligence",
       "description": "We don't want your tasks to be time-consuming and repetitive, that's why we will integrate AI to automate those heavy tasks and optimize other processes you need.",
       "iconComponent": "IcoArtificialIntelligence",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "artificial-intelligence"
     },
     {
       "id": 6,
       "name": "Software Product design",
       "description": "We specialize in creating custom interfaces that perfectly embody your brand, resulting in more meaningful interactions with your customers.",
       "iconComponent": "IcoSoftwareProductDesign",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "software-product-design"
     },
     {
       "id": 7,
       "name": "Graphic design",
       "description": "We develop spectacular designs for social media to captivate your audience, hard to forget and easy to fall in love with.",
       "iconComponent": "IcoGraphicDesign",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "graphic-design"
     },
     {
       "id": 8,
       "name": "Market analysis",
       "description": "We analyze the field of each company, to create it in the best way, in order to compete with the big markets and stand out in every click you give it.",
       "iconComponent": "IcoMarketAnalysis",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "market-analysis"
     },
     {
       "id": 9,
       "name": "Digital Marketing",
       "description": "We analyze the field of each company, to create it in the best way, in order to compete with the big markets and stand out in every click you give it.",
       "iconComponent": "IcoDigitalMarketing",
-      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "capabilities":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "url": "digital-marketing"
     }
   ]
   
