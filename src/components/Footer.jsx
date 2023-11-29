@@ -85,6 +85,15 @@ const Footer = () => {
       logo: 'var(--logo-black)',
       className: 'footer-digital-marketing'
     },
+    '/software-product-design': {
+      background: 'var(--deep-blue)',
+      color: 'var(--white-color)',
+      button: 'var(--green-teal)', 
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--navy-blue)',
+      socialIcon:'var(--midnight-blue)',
+      logo: 'var(--logo-white)',
+    }
   };
 
   const currentPageData = pageData[location.pathname] || pageData.default;

@@ -9,12 +9,14 @@ import ArtificialIntelligence from './pages/ArtificialIntelligence';
 import MarketAnalysis from './pages/MarketAnalysis';
 import Ecommerce from './pages/Ecommerce';
 import DigitalMarketing from './pages/DigitalMarketing';
+import SoftwareProductDesign from './pages/SoftwareProductDesign';
 
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './styles/Theme'; 
 // import ArtificialIntelligence from './pages/ArtificialIntelligence'; 
 // import GraphicDesign from './pages/GraphicDesign';
 import Footer from './components/Footer'
+
 
 
 
@@ -28,10 +30,11 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path="/payment-solutions" element={<PaymentSolutions />} />
           <Route path="/graphic-design" element={<GraphicDesign />} />
-          <Route path="/ai" element={<ArtificialIntelligence />} />
+          <Route path="/artificial-intelligence" element={<ArtificialIntelligence />} />
           <Route path="/market-analysis" element={<MarketAnalysis />} />
           <Route path="/e-commerce" element={<Ecommerce />} />
           <Route path="/digital-marketing" element={<DigitalMarketing />} />
+          <Route path="/software-product-design" element={<SoftwareProductDesign />} />
         </Routes>
         <Footer />
       </Router>

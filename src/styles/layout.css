@@ -1052,6 +1052,9 @@ footer{
     body{
         font-size: 14px;
     }
+    .containerFull {
+        width: 86%;
+    }
     .heroImageWrapper {
         width: 80%;
     }

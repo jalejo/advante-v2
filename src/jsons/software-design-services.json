@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Use cases",
+        "ico":"ico-stroke-cases.png",
+        "content": "<p>This service focuses on simplifying the process of collecting payments for businesses. It means that if you are a company offering products or services to your customers, \"Payment Solutions\" provides a solution that makes it easier for your customers to make payments. This can include the implementation of online payment systems, credit cards, bank transfers, or other convenient payment methods.</p>"
+    },
+    {
+        "id": 2,
+        "title": "Flow diagrams",
+        "ico":"ico-stroke-flow.png",
+        "content": "<p>This service focuses on simplifying the process of collecting payments for businesses. It means that if you are a company offering products or services to your customers, \"Payment Solutions\" provides a solution that makes it easier for your customers to make payments. This can include the implementation of online payment systems, credit cards, bank transfers, or other convenient payment methods.</p>"
+    },
+    {
+        "id": 3,
+        "title": "Decision trees",
+        "ico":"ico-stroke-trees.png",
+        "content": "<p>This service focuses on simplifying the process of collecting payments for businesses. It means that if you are a company offering products or services to your customers, \"Payment Solutions\" provides a solution that makes it easier for your customers to make payments. This can include the implementation of online payment systems, credit cards, bank transfers, or other convenient payment methods.</p>"
+    },
+    {
+        "id": 4,
+        "title": "Architecture design",
+        "ico":"ico-stroke-architecture.png",
+        "content": "<p>This service focuses on simplifying the process of collecting payments for businesses. It means that if you are a company offering products or services to your customers, \"Payment Solutions\" provides a solution that makes it easier for your customers to make payments. This can include the implementation of online payment systems, credit cards, bank transfers, or other convenient payment methods.</p>"
+    },
+    {
+        "id": 5,
+        "title": "Monolithic Architecture",
+        "ico":"ico-stroke-cube.png",
+        "content": "<p>This service focuses on simplifying the process of collecting payments for businesses. It means that if you are a company offering products or services to your customers, \"Payment Solutions\" provides a solution that makes it easier for your customers to make payments. This can include the implementation of online payment systems, credit cards, bank transfers, or other convenient payment methods.</p>"
+    },
+    {
+        "id": 6,
+        "title": "Microservices Architecture",
+        "ico":"ico-stroke-microservices.png",
+        "content": "<p>This service focuses on simplifying the process of collecting payments for businesses. It means that if you are a company offering products or services to your customers, \"Payment Solutions\" provides a solution that makes it easier for your customers to make payments. This can include the implementation of online payment systems, credit cards, bank transfers, or other convenient payment methods.</p>"
+    }
+]

@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Healthcare",
         "image-payment": "healthcare-payment.jpg",
+        "image-software": "healthcare-software.jpg",
         "service-design": true,
         "service-ai": true,
         "service-market": true,
@@ -12,6 +13,7 @@
     {
         "id": 2,
         "name": "Legal issues",
+        "image-software": "legal-issues-software.jpg",
         "service-ai": true,
         "service-market": true,
         "service-digital": true, 
@@ -20,6 +22,7 @@
     {
         "id": 3,
         "name": "E-commerce",
+        "image-software": "e-commerce-software.jpg",
         "service-ai": true,
         "service-market": true,
         "service-digital": true
@@ -28,6 +31,7 @@
         "id": 4,
         "name": "Finance",
         "image-payment": "finance-payment.jpg",
+        "image-software": "finance-software.jpg",
         "service-design": true,
         "service-ai": true,
         "service-market": true,
@@ -37,6 +41,7 @@
     {
         "id": 5,
         "name": "Marketplaces",
+        "image-software": "marketplaces-software.jpg",
         "service-ai": true,
         "service-market": true,
         "service-digital": true, 

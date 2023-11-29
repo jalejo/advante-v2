@@ -263,6 +263,15 @@
 
 .expertise-services-content{
     display: flex;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+}
+.expertise-services-content.active{
+    opacity: 1;
+}
+
+.expertise-services-content-text{
+    display: flex;
     align-items: center;
     background-color: #ECF3FA;
     padding: 7% 10.14%;
@@ -471,6 +480,19 @@
     .expertise-services-item {
         height: 6rem;
     }
+
+    .expertise-services-content{
+        max-height: 0;
+        opacity: 1;
+        overflow: hidden;
+        transition: max-height 150ms ease-in;
+    }
+    .expertise-services-content.active{
+        opacity: 1;
+        height: auto;
+        max-height: 500px;
+    }
+
     .expertise-services-text{
         padding: 1rem 2rem;
         font-size: 1.15rem;
