@@ -4,7 +4,7 @@ import Services from '../components/SoftwareProductDesign/Services';
 import Tools from '../components/SoftwareProductDesign/Tools';
 import ChooseIndustry from '../components/SoftwareProductDesign/ChooseIndustry';
 
-
+import TransitionPage from '../utils/TransitionPage';
 
 const SoftwareProductDesign = () => { 
     return(
@@ -17,4 +17,4 @@ const SoftwareProductDesign = () => {
     );
 }
 
-export default SoftwareProductDesign;
+export default TransitionPage (SoftwareProductDesign);

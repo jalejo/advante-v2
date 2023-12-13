@@ -4,6 +4,8 @@ import Header from "../components/PaymentSolutions/Header"
 import TechnologyStack from "../components/PaymentSolutions/TechnologyStack";
 import MarketsWeServe from "../components/PaymentSolutions/MarketsWeServe"
 
+import TransitionPage from '../utils/TransitionPage';
+
 const PaymentSolutions = () => {
   return (
     <>
@@ -15,4 +17,4 @@ const PaymentSolutions = () => {
   );
 }
 
-export default PaymentSolutions;
+export default TransitionPage(PaymentSolutions ); 

@@ -32,6 +32,8 @@
   --logo-white: invert(1);
   --logo-black: invert(0);
 
+  --navbar-heigh: 7.35rem;
+
   --gradient-purple-pink-orange: linear-gradient(90deg, 
   #6C5CE7, 
   #F368E0 43.83%, 

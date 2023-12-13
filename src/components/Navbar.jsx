@@ -9,11 +9,23 @@ const Navbar = () => {
         <nav className='containerFull'>
             <Link to="/"  className='navBarLogo'><img src={logo} alt="Logo Advante" /></Link>
             <ul className='navBarList'>
-                <li><Link to="/">About us</Link></li>
-                <li><Link to="/payment-solutions">Services</Link></li>
-                <li><Link to="/services">Cases Studies</Link></li>
-                <li><Link to="/contact">Blog</Link></li>
-                <li><Link to="/contact">Contact us</Link></li>
+                <li><Link to="/about">About us</Link></li>
+                <li>
+                  <span>Services</span>
+                  <ul className='navBarList-child'>
+                    <li><Link to="/software Development">Software Development</Link></li>
+                    <li><Link to="/e-commerce">E-commerce</Link></li>
+                    <li><Link to="/platform-integrations">Platform Integrations</Link></li>
+                    <li><Link to="/payment-solutions">Payments Solutions</Link></li>
+                    <li><Link to="/artificial-intelligence">Artificial Intelligence</Link></li>
+                    <li><Link to="/software-product-design">Software Product design</Link></li>
+                    <li><Link to="/graphic-design">Graphic Design</Link></li>
+                    <li><Link to="/market-analysis">Market Analysis</Link></li>
+                  </ul>
+                </li>
+                <li><Link to="/">Case Studies</Link></li>
+                <li><Link to="/">Blog</Link></li>
+                <li><Link to="/">Contact us</Link></li>
             </ul>
             
         </nav>

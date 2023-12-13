@@ -93,6 +93,15 @@ const Footer = () => {
       socialCircle:'var(--navy-blue)',
       socialIcon:'var(--midnight-blue)',
       logo: 'var(--logo-white)',
+    },
+    '/about': {
+      background: 'var(--white-color)',
+      color: 'var(--navy-blue)',
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--light-gray)',
+      socialIcon:'var(--slate-gray)',
+      logo: 'var(--logo-black)',
+      button: 'var(--midnight-blue)',
     }
   };
 

@@ -3,6 +3,7 @@ import Header from "../components/DigitalMarketing/Header";
 import ChooseService from '../components/DigitalMarketing/ChooseService';
 import DigitalTools from '../components/DigitalMarketing/DigitalTools';
 import ChooseIndustry from '../components/DigitalMarketing/ChooseIndustry';
+import TransitionPage from '../utils/TransitionPage';
 
 const DigitalMarketing = () => { 
     return(
@@ -15,4 +16,4 @@ const DigitalMarketing = () => {
     );
 }
 
-export default DigitalMarketing;
+export default TransitionPage ( DigitalMarketing );

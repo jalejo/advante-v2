@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "role": "Project Managers."
+    },
+    {
+        "id": 2,
+        "role": "Lead Developers."
+    },
+    {
+        "id": 3,
+        "role": "Full stack Developers."
+    },
+    {
+        "id": 4,
+        "role": "Front-end Developers."
+    },
+    {
+        "id": 5,
+        "role": "Back-end Developers."
+    },
+    {
+        "id": 6,
+        "role": "Testers."
+    },
+    {
+        "id": 7,
+        "role": "Art and Design."
+    }
+]

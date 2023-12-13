@@ -1,0 +1,640 @@
+.about-all-section{
+    width: 100%;
+    overflow: hidden;
+}
+.about-header {
+    position: relative;
+    box-sizing: border-box;
+    padding: 8rem 0 10rem 0;
+    background-color: var(--bone-white);
+    z-index: 2;
+}
+
+.about-header .containerFull{
+    position: relative;
+    mix-blend-mode: overlay;
+    z-index: 2;
+}
+.about-header .bgr-noise, 
+.about-main .bgr-noise, 
+.about-clients .bgr-noise,
+.about-team .bgr-noise,
+.about-locations .bgr-noise{
+    opacity: 80%;
+    mix-blend-mode: overlay;
+    z-index: 2;
+}
+.BgrBean{
+    position: absolute;
+}
+.BgrBean svg{
+    width: 100%;
+    height: auto;
+    
+}
+.BgrBean-01{
+    width: 38.75rem;
+    right: 50%;
+    top: 0;
+    transform: translateX(40rem) rotate(10deg);
+}
+
+.BgrBean-01 svg{
+    fill: rgb(106 55 253 / 45%);
+    filter: blur(60px);
+}
+.BgrBean-02{
+    width: 63rem;
+    right: 50%;
+    top: -7rem;
+    transform: scaleY(.75) translateX(13rem) rotate(3deg);
+}
+.BgrBean-02 svg{
+    fill: rgb(0 137 217 / 45%); 
+    filter: blur(100px);
+
+}
+
+.about-header h1{
+    font-size: 4.375rem;
+    font-weight: 700;
+    line-height: .7;
+    color: var(--midnight-blue);
+    mix-blend-mode: overlay;
+}
+
+.about-header h1 span{
+    color: var(--white-color);
+    position: relative;
+}
+
+.about-header h1 span::after{
+    content: "";
+    right: -9rem;
+    top: 3.75rem;
+    position: absolute;
+    display: block;
+    width: 10rem;
+    height: 6rem;
+    background-image: url(../../images/behind-advante.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/*********** ABOUT MAIN ***********/
+
+.about-main{
+    background-color: var(--bone-white);
+    position: relative;
+}
+
+.about-wave{
+    width: 100%;
+}
+
+.about-wave svg path {
+    animation: waveMove 20s;
+    stroke: var(--navy-blue);
+    stroke-width:5;
+    stroke-linecap:round;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    fill: none;
+}
+
+@keyframes waveMove {
+    0% { 
+        d: path("M0,68.9C38.7,84,89.5,91.7,139.3,96.7c70.6,7,129-19.6,184.5-34.7C381.4,46.3,455,36,523.3,44.7, c89.6,11.5,157.9,63.6,261.9,50.1c48.2-6.2,90.3-17.3,136.8-25.1c49.4-8.3,95.8-12.3,149.1-12.3c60.9,0,108.4,6.1,163.8,16.3, c48.8,9,102.2,20.1,155,23.5c46.6,3,87.9,0.3,131.1-7.2c35.2-6.1,67.5-12.3,105.4-7.3c39.5,5.2,69,15,112.9,13.4, c68-2.5,129.2-22.8,180.7-40.5"); 
+    }
+    33.33% { 
+        d: path("M0,63.4c38.7,15.1,91.7-5,141.5,0C212,70.4,247,98,302.5,113c63,17,92.7-44.4,161-35.7, c89.6,11.5,137,20.7,241,7.3C752.7,78.4,863.8,24,911,24c69,0,122.2,67.8,175.5,67.8c60.9,0,79.2-38.7,134.5-28.4, c48.8,9,105.2-42.8,158-39.4c46.6,3,77.3,60.8,120.5,53.3c35.2-6.1,85.6,30.6,123.5,35.7c39.5,5.2,62.6-61.1,106.5-62.7, c68-2.5,140.5,80.4,192,62.7");
+    }
+    66.66% { 
+        d: path("M0 60.3549C38.6893 75.4729 94.7028 105.034 144.5 110C215.077 117.04 247.014 32.3064 302.5 47.2787C365.5 64.2787 409.682 127.515 478 136.278C567.627 147.776 572.5 21.0007 704.5 81.6038C748.691 101.893 829.37 47.2788 876.5 47.2787C945.5 47.2787 972.71 110 1026 110C1086.9 110 1111.17 -6.26729 1166.5 4.00054C1215.25 13.0478 1254.69 106.561 1307.5 110C1354.13 113.037 1381.78 54.7843 1425 47.2787C1460.16 41.1729 1559.61 76.5772 1597.5 81.6038C1637.01 86.8449 1691.08 48.8677 1735 47.2787C1803.04 44.8172 1869.96 127.668 1921.5 110");
+    }
+    100% { 
+        d: path("M0,68.9C38.7,84,89.5,91.7,139.3,96.7c70.6,7,129-19.6,184.5-34.7C381.4,46.3,455,36,523.3,44.7, c89.6,11.5,157.9,63.6,261.9,50.1c48.2-6.2,90.3-17.3,136.8-25.1c49.4-8.3,95.8-12.3,149.1-12.3c60.9,0,108.4,6.1,163.8,16.3, c48.8,9,102.2,20.1,155,23.5c46.6,3,87.9,0.3,131.1-7.2c35.2-6.1,67.5-12.3,105.4-7.3c39.5,5.2,69,15,112.9,13.4, c68-2.5,129.2-22.8,180.7-40.5");
+    }
+  }
+
+.BgrBean-201 {
+    width: 41rem;
+    right: 50%;
+    top: 10rem;
+    transform: translateX(-100%) rotate(-16deg);
+}
+
+.BgrBean-201 svg{
+    fill: rgb(255 0 61 / 38%);
+    filter: blur(50px);
+}
+.BgrBean-202{
+    width: 46rem;
+    right: 50%;
+    top: 10rem;
+    transform: translateX(0%) rotate(3deg);
+}
+.BgrBean-202 svg{
+    fill: rgb(254 208 98 / 77%);
+    filter: blur(120px);
+}
+.BgrBean-203 {
+    width: 47.5rem;
+    right: 50%;
+    top: 10rem;
+    transform: translateX(33rem) rotate(183deg);
+}
+
+.BgrBean-203 svg {
+    fill: rgb(255 240 67 / 57%);
+    filter: blur(80px);
+}
+
+.BgrBean-204 {
+    width: 58.5rem;
+    right: 50%;
+    top: 8rem;
+    transform: scaleY(.85) translateX(70rem) rotate(3deg);
+}
+.BgrBean-204 svg {
+    fill: rgb(0 209 255 / 52%);
+    filter: blur(100px);
+}
+
+.about-about{
+    padding: 6rem 0 12rem 0;
+}
+
+.about-about-grid{
+    display: grid;
+    grid-template-columns: 55.5% 1fr;
+    grid-template-rows: auto;
+    color: var(--midnight-blue) ;
+    align-items: center;
+    grid-row-gap: 3rem;
+}
+
+.about-about-grid p{
+    line-height: 2.25;
+    color: #000000;
+}
+
+.about-about-grid h3{
+    color: rgb(255 197 52 / 90%);
+}
+
+.about-about-grid h3 span{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.about-who{ 
+    grid-area: 1/ 1 / 2 / 2;
+    padding-right: 5rem;
+}
+
+.about-logo{ 
+    grid-area: 1 / 2 / 2/ 3;
+    mix-blend-mode: overlay;
+    filter: brightness(0);
+} 
+
+.about-logo img{ 
+    width: 100%; 
+    display: block; 
+    max-height: 100%;
+} 
+
+.about-experience{ grid-area: 2 / 1 / 3 / 3; }
+
+
+/*********** ABOUT CLIENT ***********/
+
+.about-clients{
+    padding: 8rem 0;
+    position: relative;
+    background-color: var(--bone-white);
+}
+
+.BgrBean-301 {
+    width: 37rem;
+    right: 43%;
+    top: 3rem;
+    transform: translateX(-40%) rotate(3deg);
+}
+
+.BgrBean-301 svg {
+    fill: rgb(55 163 255 / 40%);
+    filter: blur(56px);
+}
+
+.BgrBean-302 {
+    width: 53rem;
+    right: 43%;
+    top: 0rem;
+    transform: scaleY(.75) translateX(50%) rotate(3deg);
+}
+
+.BgrBean-302 svg {
+    fill: rgb(143 91 255 / 40%);
+    filter: blur(86px);
+}
+
+.about-clients-box{
+    display: flex;
+    align-items: center;
+    column-gap: 5rem;
+}
+
+
+.about-clients-headline{
+    flex: 0 0 28.74rem;
+    mix-blend-mode: overlay;
+    filter: brightness(0);
+}
+.about-clients-headline h2{
+    font-size: 3.5rem;
+}
+
+.about-clients-copy{
+    flex: 1;
+}
+
+.about-clients-copy p{
+    margin-bottom: 2rem;
+    line-height: 2.2;
+}
+
+.about-clients .clients-list-wrapper {
+    margin-top: 6.5rem;
+}
+
+.about-clients .clients-list-track {
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
+}
+
+/*********** OUR TEAM ***********/
+
+.about-team{
+    position: relative;
+    box-sizing: border-box;
+    padding: 4rem 0 4rem 0;
+    background-color: var(--bone-white);
+}
+
+.bgr-white-bottom{
+    width: 100%;
+    height: 60%;
+    background-color: var(--white-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.about-team-content{
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+.team-headline h1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: var(--midnight-blue);
+    text-align: center;
+}
+
+.team-headline h1 span{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.team-image img{
+    width: 100%;
+    max-width: 60rem;
+    filter: drop-shadow(0px 4px 6px  rgb(0 0 0 / 25%) );
+}
+
+.about-team .about-wave{
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+
+/*********** ABOUT BUSINESS ***********/
+
+.about-business {
+    position: relative;
+    box-sizing: border-box;
+    padding: 8rem 0 10rem 0;
+    background-color: var(--white-color);
+    z-index: 2;
+}
+
+.business-headline {
+    display: flex;
+    column-gap: 5rem;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.business-headline-text {
+    flex: 0 0 58.75rem;
+}
+
+.business-headline-btn .see-more-btn{
+    background-image: url(./../../images/bgr-multicolor-small.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business-headline-btn .see-more-btn span{
+    color: var(--midnight-blue);
+}
+.business-headline h1 {
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.business-headline h1 span{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 6.25rem;
+    font-weight: 200;
+}
+
+.about-business-content{
+    margin-bottom: 6rem;
+}
+.about-business-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.5rem;
+}
+.about-grid-stripe{
+    background-color: var(--bone-white);
+    height: 12.5rem;
+    box-shadow: 0px 15px 25px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: flex-end;
+}
+.about-grid-stripe .swiper-slide{
+    width: 9.25rem;
+}
+.about-grid-stripe .swiper-slide img{
+    width: 100%;
+    display: block;
+}
+
+.about-grid-stripe .containerFull{
+    position: relative;
+}
+
+.about-grid-stripe h3{
+    font-family: 'Reenie Beanie', cursive;
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    color: var(--medium-gray);
+    font-size: 7.5rem;
+    font-weight: 200;
+}
+
+/*background-color: var(--medium-gray);*/
+
+
+/*********** ABOUT LOCATION ***********/
+
+.about-locations {
+    position: relative;
+    box-sizing: border-box;
+    padding: 6rem 0 10rem 0;
+    background-color: var(--bone-white);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.BgrBean-401 {
+    width: 82.75rem;
+    right: 50%;
+    top:-30rem;
+    transform: translateX(-20%) rotate(-70deg);
+}
+
+.BgrBean-401 svg{
+    fill: rgb(255 228 67 / 50%);
+    filter: blur(100px);
+}
+
+.BgrBean-402 {
+    width: 49.75rem;
+    right: 50%;
+    top: 2rem;
+    transform: translateX(15%) rotate(30deg);
+}
+
+.BgrBean-402 svg {
+    fill: rgb(26 232 249 / 50%);
+    filter: blur(100px);
+}
+
+.BgrBean-403 {
+    width: 50rem;
+    right: 50%;
+    top: -9rem;
+    transform: translateX(85%) scaleY(0.65) rotate(-13deg);
+}
+
+.BgrBean-403 svg {
+    fill: rgb(170 105 232 / 45%);
+    filter: blur(130px);
+}
+
+.locations-headline h1{
+    font-size: 3.5rem;
+}
+
+
+.about-locations-content{
+    position: relative;
+    z-index: 2;
+}
+
+.locations-cities {
+    display: flex;
+}
+
+.locations-city{
+    width: 50%;
+}
+
+.locations-city h3 {
+    margin-bottom: 1rem;
+    background: url(../../images/noise.png);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.locations-cities .locations-city:nth-child(1) h3{
+    filter: brightness(.129) invert(.4) sepia(.25) hue-rotate(110deg) saturate(2000%);
+}
+.locations-cities .locations-city:nth-child(2) h3{
+    filter: brightness(.529) invert(.23) sepia(.25) hue-rotate(209deg) saturate(2000%);
+}
+
+.locations-city p{
+    color: var(--navy-blue);
+    margin-bottom: 1.55rem;
+}
+
+.locations-city img{
+    width: 100%;
+    max-width: 18.75rem;
+    display: block;
+}
+
+.about-locations .about-wave {
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+}
+
+
+/*********** JOIN FORCES ***********/
+
+.about-join {
+    position: relative;
+    box-sizing: border-box;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--midnight-blue);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.about-join .containerFull {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.5rem;
+}
+
+.about-join h3{
+    color: var(--white-color);
+    text-align: center;
+}
+
+.about-join .see-more-btn{
+    background-image: url(./../../images/bgr-multicolor-small.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about-join .see-more-btn span{
+    color: var(--midnight-blue);
+}
+
+@media (max-width: 1200px) {
+    .business-headline{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .business-headline-text {
+        flex: 1;
+    }
+    .about-clients-headline {
+        flex: 0 0 24rem;
+    }
+    .about-clients-box {
+        column-gap: 3rem;
+    }
+    .about-grid-stripe .containerFull {
+        width: 100%;
+    }
+    .about-grid-stripe h3 {
+        left: 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-about {
+        padding: 4rem 0 7rem 0;
+    }
+    .about-clients-box.containerFull {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .about-clients-headline {
+        flex: 1;
+    }
+    .about-about-grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 1rem;
+    }
+    .about-who {
+        grid-area: 2/ 1 / 3 / 2;
+        padding-right: 0;
+    }
+    .about-logo {
+        grid-area: 1 / 1 / 2/ 2;
+        padding-left: 50%;
+    }
+    .about-experience {
+        grid-area: 3 / 1 / 3 / 2;
+    }
+    .about-clients {
+        padding: 6rem 0 3rem 0;
+    }
+    .about-team .about-wave {
+        top: 45%;
+    }
+    .bgr-white-bottom {
+        height: 45%;
+    }
+    .team-headline h1 {
+        line-height: 0.9;
+        margin-bottom: 2rem;
+    }
+    .about-grid-stripe h3 {
+        font-size: 4rem;
+    }
+    .locations-cities {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .locations-city {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .about-clients-headline h2 {
+        font-size: 2.95rem;
+        line-height: 1.25;
+    }
+    .about-clients .clients-list-wrapper {
+        margin-top: 2.5rem;
+    }
+
+    .team-headline h1 {
+        font-size: 2rem;
+    }
+    .team-headline h1 span {
+        font-size: 3rem;
+    }
+    .business-headline h1 {
+        font-size: 2.5rem;
+    }
+    .business-headline h1 span {
+        font-size: 4.5rem;
+    }
+    .about-grid-stripe h3 {
+        font-size: 4rem;
+        top: -2.5rem;
+        left: 2rem;
+        line-height: .85;
+    }
+}

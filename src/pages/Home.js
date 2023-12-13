@@ -9,6 +9,8 @@ import Newsletter from '../components/Newsletter';
 import SuccessfulCollaborations from '../components/SuccessfulCollaborations';
 import ContactUs from '../components/ContactUs';
 
+import TransitionPage from '../utils/TransitionPage';
+
 const Home = () => {
   return (
     <>
@@ -24,4 +26,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default TransitionPage( Home );

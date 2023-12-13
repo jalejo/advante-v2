@@ -1,0 +1,11 @@
+/******** DEVELOPMENT HEADER ********/
+
+.payment-header{
+    height: 48rem;
+    background: var(--gradient-green-darkviolet);
+    position: relative;
+}
+
+.payment-header .containerFull{
+    height: 100%;
+}

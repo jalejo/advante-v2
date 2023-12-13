@@ -4,6 +4,8 @@ import OurDesignLaws from "../components/GraphicDesign/OurDesignLaws"
 import Services from '../components/GraphicDesign/Services';
 import IndustriesWeWork from '../components/GraphicDesign/IndustriesWeWork';
 
+import TransitionPage from '../utils/TransitionPage';
+
 const GraphicDesign = () => {
   return (
     <>
@@ -15,4 +17,4 @@ const GraphicDesign = () => {
   );
 }
 
-export default GraphicDesign;
+export default TransitionPage (GraphicDesign);

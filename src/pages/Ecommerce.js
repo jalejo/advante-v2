@@ -3,6 +3,7 @@ import '../components/Ecommerce/e-commerce.css'
 import Header from "../components/Ecommerce/Header";
 import OurIntegration from '../components/Ecommerce/OurIntegration';
 
+import TransitionPage from '../utils/TransitionPage';
 
 const Ecommerce = () => { 
     return(
@@ -15,4 +16,4 @@ const Ecommerce = () => {
     );
 }
 
-export default Ecommerce;
+export default TransitionPage( Ecommerce );
