@@ -86,6 +86,8 @@ nav{
 }
 
 .main-wrapper{
+    width: 100%;
+    overflow: hidden;
     padding-top: var(--navbar-heigh)
 }
 
@@ -184,7 +186,7 @@ ul.navBarList > li > a, ul.navBarList > li > span{
     color: var(--midnight-blue);
     font-weight: 600;
 }
-ul.navBarList > li > a:hover{
+ul.navBarList > li > a:hover, ul.navBarList > li:hover > span{
     color: var(--orchid-pink);
 }
 
@@ -1139,7 +1141,7 @@ footer{
         font-size: 14px;
     }
     .containerFull {
-        width: 86%;
+        width: 88%;
     }
     .heroImageWrapper {
         width: 80%;

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useRef, useState } from 'react';
-import DigitalServicesList from '../../jsons/digital-marketing-services.json'
+import DevelopmentServicesList from '../../jsons/development-services.json'
 import MarketArrow from '../../images/MarketArrow';
 
 import { Tab, Tabs, useMediaQuery, useTheme } from '@mui/material';
@@ -25,12 +25,12 @@ const ChooseService = () => {
 
   return (
     <>
-        <section className="digital-marketing-expertise">
+        <section className="development-expertise">
     
             <div className="containerFull">
 
-                <div className='digital-marketing-services-wrapper'>
-                    <div className='digital-marketing-services-select'>
+                <div className='development-services-wrapper'>
+                    <div className='development-services-select'>
                         <h3>We Do:</h3>
                         <Tabs
                             value={selectedTab}
@@ -45,7 +45,7 @@ const ChooseService = () => {
 
                                 "& .MuiButtonBase-root":{
                                     color: "var(--navy-blue)",
-                                    fontSize: isMediumScreen ? '1rem' : '1.25rem',
+                                    fontSize: isMediumScreen ? '0.9rem' : '1.15rem',
                                     textTransform: "inherit",
                                     fontWeight: "400",
                                     padding: '0 0 0 0rem',
@@ -53,7 +53,8 @@ const ChooseService = () => {
                                     alignItems: "center",
                                     textAlign: "left",
                                     columnGap: isMediumScreen ? '.5rem' : '1rem',
-                                    minWidth: "auto"
+                                    minWidth: "auto",
+                                    maxWidth: "600px"
                                 },
                                 "& .MuiTabs-scroller":{
                                     overflowX:  isMediumScreen ? 'auto' : 'visible' ,
@@ -83,7 +84,7 @@ const ChooseService = () => {
                         
                         >
                         {
-                            DigitalServicesList.map( (digiService) => (
+                            DevelopmentServicesList.map( (digiService) => (
                                 <Tab
                                     key={digiService.id}
                                     label={digiService.title}
@@ -93,8 +94,8 @@ const ChooseService = () => {
                         }
                         </Tabs>
                     </div>
-                    <div className='digital-marketing-services-swiper'>
-                        <div className="digital-marketing-services-list">
+                    <div className='development-services-swiper'>
+                        <div className="development-services-list">
                             <Swiper
 
                             slidesPerView={ 1 }
@@ -111,20 +112,20 @@ const ChooseService = () => {
                                 slidesPerView: 1,
                                 spaceBetween: 20,
                                 },
-                                800: {
+                                1125: {
                                 slidesPerView: 2,
                                 spaceBetween: 20,
                                 },
-                                1350: {
+                                1550: {
                                 slidesPerView: 3,
                                 spaceBetween: 30,
                                 }
                             }}
                             >
                                 {
-                                    DigitalServicesList.map( ( digiService ) => (
+                                    DevelopmentServicesList.map( ( digiService ) => (
                                         <SwiperSlide key={ digiService.id } onClick={( event ) => handleChange( event, digiService.id )} >
-                                            <div className='digital-service-box-colors'>
+                                            <div className='development-service-box-colors'>
                                                 <svg viewBox="0 0 453.5 453.5">
                                                     <path/>
                                                 </svg>
@@ -142,15 +143,17 @@ const ChooseService = () => {
                                                 </svg>
                                             </div>
                                             <div className="bgr-noise"></div>
-                                            <div className='digital-service-box'>
-                                                <div className='digital-service-headline'>
+                                            <div className='development-service-box'>
+                                                <div className='development-service-headline'>
                                                     <h5>{digiService.title}</h5>
-                                                    <a href='' className='digital-service-arrow'>
-                                                    <MarketArrow />
-                                                    </a>
+                                                    {/*
+                                                        <a href='' className='development-service-arrow'>
+                                                        <MarketArrow />
+                                                        </a>
+                                                    */}
                                                 </div>
                                                 
-                                                <div className='digital-marketing-services-text' dangerouslySetInnerHTML={{ __html: digiService.content }} />
+                                                <div className='development-services-text' dangerouslySetInnerHTML={{ __html: digiService.content }} />
                                             </div>
                                         </SwiperSlide>
                                     ) )

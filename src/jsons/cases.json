@@ -81,12 +81,12 @@
     },
     {
         "id": 9,
-        "case": "Healthcare",
-        "title": "Online Expansion and Market Positioning Strategy",
+        "case": "My Spa Live",
+        "title": "My Spa Live",
         "content":"Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
         "industry": [7, 8, 9],
         "capabilities": [6, 11, 15 ],
-        "image":"case-03.jpg",
+        "image":"case-01.jpg",
         "url":""
     },
     {

@@ -31,6 +31,15 @@ const Footer = () => {
       socialIcon:'var(--royal-purple)',
       logo: 'var(--logo-white)',
     },
+    '/software-development': {
+      background: 'var(--white-color)',
+      color: 'var(--navy-blue)',
+      button: 'var(--gradient-violet-pink-blue-orange-red)',
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--light-gray)',
+      socialIcon:'var(--slate-gray)',
+      logo: 'var(--logo-black)',
+    },
     '/payment-solutions': {
       background: 'var(--royal-purple)',
       color: 'var(--white-color)',

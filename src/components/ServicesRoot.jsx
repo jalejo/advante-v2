@@ -2,8 +2,8 @@ import AdvanteIcons from './AdvanteIcons';
 import IcoArrowThin from '../images/svg/IcoArrowThin';
 import ServicesList from '../jsons/services.json'
 import CapabilitiesList from '../jsons/capabilities.json'
-import { Link } from 'react-router-dom';
 
+import { Link, useNavigate } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useRef, useState } from 'react';
 
@@ -14,11 +14,16 @@ import { Pagination } from 'swiper/modules';
 
 const ServicesRoot = () => {
 
-  const [swiper, setSwiper] = useState(null)
+  const navigate = useNavigate();
 
-  const handleChange = (event, newValue) => {
-    swiper.slideTo( newValue - 1 ); 
+  const [swiper, setSwiper] = useState( 0 )
+
+
+  const handleChange = (event, newValue, url) => {
+    (swiper.realIndex === newValue - 1) && navigate(`/${url}`);
+    swiper.slideTo(newValue - 1);
   };
+    
 
   return (
     <section className='servicesRootWrapper ServicesRoot'>
@@ -32,7 +37,7 @@ const ServicesRoot = () => {
         slidesPerView={'auto'}
         centeredSlides={true}
         spaceBetween={30}
-        slideToClickedSlide={true}
+        //slideToClickedSlide={true}
         onSwiper={(s) => {
             console.log("initialize swiper", s);
             setSwiper(s);
@@ -48,7 +53,7 @@ const ServicesRoot = () => {
         {ServicesList.map((service) => (
           <SwiperSlide 
             key={service.id}
-            onClick={( event ) => handleChange( event, service.id )}
+            onClick={( event ) => handleChange( event, service.id, service.url )}
           >
             <div className='service-card-wrapper'>
               <div className='service-card-overview'>

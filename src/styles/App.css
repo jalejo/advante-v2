@@ -159,9 +159,18 @@
   #EE5253 63.97%, 
   #FF9F43 86.85%);
 
+  --gradient-violet-pink-blue-orange-red: linear-gradient(to right, 
+  #6F5CE7 0%, 
+  #F368E0 25.52%, 
+  #5E98FD 52.60%, 
+  #FF9F43 72.92%, 
+  #E84393 110%);
+
+  --gradient-pink-dark-blue: linear-gradient(180deg, 
+  #F368E0 4.96473%, 
+  #001D37 61.6872%);
+
 }
-
-
 
 .midnightkBttn{
   background-color: var(--midnight-blue);
@@ -195,7 +204,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-orange-pink{
@@ -203,7 +211,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-blue-violet-red {
@@ -211,7 +218,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-orange-violet-pink {
@@ -219,7 +225,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-blue-violet-pink {
@@ -227,7 +232,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-violet-green {
@@ -235,7 +239,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-green-violet {
@@ -243,7 +246,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-orange-pink-violet-blue{
@@ -251,7 +253,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-pink-blue-violet{
@@ -259,7 +260,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-violet-pink-red{
@@ -267,7 +267,6 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
 
 .text-red-blue-orange-pink{
@@ -275,5 +274,12 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /*display: inline-block;*/
 }
+
+.text-violet-pink-blue-orange-red{
+  background: var(--gradient-violet-pink-blue-orange-red);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+

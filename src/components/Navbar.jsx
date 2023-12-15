@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li>
                   <span>Services</span>
                   <ul className='navBarList-child'>
-                    <li><Link to="/software Development">Software Development</Link></li>
+                    <li><Link to="/software-development">Software Development</Link></li>
                     <li><Link to="/e-commerce">E-commerce</Link></li>
                     <li><Link to="/platform-integrations">Platform Integrations</Link></li>
                     <li><Link to="/payment-solutions">Payments Solutions</Link></li>
@@ -21,6 +21,7 @@ const Navbar = () => {
                     <li><Link to="/software-product-design">Software Product design</Link></li>
                     <li><Link to="/graphic-design">Graphic Design</Link></li>
                     <li><Link to="/market-analysis">Market Analysis</Link></li>
+                    <li><Link to="/digital-marketing">Digital Marketing</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/">Case Studies</Link></li>

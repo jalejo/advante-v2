@@ -5,7 +5,7 @@
         "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
         "capabilities":[1, 2],
         "industry":[1,2],
-        "services":[1,4],
+        "services":[4],
         "icon1": "ico-subscriptions-1.svg",
         "icon2": "ico-subscriptions-2.svg"
     },
@@ -15,7 +15,7 @@
         "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
         "capabilities":[3, 4],
         "industry":[1,2],
-        "services":[1,4,7],
+        "services":[4,7],
         "icon1": "ico-payments-1.svg",
         "icon2": "ico-payments-2.svg"
     },
@@ -25,7 +25,7 @@
         "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
         "capabilities":[5, 6],
         "industry":[1, 2],
-        "services":[1, 4, 7],
+        "services":[4, 7],
         "icon1": "ico-addons-1.svg",
         "icon2": "ico-addons-2.svg"
     },
@@ -35,7 +35,7 @@
         "description": "Allows users to sign up for recurring access to services or content, typically through periodic payments. These subscriptions can include streaming services, access to exclusive content, or any form of membership that requires regular payments.",
         "capabilities":[7, 8],
         "industry":[1,2],
-        "services":[1,4, 7],
+        "services":[4, 7],
         "icon1": "ico-tips-1.svg",
         "icon2": "ico-tips-2.svg"
     },
@@ -245,9 +245,10 @@
         "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
         "capabilities":[6, 11, 15],
         "industry":[1],
-        "services":[8, 9],
+        "services":[1, 8, 9],
         "icon1": "ico-025-1.svg",
         "icon2": "ico-025-2.svg",
+        "icon3": "ico-025-3.svg",
         "image1": "image-025-3.jpg"
     },
     {
@@ -256,9 +257,10 @@
         "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
         "capabilities":[6, 11, 15],
         "industry":[1],
-        "services":[8, 9],
+        "services":[1, 8, 9],
         "icon1": "ico-026-1.svg",
         "icon2": "ico-026-2.svg",
+        "icon3": "ico-026-3.svg",
         "image1": "image-026-3.jpg"
     },
     {
@@ -267,9 +269,10 @@
         "description": "Our client was interested in selling their gourmet chocolate products online, as well as establishing their presence as a company and positioning themselves in the market.",
         "capabilities":[6, 11, 15],
         "industry":[1],
-        "services":[8, 9],
+        "services":[1, 8, 9],
         "icon1": "ico-027-1.svg",
         "icon2": "ico-027-2.svg",
+        "icon3": "ico-027-3.svg",
         "image1": "image-027-3.jpg"
     },
     {

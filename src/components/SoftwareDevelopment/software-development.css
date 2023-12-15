@@ -1,11 +1,673 @@
 /******** DEVELOPMENT HEADER ********/
 
-.payment-header{
+.development-header{
     height: 48rem;
-    background: var(--gradient-green-darkviolet);
+    background: var(--deep-blue);
     position: relative;
 }
 
-.payment-header .containerFull{
+.development-header .containerFull{
     height: 100%;
+}
+
+.development-header-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    position: relative;
+}
+
+.development-header-copy, .development-header-image{
+    flex: 1;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.development-header-copy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--white-color);
+    text-align: left;
+    row-gap: 2rem;
+    justify-content: center;
+    
+}
+.development-header-copy::before{
+    position: absolute;
+    content: "";
+    width: 130%;
+    padding-top: 130%;
+    background: radial-gradient(circle, rgba(9,132,227,0.25) 15%, rgba(9,132,227,0) 70%);
+    top: -10%;
+    left: -20%;
+    z-index: -1;
+}
+.development-header-copy::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    padding-top: 100%;
+    background-image: url(../../images/svg/union-grid-full.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: .6;
+}
+
+.development-header-copy p{
+    line-height: 2;
+}
+.development-header-icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--navy-blue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 15px 15px 40px rgb(0 0 0 / 70%);
+    margin-top: -10rem;
+}
+
+.development-header-icon svg{
+    width: 2.4rem;
+}
+
+.development-header-image::before{
+    position: absolute;
+    content: "";
+    width: 130%;
+    padding-top: 130%;
+    background: radial-gradient(circle, rgba(9,132,227,0.25) 15%, rgba(9,132,227,0) 70%);
+    /*background-color: blueviolet;*/
+    top: -10%;
+    left: -20%;
+    z-index: -1;
+}
+
+.development-setup-base {
+    position: relative;
+    width: 100%;
+    max-width: 29.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.development-setup-base img{
+    width: 100%;
+    display: block;
+}
+
+.development-terminal-html{
+    position: absolute;
+    width: 39.75%;
+    top: 16%;
+    left: 12%;
+    z-index: 5;
+}
+.development-terminal-java{
+    position: absolute;
+    width: 24%;
+    top: 2%;
+    left: 2%;
+    z-index: 4;
+}
+.development-terminal-c{
+    position: absolute;
+    width: 24%;
+    top: 47%;
+    left: 42%;
+    z-index: 4;
+}
+
+.development-symbols{
+    position: absolute;
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+}
+.tag-symbol{
+    top: 2%;
+    left: 33%;
+}
+.key-symbol{
+    top: 23%;
+    left: 0%;
+}
+
+
+.development-works li{
+    position: absolute;
+    color: rgb(246 245 240 / 13%);
+    font-size: 150%;
+    line-height: 1;
+}
+
+.development-works li:nth-child(1){
+    top: -12%;
+    left: 94%;
+}
+.development-works li:nth-child(2){
+    top: 22%;
+    left: -20%;
+}
+.development-works li:nth-child(3){
+    top: 28%;
+    left: 54%;
+}
+.development-works li:nth-child(4){
+    top: 53%;
+    left: -8%;
+}
+.development-works li:nth-child(5){
+    top: 96%;
+    left: -28%;
+}
+.development-works li:nth-child(6){
+    top: 86%;
+    left: 100%;
+}
+
+
+.development-labeled-works li{
+    position: absolute;
+    font-size: 110%;
+    line-height: 1;
+    z-index: 6;
+    background-color: var(--navy-blue);
+    color: var(--pale-blue);
+    padding: 4px 10px;
+}
+
+.development-labeled-works li:nth-child(1){
+    top: 38%;
+    left: 5%;
+}
+.development-labeled-works li:nth-child(2){
+    top: 12%;
+    left: 45%;
+}
+/******** DEVELOPMENT TECHNOLOGY STACK ********/
+
+.development-technology {
+    position: relative;
+    background-color: var(--midnight-blue);
+    overflow: hidden;
+    padding: 5rem 0;
+}
+
+
+.development-technology h3{
+    color: var(--white-color);
+    margin-bottom: 6rem;
+    position: relative;
+    z-index: 2;
+}
+
+.development-stack{
+    margin-bottom: 6rem;
+    color: var(--pale-blue);
+    position: relative;
+    z-index: 1;
+}
+
+.development-stack h4{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.development-stack.development-stack-front::after {
+    position: absolute;
+    content: "";
+    width: 42rem;
+    height: 42rem;
+    background: radial-gradient(circle, rgb(72 219 251 / 20%) 15%, rgba(9,132,227,0) 70%);
+    top: -15rem;
+    left: -11rem;
+    z-index: -1;
+}
+.development-stack.development-stack-front::before {
+    position: absolute;
+    content: "";
+    width: 42rem;
+    height: 42rem;
+    background-image: url(../../images/svg/union-grid-full.svg);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: .45;
+    top: -15rem;
+    left: -11rem;
+    z-index: -1;
+}
+.development-stack.development-stack-back::after {
+    position: absolute;
+    content: "";
+    width: 42rem;
+    height: 42rem;
+    background: radial-gradient(circle, rgb(72 167 251 / 20%) 15%, rgba(9,132,227,0) 70%);
+    top: -3rem;
+    left: -23rem;
+    z-index: -1;
+}
+.development-stack.development-stack-back::before {
+    position: absolute;
+    content: "";
+    width: 42rem;
+    height: 42rem;
+    background-image: url(../../images/svg/union-grid-full.svg);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: .45;
+    top: -3rem;
+    left: -23rem;
+    z-index: -1;
+}
+
+.development-stack.development-stack-front h4{
+    color: var(--sky-blue);
+}
+.development-stack.development-stack-back h4{
+    color: var(--azure-blue);
+}
+
+.development-stack .technology-logo-list {
+    margin-top: 2.5rem;
+    justify-content: flex-start;
+}
+
+
+/******** WE DO ********/
+
+.development-expertise {
+    position: relative;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--bone-white);
+    overflow: hidden;
+}
+.development-expertise h3 {
+    text-transform: uppercase;
+}
+.development-services-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.development-services-select {
+    flex: 0 0 22rem;
+}
+.development-services-select .MuiTabs-vertical{
+    margin-top: 1.5rem;
+}
+.development-services-swiper {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+.development-services-list {
+    width: 100%;
+    position: absolute;
+    left: -33.99%;
+}
+.development-services-list .swiper {
+    overflow: visible;
+}
+.development-services-list .swiper-wrapper .swiper-slide {
+ 
+    height: 28.75rem;
+    background: var(--midnight-blue);
+    position: relative;
+    transition: all ease-in 150ms ;
+    overflow: hidden;
+}
+
+.development-services-list .swiper-wrapper .swiper-slide .development-service-box-colors{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background: var( --gradient-pink-dark-blue );
+    transition: opacity 125ms ease-in;
+}
+
+.development-services-list .swiper-wrapper .swiper-slide:hover .development-service-box-colors,
+.development-services-list .swiper-wrapper .swiper-slide.swiper-slide-active .development-service-box-colors{
+    opacity: 1;
+}
+
+.development-service-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -63%;
+    left: 0;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+    transition: bottom ease-in 150ms ;
+    z-index: 5;
+}
+
+.development-services-list .swiper-wrapper .swiper-slide:hover .development-service-box,
+.development-services-list .swiper-wrapper .swiper-slide.swiper-slide-active .development-service-box{
+    bottom: -30%;
+} 
+
+.development-service-headline {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    min-height: 6rem;
+}
+.development-service-headline a{
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    flex: 0 0 3rem;
+    transform: rotate(180deg);
+}
+.development-services-list h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    flex: 1;
+}
+.development-services-text {
+    flex: 1 1;
+    padding-top: 1.75rem;
+    border-top: 2px solid var(--white-color);
+    margin-top: 1.75rem;
+}
+.development-services-list p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.development-service-arrow{
+    opacity: 0;
+    transition: opacity 125ms ease-in;
+}
+
+.development-service-arrow path {
+    stroke: var(--white-color);
+    transition: all ease-in 150ms;
+}
+.development-service-arrow circle {
+    fill: rgb(255 255 255 / 0%);
+    stroke: var(--white-color);
+    stroke-width: 2px;
+    transition: all ease-in 150ms;
+}
+.development-service-arrow:hover circle {
+    fill: var(--white-color);
+}
+.development-service-arrow:hover path {
+    stroke: var(--midnight-blue);
+}
+
+.development-services-list .swiper-wrapper .swiper-slide:hover .development-service-arrow,
+.development-services-list .swiper-wrapper .swiper-slide.swiper-slide-active .development-service-arrow
+{
+    opacity: 1;
+}
+
+.development-services-list .development-service-box-colors svg path {
+    animation: figureMove 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.development-services-list .development-service-box-colors svg{
+    position: absolute;
+    opacity: 0.8;
+    filter: blur(40px);
+    animation: figureScale 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.development-services-list .development-service-box-colors svg:nth-child(1){
+    width: 30rem;
+    top: -50%;
+    left: -70%;
+}
+.development-services-list .development-service-box-colors svg:nth-child(1) path{
+    fill: #fff;
+    opacity: 0.75;
+}
+.development-services-list .development-service-box-colors svg:nth-child(2){
+    width: 24rem;
+    top: -10%;
+    left: 50%;
+    transform: rotate(180deg);
+}
+.development-services-list .development-service-box-colors svg:nth-child(2) path{
+    fill: #237070;
+    opacity: .5;
+}
+.development-services-list .development-service-box-colors svg:nth-child(3){
+    width: 22rem;
+    top: 40%;
+    left: -30%;
+}
+.development-services-list .development-service-box-colors svg:nth-child(3) path{
+    fill: #d36b07;
+}
+.development-services-list .development-service-box-colors svg:nth-child(4){
+    width: 15rem;
+    top: 30%;
+    left: 10%;
+}
+.development-services-list .development-service-box-colors svg:nth-child(4) path{
+    fill: #FFB36A;
+
+}
+.development-services-list .development-service-box-colors svg:nth-child(5){
+    width: 20rem;
+    top: 70%;
+    left: 40%;
+}
+.development-services-list .development-service-box-colors svg:nth-child(5) path{
+    fill: #FFFFFF;
+    opacity: 0.75;
+}
+
+.development-services-list .bgr-noise{
+    mix-blend-mode: soft-light;
+}
+
+/******** CHOOSE INDUSTRY  ********/
+
+.developmentIndustryWrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 56rem;
+    padding: 5rem 0 5rem 0;
+    background-color: var(--white-color);
+}
+
+.development-industry-list {
+    margin-top: 2rem;
+    margin-bottom: 5.5rem;
+}
+
+.developmentIndustryWrapper h3 {
+    color: var(--deep-blue);
+}
+
+.development-solutions-list{
+    width: 100%;
+    max-width: 1090px;
+}
+
+.development-solutions {
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 0 3rem 0;
+}
+
+.development-solutions-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+.development-solutions-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.5rem;
+}
+
+.development-solutions-item {
+    display: flex;
+    column-gap: 2.375rem;
+}
+.development-solutions-item-ico {
+    width: 5.6rem;
+    height: 5.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.development-solutions-item-ico img {
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.development-solutions-item h6 {
+    font-size: 1.125rem;
+    margin-bottom: 0.7rem;
+    color: var(--azure-blue);
+}
+.development-solutions-item p {
+    font-size: 0.75rem;
+    color: var(--navy-blue);
+}
+
+.development-solutions-item .solutions-grid-capabilities-group .solutions-capability{
+    background-color:var(--medium-gray)
+}
+
+
+.case-software-development .containerFull::before{
+    position: absolute;
+    content: "";
+    width: 62rem;
+    height: 62rem;
+    background: radial-gradient(circle, rgba(9,132,227,0.25) 15%, rgba(9,132,227,0) 70%);
+    top: -14rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@media (max-width: 1550px) {
+    .development-services-list {
+        left: -25%;
+    }
+}
+
+@media (max-width: 1125px) {
+    .development-services-list {
+        left: 0%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .development-header-copy::before {
+        top: 12%;
+    }
+    .development-header-image::before {
+        top: 10%;
+        left: 0%;
+    }
+    .development-setup-base {
+        width: 80%;
+        margin-right: 0;
+    }
+    .development-header {
+        height: 52rem;
+    }
+    .development-services-wrapper {
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width: 899px) {
+    .development-header {
+        height: auto;
+    }
+    .development-header-wrapper {
+        flex-direction: column;
+    }
+    .development-header-copy, 
+    .development-header-image {
+        width: 100%;
+    }
+    .development-header-icon {
+        margin-top: 3rem;
+    }
+    .development-setup-base {
+        max-width: 28rem;
+        margin: 5rem auto;
+    }
+    .development-services-wrapper {
+        flex-direction: column;
+    }
+    .development-services-select{
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .development-services-swiper {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    .development-services-list {
+        position: relative;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .development-technology h3 {
+        margin-bottom: 3rem;
+    }
+    .development-stack {
+        margin-bottom: 4rem;
+    }
+    .development-stack .technology-logo-list {
+        justify-content: center;
+    }
+    .development-industry-list {
+        margin-bottom: 2rem;
+    }
+    .development-solutions-list-wrapper {
+        row-gap: 3rem;
+    }
+    .development-solutions-item {
+        flex-direction: column;
+        row-gap: 0.75rem;
+    }
+    .development-solutions-item-ico {
+        justify-content: flex-start;
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+
 }
