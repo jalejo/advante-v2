@@ -1,5 +1,5 @@
 import { Tab, Tabs, useMediaQuery, useTheme } from '@mui/material';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import MainCase from "../MainCase";
 
 import CasesList from '../../jsons/cases.json';

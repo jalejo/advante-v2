@@ -93,11 +93,17 @@ nav{
 
 .center{ text-align: center;}
 
+.baseButtonCentered{
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px 0px rgb(16 24 40 / 15%);
+}
+
 .baseButton{
     border-radius: 8px;
     display: flex;
     line-height: 1;
     font-weight: 600;
+    border-radius: 16px;
     padding: 1rem 2.25rem;
 } 
 
@@ -151,6 +157,7 @@ nav{
     max-width: 45rem;
     width: 70%;
     margin: 2rem auto;
+    border-radius: 5rem;
 }
 .title-underline.blue-green-orange{
     background: var(--gradient-blue-green-orange);
@@ -288,8 +295,12 @@ ul.navBarList > li:hover .navBarList-child{
 }
 
 .bgCircle{
-    width: 22.5rem;
-    height: 22.5rem;
+    width: 32.5rem;
+    height: 32.5rem;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
     position: absolute;
     border-radius: 50%;
     filter: blur(250px);
@@ -959,8 +970,86 @@ ul.navBarList > li:hover .navBarList-child{
 
 .contactUsWrapper h3{
     text-align: center;
+    color: var(--midnight-blue);
+}
+.contact-form-headline{
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 45rem;
+    margin: 0 auto;
 }
 
+.contact-form-wrapper{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 4rem auto 0 auto;
+    max-width: 64rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1.85rem;
+    padding: 3.125rem;
+}
+
+.halfWidth{
+    flex-basis: calc(50% - .75rem);
+}
+.fullWidth{
+    flex-basis: 100%;
+}
+
+.contact-form-wrapper .MuiInputBase-root{
+    background-color: var(--light-gray);
+    border-radius: 7px 7px 7px 7px;
+    color: var(--midnight-blue);
+    padding: 0;
+}
+
+.contact-form-wrapper .MuiOutlinedInput-input{
+    padding: 1.25rem 1.43rem;
+}
+.contact-form-wrapper .MuiOutlinedInput-notchedOutline{
+    border: none;
+    box-sizing: border-box;
+}
+.contact-form-wrapper .MuiInputLabel-root{
+    transform: translate(1.35rem, 1.25rem) scale(1);
+    color: var(--midnight-blue);
+}
+
+.contact-form-wrapper .MuiInputLabel-root.MuiInputLabel-shrink{
+    transform: translate(10px, -18px) scale(0.75);
+    color: var(--royal-purple);
+    font-weight: 600;
+}
+
+.contactUsWrapper .baseButton{
+    color: #FFF;
+}
+
+/*
+
+MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink
+
+.contact-form-wrapper .MuiFormLabel-root{
+    color: var(--midnight-blue);
+}
+
+.contact-form-wrapper .MuiFormControl-root > .MuiInputBase-root{
+    border-radius: 7px 7px 7px 7px;
+    color: var(--midnight-blue);
+}
+
+.contact-form-wrapper .MuiFormControl-root > .MuiInputBase-root::before{
+    border-bottom: 0;
+}
+
+.contact-form-wrapper .MuiFormControl-root > .MuiInputBase-root:hover:not(.Mui-disabled, .Mui-error):before {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.87);
+}
+
+
+/*
 .contact-form-wrapper{
     box-sizing: border-box;
     width: 90%;
@@ -983,7 +1072,7 @@ ul.navBarList > li:hover .navBarList-child{
 .div5 { grid-area: 4 / 1 / 5 / 3; }
 .div6 { grid-area: 5 / 1 / 6 / 3; }
 .div7 { grid-area: 6 / 1 / 7 / 3; }
-
+*/
 
 /*********** Footer ************/
 

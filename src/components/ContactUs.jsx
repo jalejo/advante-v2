@@ -1,52 +1,131 @@
-import { TextField, FormControlLabel, Checkbox } from '@mui/material';
+import { Box, TextField, FormControlLabel, Checkbox } from "@mui/material";
 
-const ContactUs = () => {
+const ContactUs = (props) => {
+  const {
+    headLineText,
+    headLineSpan,
+    wrapperBox,
+    darkTheme,
+    underline,
+    h3Color,
+    spanClass = "text-blue-violet-pink",
+    sendColor = "var(--royal-purple)",
+    checkColor = "var(--royal-purple)",
+    bgCircles
+  } = props;
+
   return (
-    <section className='contactUsWrapper '>
+    <Box
+      className="contactUsWrapper"
+      component="form"
+      noValidate
+      autoComplete="off"
+    >
       <div>
-        <h3>Contact <span className='text-blue-violet-pink'>Us</span>.</h3>
-        <div className='title-underline blue-violet-pink'></div>
-        
-        <div className='contact-form-wrapper'>
-          <div className='div1'>
-            <TextField fullWidth id="name" label="Name" variant="standard" />
-          </div>
-          <div className='div2'>
-            <TextField fullWidth id="lname" label="Last Name" variant="standard" />
-          </div>
-          <div className='div3'>
-            <TextField fullWidth id="company" label="Company" variant="standard" />
-          </div>
-          <div className='div4'>
-            <TextField fullWidth id="email" label="Email Address" variant="standard" />
-          </div>
-          <div className='div5'>
-            <TextField
-              fullWidth
-              id="message"
-              label="Message"
-              multiline
-              rows={4}
-              variant="standard"
-            />
+        <div className="contact-form-headline">
+          <h3 style={h3Color && { color: h3Color }}>
+            {headLineText && headLineSpan ? (
+              <>
+                {headLineText} <span className={spanClass}>{headLineSpan}</span>.
+              </>
+            ) : headLineText ? (
+              <>{headLineText}.</>
+            ) : headLineSpan ? (
+              <span className={spanClass}>{headLineSpan}.</span>
+            ) : (
+              <>
+                Contact <span className={spanClass}>Us</span>.
+              </>
+            )}
+          </h3>
 
-          </div>
+          {underline && (
+            <div
+              className="title-underline"
+              style={{ background: underline }}
+            ></div>
+          )}
+        </div>
+        <div
+          className="contact-form-wrapper"
+          style={wrapperBox && { backgroundColor: "#FFF" }}
+        >
+          <TextField
+            className="halfWidth"
+            required
+            id="name"
+            label="Full Name"
+            variant="outlined"
+          />
 
-          <div className='div6'>
-            <FormControlLabel control={<Checkbox />} label="I’d like to receive occasional news and updates from Advante Digital." />
-          </div>
-          <div className='div7'>
-            <button className='baseButton blueVioletPinkBttn' type='submit'> Send </button>
-            
-            </div>
+          <TextField
+            className="halfWidth"
+            required
+            id="email"
+            label="Your Email"
+            variant="outlined"
+          />
+
+          <TextField
+            fullWidth
+            required
+            id="subject"
+            label="Subject"
+            variant="outlined"
+          />
+
+          <TextField
+            fullWidth
+            required
+            id="message"
+            label="Message"
+            multiline
+            rows={6}
+            variant="outlined"
+          />
+
+          <FormControlLabel
+            className="fullWidth"
+            control={<Checkbox 
+              sx={{
+                color: checkColor ,
+                '&.Mui-checked': {
+                  color:  checkColor ,
+                },
+              }}
+            />}
+            label="I’d like to receive occasional news and updates from Advante Digital."
+          />
+
+          <button
+            className="baseButton baseButtonCentered"
+            style={{ background: sendColor || "#FFF" }}
+            type="submit"
+          >
+            Send
+          </button>
         </div>
       </div>
-      <div className='bgCircle bgCircle-green bgBlur-right-top'></div> 
-      <div className='bgCircle bgCircle-violet bgBlur-left-top'></div>
-      <div className='bgCircle bgCircle-blue bgBlur-right-bottom'></div>
-    </section>
 
+      {
+        bgCircles && bgCircles.map(( circle, index ) => (
+          <div 
+            key={ index } 
+            className = "bgCircle"
+            style={{
+              width : circle.size,
+              height: circle.size,
+              backgroundColor: circle.color,
+              top: circle.top,
+              left: circle.left,
+              right: circle.right,
+              opacity: circle.opacity
+            }}
+          />
+        ) )
+      }
+    </Box>
   );
-}
+};
 
 export default ContactUs;

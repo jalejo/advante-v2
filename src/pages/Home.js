@@ -21,7 +21,33 @@ const Home = () => {
         <ArticlesEventsCases />
         <Newsletter />
         <SuccessfulCollaborations />
-        <ContactUs />
+        <ContactUs 
+          underline = "var(--gradient-blue-violet-pink)"
+          wrapperBox
+          sendColor = "var(--gradient-blue-violet-pink)"
+          checkColor = "var(--light-purple)"
+          bgCircles = {[
+            {
+              color:"var(--green-mint)",
+              size:"32.5rem",
+              top:"-10%",
+              right:"10%",
+            },
+            {
+              color:"var(--vivid-purple)",
+              size:"32.5rem",
+              top:"-10%",
+              left:"-10%",
+              right:"auto",
+            },
+            {
+              color:"var(--azure-blue)",
+              size:"32.5rem",
+              bottom:"-20%",
+              right:"40%",
+            }
+          ]}
+        />
     </>
   );
 }

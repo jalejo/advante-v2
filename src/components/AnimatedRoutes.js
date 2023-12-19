@@ -10,6 +10,7 @@ import Ecommerce from './../pages/Ecommerce';
 import DigitalMarketing from './../pages/DigitalMarketing';
 import SoftwareProductDesign from './../pages/SoftwareProductDesign';
 import SoftwareDevelopment from './../pages/SoftwareDevelopment';
+import Contact from './../pages/Contact'
 
 import { AnimatePresence } from 'framer-motion';
 
@@ -40,6 +41,7 @@ const AnimatedRoutes = () => {
                 <Route path="/e-commerce" element={<Ecommerce />} />
                 <Route path="/digital-marketing" element={<DigitalMarketing />} />
                 <Route path="/software-development" element={<SoftwareDevelopment />} />
+                <Route path="/contact-us" element={ <Contact /> } />
             </Routes>
         </AnimatePresence>
     )
