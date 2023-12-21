@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "client":"Bajibot",
+        "content":"We developed the corporate site for Bajibot, one of the best creative agencies in NY. It is custom built in HTML using multiple javascript libraries and animations.",
+        "featured-image":"ComputerBajibot.png",
+        "gallery-images":["Bajibot-1.jpg", "Bajibot-2.jpg", "Bajibot-3.jpg"],
+        "url":null,
+        "color":"#FF0000"
+    },
+    {
+        "id": 2,
+        "client":"Nutiva",
+        "content":"Nutiva needed a redesign of their site and wanted a personalized cart and checkout experience. We built this website using Shopify Plus with the design provided by Bajibot, NY.",
+        "featured-image":"ComputerNutiva.png",
+        "gallery-images":["Nutiva-1.jpg", "Nutiva-2.jpg", "Nutiva-3.jpg"],
+        "url":null,
+        "color":"#7A1900"
+    },
+    {
+        "id": 3,
+        "client":"Bridgewater Chocolate",
+        "content":"Bridgewater Chocolate needed a new e-commerce site this time developed on Shopify, to take advantage of the shipping and labeling integrations that this platform provides, and the easy maintenance of their products and prices. SixPlusOne, their creative agency, designed a beautiful sit that Advante Digital developed.",
+        "featured-image":"ComputerBridgewater.png",
+        "gallery-images":["Bridgewater-1.jpg", "Bridgewater-2.jpg", "Bridgewater-3.jpg"],
+        "url":null,
+        "color":"#E5C166"
+    },
+    {
+        "id": 4,
+        "client":"Bodyarmor",
+        "content":"Bodyarmor Energy Drink asked their creative agency SixPlusOne to redesign their website when they were signing contracts with some of the best athletes in the country. We were tasked with developing a corporate website using highly complex animations. We built a custom HTML site with a large amount of interactions for the consumers to feel the new brand experience.",
+        "featured-image":"ComputerBodyArmor.png",
+        "gallery-images":["BodyArmor-1.jpg", "BodyArmor-2.jpg", "BodyArmor-3.jpg"],
+        "url":null,
+        "color":"#000000"
+    }
+]

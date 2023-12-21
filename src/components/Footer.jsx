@@ -111,6 +111,15 @@ const Footer = () => {
       socialIcon:'var(--slate-gray)',
       logo: 'var(--logo-black)',
       button: 'var(--midnight-blue)',
+    },
+    '/case-studies': {
+      background: 'var(--white-color)',
+      color: 'var(--navy-blue)',
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--light-gray)',
+      socialIcon:'var(--slate-gray)',
+      logo: 'var(--logo-black)',
+      button: 'var(--midnight-blue)',
     }
   };
 

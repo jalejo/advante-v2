@@ -3,7 +3,7 @@ import './styles/App.css'
 import './styles/layout.css'
 import Navbar from './components/Navbar'
 
-import AnimatedRoutes from './components/AnimatedRoutes';
+import AnimatedRoutes from './utils/AnimatedRoutes';
 
 import Footer from './components/Footer'
 
