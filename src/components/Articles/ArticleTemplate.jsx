@@ -7,6 +7,8 @@ const ArticleTemplate = () => {
   const { slug } = useParams();
   const article = ArticlesList.find((a) => a.slug === slug);
 
+const imagesPath = require.context('../../images/articles', true)
+
   if (!article) {
     return <div>Article not found</div>;
   }
@@ -44,6 +46,23 @@ const ArticleTemplate = () => {
                         ))}
                         </ul>
                     )}
+                    {block.blockImage && (
+                    
+                        <div className='article-image'> 
+                            <img 
+                                src={ imagesPath(`./${ block.blockImage }`) }
+
+                            />
+                            {
+                                block.blockImageFooter && (
+                                    <p className='article-image-footer'> { block.blockImageFooter } </p>
+                                )
+                            }
+                        </div>
+                
+                    )
+
+                    }
                 </div>
             ))}
 

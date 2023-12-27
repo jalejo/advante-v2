@@ -412,6 +412,286 @@
         "capabilities": [13, 14],
         "hero": "article-25.jpg",
         "url": ""
+    },
+    {
+        "id": 26,
+        "title": "The Path to Conversion: Checkout Optimization & E-commerce",
+        "authors": "Advante Digital",
+        "excerpt": "In today's increasingly digital commercial landscape, the visibility of brick-and-mortar stores has been complicated in favor of e-commerce.",
+        "content": [
+            {
+                "blockTitle":"Is it an Obstacle or an Opportunity?",
+                "blockContent": [
+                    "<p>In today's increasingly digital commercial landscape, the visibility of brick-and-mortar stores has been complicated in favor of e-commerce. Among the latter, and established in the vast territory of the internet, the most well-known are Shopify and WooCommerce, which cover a wide variety of business sectors, each of them requiring different approaches on <b>ease of use, costs, customization, plugins and extensions, marketing and SEO, shipping and payment gateways, scalability, security, and the cherry on top, customer service</b>. Any e-commerce site must have these covered.</p>",
+                    "<p>For business people looking to start their e-commerce platform, here is a comparison between the most used ones:</p>"
+                ]
+            },
+            {
+                "blockImage":"comparative.avif",
+                "blockImageFooter":"Shopify vs Woocommerce"
+            },
+            {
+                "blockContent": [
+                    "<p>Given all of these, it is recognized that persuading consumers to purchase products or services online is a challenge that is often hindered by various reasons. In many cases, the decision to buy fades during the final part of the process, known as the checkout. Therefore, let's see how it can be improved to increase and close sales and satisfy customers more.</p>"
+                ]
+            },
+            {
+                "blockTitle":"The right number of steps",
+                "blockContent": [
+                    "<p>The checkout process encompasses all the steps from when the user enters the shopping cart to completing the payment. These steps can be measured on each page where the user enters data to complete the purchase. Too many steps or a highly time-consuming process will have negative consequences, with more people leaving pending shopping carts and generating vast losses. However, before making changes to the checkout to a very simple style to make it easier to navigate, you need to know the following:</p>",
+                    "<p>A 2022 study found that the number of steps in the checkout process has a more significant impact than previously thought on the completion rate. <b>In fact, a one-step checkout process has a completion rate similar to a six-step checkout process.</b> Therefore, businesses should not unnecessarily simplify or complicate their checkout process. <b>A checkout process of two to four steps can be sufficient as long as it is clear and intuitive to follow.</b></p>"
+                ]
+            },
+            {
+                "blockImage":"coversion-rate.avif",
+                "blockImageFooter":"Research conducted in the year 2022"
+            },
+            {
+                "blockContent": [
+                    "<p>In terms of the number of fields the user must complete to make a purchase, the results showed that <b>a quantity of 7 fields per screen is optimal</b> for customers not to be frustrated when completing them. However, a curious fact that emerged from this research is that the key is to transmit clearly the reason why the fields are required, so <b>if the user understands why he or she must complete them</b>, then even in 12 or 16 required field cases, the person should complete the process.</p>"
+                ]
+            },
+            {
+                "blockImage":"average-conversion-ratio.avif",
+                "blockImageFooter":"Average conversion ratio"
+            },
+            {
+                "blockTitle":"Frictionless Checkout",
+                "blockContent": [
+                    "<p>Now that we understand how flexible a checkout can be, we need to consider a few things:</p>",
+                    "<p>The company needs to know the type of business it is in to ask for certain data. For example, asking the customer to fill out complex fields doesn't make sense if it sells chocolates. On the other hand, for a chemical company, it would be negative to ask only for the minimum information like name, last name, and address to confirm an order. It’s important for this company to make sure that they are asking the right questions, and no more or less than it makes sense to the customer.</p>",
+                    "<p>On the other hand, it’s key to manage customer expectations by providing all the decision-making relevant information before checkout. It is extremely frustrating to encounter unexpected charges at the end of the process or to have conflicting or new information about the item being purchased. To address these concerns, businesses should make clear <b>before the checkout</b> the following:</p>"
+                ]
+            },
+            {
+                "blockList":[
+                    "Net cost with itemized specifications. The most important of these would be: Item cost, Shipping costs, Applicable taxes, Total amount to pay",
+                    "Recommendations, reviews, and other product validation tools add credibility to the company. This will help to build trust and confidence in the purchase, and positive reviews will make the product more appealing.",
+                    "When the stock is limited, show the number of remaining items to help give a sense of urgency.",
+                    "Answers to questions like: When will the shipment take place after purchase? What is the shipping time?"
+                ]
+            },
+            {
+                "blockContent":[
+                    "<p>Additionally, four key principles need to be taken into account in the checkout page itself:</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Conciseness",
+                "blockContent":[
+                    "<p>Consumer surveys have shown that 60% of shoppers prefer fast checkout processes, stating that it should take at most 2 minutes, due to the tedious and repetitive nature of filling out fields.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Responsiveness",
+                "blockContent":[
+                    "<p>People no longer exclusively rely on computers for accessing websites. Therefore, your website must be responsive, meaning it can be easily viewed on any device, from a smartphone to a tablet. <b>The easier it is to view your website, the more convenient it will be for visitors to browse and make purchases with minimal effort.</b></p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Accessibility",
+                "blockContent":[
+                    "<p>The checkout must be done using the same language the person speaks or allowed to change that, and the same needs to be done with the currency shown to the customer. Even small details, such as changing the font, contrast, or size, can make a big difference between abandoned or purchased carts.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Payment methods",
+                "blockContent":[
+                    "<p><b>The 85% of shoppers decline to finalize a purchase</b> because they cannot find their preferred payment alternative; the company needs to offer different methods to make their consumers feel comfortable; some options are:</p>"
+                ]
+            },
+            {
+                "blockList":[
+                    "Prepaid cards",
+                    "Electronic cash",
+                    "Realtime bank transfers",
+                    "Direct Debit",
+                    "Electronic wallets",
+                    "Mobile wallets",
+                    "Buy now, pay later (BNPL)"
+                ]
+            },
+            {
+                "blockMiniTitle":"How to implement this:",
+                "blockContent":[
+                    "<p>To implement a good process, it is necessary to have experts in the field of e-commerce and development, To create a website or application that showcases the company's offerings and meets customers' needs. Also, as seen at the beginning of the article, several platforms can help create unique and memorable sites, like Shopify and WordPress.</p>",
+                    "<p>Let's take a closer look at these platforms.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Shopify",
+                "blockContent":[
+                    "<p>Shopify's platform offers the ability to create an online shop. It allows you to sell digitally, and if you have a store, it allows you to use the application as a point of sale. You can sign up for free and test the site to see how it works and understand how to use it, although it is considered one of the most intuitive platforms you will find.</p>",
+                    "<p>After testing the free version, you need to upgrade to one of the three Shopify plans to get your shop up and running:</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Basic plan",
+                "blockList":[
+                    "Basic reports",
+                    "Up to 1,000 branches with inventory",
+                    "2 staff accounts"
+                ]
+            },
+            {
+                "blockSubTitle":"Shopify plan",
+                "blockList":[
+                    "Professional reports",
+                    "Up to 1,000 branches with inventory",
+                    "5 staff accounts"
+                ]
+            },
+            {
+                "blockSubTitle":"Advanced plan",
+                "blockList":[
+                    "Custom report builder",
+                    "Up to 1,000 branches with inventory",
+                    "15 staff accounts"
+                ]
+            },
+            {
+                "blockContent":[
+                    "<p>Most people starting out a small e-commerce platform usually purchase the basic plan, while those who need more complex and interactive sites should choose the Shopify plan. When the company is large and needs high customer support, they choose option 3.</p>",
+                    "<p>All three options have the features of an online shop, sales channels, point of sale, 24/7 customer support.</p>"
+                ]
+            },
+            {
+                "blockTitle":"What are the benefits of choosing Shopify?"
+            },
+            {
+                "blockSubTitle":"Easy to use",
+                "blockContent":[
+                    "<p>It has an intuitive interface, which makes it easy to create or edit your online business; the drag-and-drop function streamlines this process, and when you think you are ready to start selling, you can launch your site right then and there.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Multiple payment processors",
+                "blockContent":[
+                    "<p>As you read above, 85% of shoppers cancel purchases because they need the payment method they use, but with Shopify, that problem doesn't exist, as it includes easy payment methods, and you choose which methods are allowed for your customers.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"SEO and Marketing",
+                "blockContent":[
+                    "<p>It is complicated to keep track of several active marketing campaigns, and it is tedious to see them one by one, but the advantage of this platform is that you can add applications to it to be able to manage different campaigns in the same place, so you know what applications you need and what you don't.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Hosting and Security",
+                "blockContent":[
+                    "<p>When it comes to security, Shopify has high levels of it. It is a fully hosted platform. Using Shopify does not incur additional costs because it takes care of your hosting.</p>"
+                ]
+            },
+            {
+                "blockTitle":"WooCommerce with WordPress",
+                "blockContent":[
+                    "<p><b>WooCommerce</b> is a free plugin that transforms <b>WordPress</b> websites into e-commerce, generating a fully functional page like Shopify allowing you to sell products and services on your website.</p>",
+                    "<p>Although WooCommerce is free, as it uses WordPress for its operation, you must pay for one of the plans available:</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Personal",
+                "blockList":[
+                    "Free domain for one year",
+                    "Get a custom domain – like yourgroovydomain.com – free for the first year.",
+                    "Ad-free experience",
+                    "Unlock a clean, ad-free browsing experience for your visitors.",
+                    "Extremely fast DNS with SSL",
+                    "Tap into fast, reliable domain management with secure SSL.",
+                    "Support via email",
+                    "Fast, friendly, expert WordPress help, whenever you need it.",
+                    "8% transaction fee for payments"
+                ]
+            },
+            {
+                "blockSubTitle":"Premium",
+                "blockContent":[
+                    "<p>Everything in Personal, and:</p>"
+                ],                
+                "blockList":[
+                    "Free domain for one year",
+                    "Get a custom domain – like yourgroovydomain.com – free for the first year.",
+                    "Live chat support",
+                    "Real-time help and guidance from professional WordPress experts.",
+                    "Premium themes",
+                    "Switch between a collection of premium design themes.",
+                    "Earn with WordAds",
+                    "Display ads and earn from premium networks via the WordAds program.",
+                    "Style customization",
+                    "Take control of every font, color, and detail of your site’s design.",
+                    "4% transaction fee for payments",
+                    "Credit card fees are applied in addition to commission fees for payments.",
+                    "4K Videos with VideoPress",
+                    "Showcase your video beautifully with the 4K VideoPress player.",
+                    "Unlimited automatic shares in social media",
+                    "Share your latest posts to your social channels, without limits.",
+                    "Site activity log"
+                ]
+            },
+            {
+                "blockContent":[
+                    "<p>There are two additional plans: Business and Commerce. The latter includes WooCommerce integration, making it a powerful combination, but the other two plans are sufficient to start.</p>"
+                ]
+            },
+            {
+                "blockTitle":"What are the benefits of choosing WooCommerce?"
+            },
+            {
+                "blockSubTitle":"Maximum flexibility",
+                "blockContent":[
+                    "<p>WordPress with WooCommerce is highly customizable, helping you to create your business presence; the process is quick, so you can start selling your goods or services immediately.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Adaptability and integration",
+                "blockContent":[
+                    "<p>WooCommerce's adaptability extends to the ease with which it can be combined with other platforms. It integrates easily with many CRM systems, analytics tools, management, marketing etc., increasing productivity.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"In-house analytics",
+                "blockContent":[
+                    "<p>WooCommerce integrates analytics directly into the site, so you don't have to use third-party sites to analyze sales, averages, popular purchases, orders, and shopping carts.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Content marketing",
+                "blockContent":[
+                    "<p>The platform adds an easy-to-use blog to create and disseminate content that benefits the business.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Product promotion to any channel",
+                "blockContent":[
+                    "<p>You can easily promote your WooCommerce products to any marketplace by creating a product feed with plugins, like for example CTX Feed. Hundreds of price comparison platforms and marketing channels allow you to effortlessly upload your products and get traffic to your site.</p>",
+                    "<p>Additionally, there are platforms that are 100% custom-built, in case you are looking to create a phone app to let your customers purchase directly from their phones. If this is the case, the best tools that are available to developers come from Stripe.</p>"
+                ]
+            },
+            {
+                "blockTitle":"Custom-built site or mobile app: Stripe",
+                "blockContent":[
+                    "<p>Stripe is an option to integrate e-commerce into your site or app. It accepts multiple payment methods, it’s available worldwide, and it has optimized analyses to prevent fraud and avoid losses.</p>",
+                    "<p>One great benefit is for businesses that offer subscriptions. It's effortless to set up various plans, send invoices to clients, remind them of expiring cards, and use other features to streamline the checkout process. Most recently, it has added many machine learning features, so as it analyses the data, giving a level of risk to each purchase and blocking those with high suspicion.</p>",
+                    "<p>This is a good alternative as it optimizes the most important part of e-commerce, the checkout, which is the point where if the customer has any difficulty, will cancel the purchase or leave the cart full and leave.</p>"
+                ]
+            },
+            {
+                "blockTitle":"Always attentive",
+                "blockContent":[
+                    "<p>Most abandoned carts indeed happen at the checkout, but we should not neglect the whole sales process; from the moment the person arrives at your website, the impression, the order, the ease of navigation, and more things, are fundamental for your potential customers to stay with you and keep buying.</p>",
+                    "<p>It is crucial to determine which e-commerce platform is best for your business by considering various factors. The aforementioned article covers some important aspects, but if you still have doubts, seeking guidance from web development or e-commerce experts can assist you in making the right decision.</p>",
+                    "<p>Which platform are you most interested in? What would you do to optimize the checkout? Tell us more about your interests and questions on our social media channels.</p>"
+                ]
+            }
+
+        ],
+        "slug": "path-conversion-checkout-optimization-ecommerce",
+        "thumbnail": "article-23.jpg",
+        "category": "article",
+        "industry": [1, 8],
+        "capabilities": [13, 14],
+        "hero": "article-26.jpg" ,
+        "url": ""
     }
     
 ]

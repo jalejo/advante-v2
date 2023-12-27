@@ -127,6 +127,7 @@ a.all-articles-link svg {
     font-size: 1rem;
     line-height: 1.85;
     font-weight: 100;
+    margin-bottom: .5rem;
 }
 
 .article-content-wrapper ul {
@@ -137,4 +138,19 @@ a.all-articles-link svg {
     list-style: disc;
     font-weight: 100;
     margin-bottom: .5rem;
+}
+
+.article-image{
+    width: 90%;
+    max-width: 40rem;
+    margin: auto;
+    text-align: center;
+}
+.article-image img{
+    width: 100%;
+    display: block;
+}
+.article-image .article-image-footer{
+    font-size: 0.875rem;
+    font-style: italic;
 }

@@ -42,7 +42,7 @@ const Header = ( { type, title, subtitle, bgImage } ) => {
                 type === "articles-grid" ? <h1>{ title }</h1> : <h2>{ title }</h2>
               }
               
-              <p>{ subtitle }</p>
+              <p>{ subtitle && subtitle }</p>
             </div>
             
           </div>
