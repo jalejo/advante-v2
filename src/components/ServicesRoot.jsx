@@ -75,10 +75,10 @@ const ServicesRoot = () => {
                     );
                   } ) }
                 </div>
-                <a className='see-more-btn absolute-right-bottom'>
-                  <span><Link to={`/${service.url}`} >See more</Link></span> 
+                <Link to={`services/${service.url}`} className='see-more-btn absolute-right-bottom'>
+                  <span>See more</span> 
                   <IcoArrowThin color='var(--tangerine-orange)' />
-                </a>
+                </Link>
               </div>
             </div>
           </SwiperSlide> 
