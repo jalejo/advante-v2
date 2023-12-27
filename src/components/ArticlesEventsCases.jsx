@@ -155,7 +155,7 @@ const ArticlesEventsCases = () => {
                         title={article.title}
                         category={article.category}
                         capabilities={article.capabilities}
-                        image = { article.image }
+                        image = { article.thumbnail }
                       />
                     </SwiperSlide>
 

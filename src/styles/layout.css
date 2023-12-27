@@ -193,7 +193,16 @@ ul.navBarList > li > a, ul.navBarList > li > span{
     color: var(--midnight-blue);
     font-weight: 600;
 }
-ul.navBarList > li > a:hover, ul.navBarList > li:hover > span{
+ul.navBarList > li > a:hover,
+ul.navBarList li.active li.active,  
+ul.navBarList li.active > a, 
+ul.navBarList > li:hover > span,
+ul.navBarList > li.active span{
+    color: var(--orchid-pink);
+}
+
+.navBarList-child li:hover,
+.navBarList-child li:hover a{
     color: var(--orchid-pink);
 }
 
@@ -237,9 +246,7 @@ ul.navBarList > li:hover .navBarList-child{
     font-size: 0.875rem;
 }
 
-.navBarList-child a:hover{
-    color: var(--orchid-pink);
-}
+
 
 .navBarLogo{
     width: 8rem;

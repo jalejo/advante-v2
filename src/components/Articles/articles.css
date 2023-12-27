@@ -1,0 +1,140 @@
+.articles-header {
+    position: relative;
+    background-color: var(--bone-white);
+    z-index: 2;
+}
+
+.articles-header-wrapper{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 32rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 7.8rem 0;
+}
+.articles-header-wrapper .bgr-noise{
+    mix-blend-mode: soft-light;
+    z-index: 1;
+}
+
+.all-articles-link-wrapper {
+    position: absolute;
+    top: 3.25rem;
+    z-index: 4;
+}
+
+.all-articles-link{
+    color: var(--light-gray);
+    text-decoration: underline;
+    display: flex;
+}
+
+a.all-articles-link svg {
+    width: 1rem;
+    transform: rotate(180deg);
+    margin-right: 0.5rem;
+}
+
+.articles-header-text{
+    width: 74.6%;
+    max-width: 58.75rem;
+    margin: 0 auto;
+    color: var(--white-color);
+    position: relative;
+    z-index: 2;
+}
+
+.all-articles-link-social {
+    position: absolute;
+    bottom: 2.5rem;
+    z-index: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-list-article {
+    display: flex;
+    column-gap: 1.25rem;
+    opacity: .6;
+}
+.social-list-article li {
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: rgb(161 174 188 / 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.social-list-article li svg {
+    width: 45%;
+}
+
+.article-content-wrapper{
+    padding: 10rem 0 4rem 0;
+    position: relative;
+}
+
+.article-content-wrapper .bgCircle-pink{
+    left: -10rem;
+    top: -25rem;
+}
+.article-content-wrapper .bgCircle-blue{
+    right: -10rem;
+    top: -25rem;
+}
+
+.article-content-wrapper .bgCircle-violet{
+    left: -30rem;
+    top: 45rem;
+}
+.article-content-wrapper .bgCircle-green{
+    right: -30rem;
+    top: 45rem;
+}
+
+.article-content-block{
+    margin-bottom: 4rem;
+}
+
+.articles-header-text h1{
+    font-size: 6.25rem;
+}
+.articles-header-text h2{
+    font-size: 4.375rem;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+}
+.article-content-wrapper h3{
+    font-size: 1.875rem;
+    color: var(--vivid-purple);
+    margin-bottom: 1rem;
+}
+.article-content-wrapper h4{
+    font-size: 1.5rem;
+    color: var(--vivid-purple);
+    margin-bottom: .75rem;
+}
+.article-content-wrapper h6{
+    margin-bottom: .5rem;
+}
+
+.article-content-wrapper p{
+    font-size: 1rem;
+    line-height: 1.85;
+    font-weight: 100;
+}
+
+.article-content-wrapper ul {
+    padding-left: 1.75rem;
+}
+
+.article-content-wrapper li{
+    list-style: disc;
+    font-weight: 100;
+    margin-bottom: .5rem;
+}

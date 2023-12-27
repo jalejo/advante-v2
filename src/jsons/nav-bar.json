@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "page": "About us",
+        "link":"/about"
+    },
+    {
+      "id": 2,
+      "page": "Services",
+      "link":"/services",
+      "children": [
+        {
+          "id": 1,
+          "page": "Software Development",
+          "link": "/software-development"
+        },
+        {
+          "id": 2,
+          "page": "E-commerce",
+          "link": "/e-commerce"
+        },
+        {
+          "id": 3,
+          "page": "Platform Integrations",
+          "link": "/platform-integrations"
+        },
+        {
+            "id": 4,
+            "page": "Payment Solutions",
+            "link": "/payment-solutions"
+        },
+        {
+            "id": 5,
+            "page": "Artificial Intelligence",
+            "link": "/artificial-intelligence"
+        },
+        {
+            "id": 6,
+            "page": "Software Product Design",
+            "link": "/software-product-design"
+        },
+        {
+            "id": 7,
+            "page": "Graphic Design",
+            "link": "/graphic-design"
+        },
+        {
+            "id": 8,
+            "page": "Market Analysis",
+            "link": "/market-analysis"
+        },
+        {
+            "id": 9,
+            "page": "Digital Marketing",
+            "link": "/digital-marketing"
+        }
+      ]
+    },
+    {
+        "id": 3,
+        "page": "Case Studies",
+        "link":"/case-studies"
+    },
+    {
+        "id": 4,
+        "page": "Articles",
+        "link":"/articles"
+    },
+    {
+        "id": 5,
+        "page": "Contact us",
+        "link":"/contact-us"
+    }
+]

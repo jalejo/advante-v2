@@ -31,7 +31,7 @@ const Footer = () => {
       socialIcon:'var(--royal-purple)',
       logo: 'var(--logo-white)',
     },
-    '/software-development': {
+    '/services/software-development': {
       background: 'var(--white-color)',
       color: 'var(--navy-blue)',
       button: 'var(--gradient-violet-pink-blue-orange-red)',
@@ -40,7 +40,7 @@ const Footer = () => {
       socialIcon:'var(--slate-gray)',
       logo: 'var(--logo-black)',
     },
-    '/payment-solutions': {
+    '/services/payment-solutions': {
       background: 'var(--royal-purple)',
       color: 'var(--white-color)',
       button: 'var(--gradient-darkviolet-green)', 
@@ -49,7 +49,7 @@ const Footer = () => {
       socialIcon:'var(--royal-purple)',
       logo: 'var(--logo-white)',
     },
-    '/graphic-design': {
+    '/services/graphic-design': {
       background: 'var(--white-color)',
       color: 'var(--navy-blue)',
       button: 'var(--gradient-blue-violet-pink-balanced)', 
@@ -58,7 +58,7 @@ const Footer = () => {
       socialIcon:'var(--slate-gray)',
       logo: 'var(--logo-black)',
     },
-    '/ai': {
+    '/services/artificial-intelligence': {
       background: 'var(--deep-blue)',
       color: 'var(--white-color)',
       button: 'var(--gradient-pink-orange)', 
@@ -67,7 +67,7 @@ const Footer = () => {
       socialIcon:'var(--midnight-blue)',
       logo: 'var(--logo-white)',
     },
-    '/market-analysis': {
+    '/services/market-analysis': {
       background: 'var(--deep-blue)',
       color: 'var(--white-color)',
       button: 'var(--sky-blue)', 
@@ -76,7 +76,7 @@ const Footer = () => {
       socialIcon:'var(--midnight-blue)',
       logo: 'var(--logo-white)',
     },
-    '/e-commerce': {
+    '/services/e-commerce': {
       background: 'var(--white-color)',
       color: 'var(--midnight-blue)',
       button: 'var(--gradient-blue-orange-pink)', 
@@ -85,7 +85,7 @@ const Footer = () => {
       socialIcon:'var(--slate-gray)',
       logo: 'var(--logo-black)',
     },
-    '/digital-marketing': {
+    '/services/digital-marketing': {
       background: 'var(--white-color)',
       color: 'var(--navy-blue)',
       textButton: 'var(--white-color)',
@@ -94,7 +94,7 @@ const Footer = () => {
       logo: 'var(--logo-black)',
       className: 'footer-digital-marketing'
     },
-    '/software-product-design': {
+    '/services/software-product-design': {
       background: 'var(--deep-blue)',
       color: 'var(--white-color)',
       button: 'var(--green-teal)', 
