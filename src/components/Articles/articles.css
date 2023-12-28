@@ -170,7 +170,7 @@ a.all-articles-link svg {
     column-count: 3 !important;
     gap: 3.75rem !important;
 }
-.articles-grid .MuiImageListItem-masonry{
+.articles-list-grid .MuiImageListItem-masonry{
     margin-bottom: 3rem !important;
 }
 
@@ -203,6 +203,62 @@ a.all-articles-link svg {
 }
 @media (max-width: 1920px) {
     .containerArticle {
-        max-width: 900px;
+        width: 100%;
+        max-width: 58.75rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .articles-header-text {
+        width: 100%;
+    }
+    .containerArticle {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .articles-header-text h1 {
+        font-size: 5.75rem;
+    }
+    .articles-list-grid{
+        column-count: 2 !important;
+        gap: 2.75rem !important;
+    }
+    .articles-header-text h2 {
+        font-size: 3.375rem;
+    }
+    .article-content-wrapper {
+        padding-top: 8rem;
+    }
+    .articles-list-grid-wrapper {
+        padding-top: 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .articles-header-text h1 {
+        font-size: 3.75rem;
+    }
+    .articles-list-grid{
+        column-count: 1 !important;
+        gap: 2.75rem !important;
+    }
+    .articles-header-wrapper {
+        height: 25rem;
+        padding: 6.8rem 0;
+    }
+    .article-content-wrapper {
+        padding-top: 5rem;
+    }
+    .articles-list-grid-wrapper {
+        padding-top: 5rem;
+    }
+    .articles-header-text h2 {
+        font-size: 2.375rem;
+    }
+    .article-content-wrapper ul {
+        padding-left: 1rem;
     }
 }
