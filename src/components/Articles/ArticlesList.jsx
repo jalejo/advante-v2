@@ -26,9 +26,9 @@ const ArticlesList = () => {
             subtitle = "We have been creating innovative digital experiences for over 16 years, ensuring that our customers receive the best possible service."
             bgImage = "articles-header.jpg"
         />
-            <section className='articles-grid-wrapper'>
+            <section className='articles-list-grid-wrapper'>
                 <div className='containerFull'>
-                    <ImageList className='articles-grid' variant="masonry" >
+                    <ImageList className='articles-list-grid' variant="masonry" >
                         {
                             publishedArticles.map( (item) => (
                                 <ImageListItem key={ item.id }>

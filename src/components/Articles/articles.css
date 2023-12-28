@@ -163,10 +163,10 @@ a.all-articles-link svg {
 
 
 
-.articles-grid-wrapper{
+.articles-list-grid-wrapper{
     padding: 10rem 0 10rem 0;
 }
-.articles-grid{
+.articles-list-grid{
     column-count: 3 !important;
     gap: 3.75rem !important;
 }
