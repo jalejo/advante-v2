@@ -10,7 +10,7 @@ const Solutions = (props) => {
     const [isActive, setIsActive] = useState(false);
 
     return (
-        <section className="payment-solutions">
+        <section id="payment-solutions-section" className="payment-solutions">
             <div className="payment-industry-big-name">
                 { industryName }
             </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <header className='nav-menu'>
         <nav className='containerFull'>
             <Link to="/"  className='navBarLogo'><img src={logo} alt="Logo Advante" /></Link>
             <ul className='navBarList'>

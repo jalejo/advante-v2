@@ -1,6 +1,6 @@
 import CaseStudiesLis from "../../jsons/case-studies.json"
+import InfiniteScroll from "react-infinite-scroller";
 
-import IcoArrowThin from "../../images/svg/IcoArrowThin";
 
 const CasePath = require.context('../../images/cases', true );
 
@@ -9,6 +9,10 @@ const CaseStudiesList = () => {
   return (
     <section className="case-studies-list">
         <div className="containerFull">
+            <InfiniteScroll 
+                hasMore={true}
+                loader={<div className="loader" key={0}>Loading ...</div>}
+            >
             {
                 CaseStudiesLis.map( caseStudy => (
                     <div className="case-study-card" key={ caseStudy.id }>
@@ -41,6 +45,7 @@ const CaseStudiesList = () => {
                     </div>
                 ))
             }
+            </InfiniteScroll>
         </div>
     </section>
   );

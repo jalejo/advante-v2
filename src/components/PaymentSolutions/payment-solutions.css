@@ -292,6 +292,7 @@
     background-color: var(--white-color);
     overflow: hidden;
     padding: 2rem 0 0 0;
+    box-sizing: border-box;
 }
 
 .payment-markets-wrapper {

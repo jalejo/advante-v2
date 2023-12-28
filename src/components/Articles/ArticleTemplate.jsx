@@ -23,7 +23,7 @@ const imagesPath = require.context('../../images/articles', true)
     />
     <section className="article-template">
         
-        <div className='article-content-wrapper containerFull'>
+        <div className='article-content-wrapper containerArticle'>
 
             <div className="bgCircle bgCircle-pink"></div>
             <div className="bgCircle bgCircle-blue"></div>

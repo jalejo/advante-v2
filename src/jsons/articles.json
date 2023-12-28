@@ -7,7 +7,8 @@
         "industry": [1, 8],
         "capabilities": [13, 14 ],
         "thumbnail":"article-01.jpg",
-        "url":""
+        "url":"",
+        "draft":true
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "industry": [1, 6],
         "capabilities": [13, 14 ],
         "thumbnail":"article-02.jpg",
-        "url":""
+        "url":"",
+        "draft":true
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "industry": [1, 9],
         "capabilities": [13, 14 ],
         "thumbnail":"article-03.jpg",
-        "url":""
+        "url":"",
+        "draft":true
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
         "industry": [4, 8],
         "capabilities": [12],
         "thumbnail": "article-04.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 5,
@@ -47,7 +51,8 @@
         "industry": [3, 6, 10],
         "capabilities": [11],
         "thumbnail": "article-05.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 6,
@@ -57,7 +62,8 @@
         "industry": [2],
         "capabilities": [10],
         "thumbnail": "article-06.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 7,
@@ -67,7 +73,8 @@
         "industry": [5, 10],
         "capabilities": [12],
         "thumbnail": "article-07.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 8,
@@ -77,7 +84,8 @@
         "industry": [7, 11],
         "capabilities": [11],
         "thumbnail": "article-08.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 9,
@@ -87,7 +95,8 @@
         "industry": [6],
         "capabilities": [8],
         "thumbnail": "article-09.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 10,
@@ -97,7 +106,8 @@
         "industry": [8],
         "capabilities": [15],
         "thumbnail": "article-10.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 11,
@@ -107,7 +117,8 @@
         "industry": [9],
         "capabilities": [1],
         "thumbnail": "article-11.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 12,
@@ -117,7 +128,8 @@
         "industry": [11],
         "capabilities": [7],
         "thumbnail": "article-12.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 13,
@@ -127,7 +139,8 @@
         "industry": [12],
         "capabilities": [2],
         "thumbnail": "article-13.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 14,
@@ -137,7 +150,8 @@
         "industry": [12],
         "capabilities": [6],
         "thumbnail": "article-14.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 15,
@@ -147,7 +161,8 @@
         "industry": [3, 11],
         "capabilities": [11],
         "thumbnail": "article-15.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 16,
@@ -157,7 +172,8 @@
         "industry": [2, 4],
         "capabilities": [12],
         "thumbnail": "article-16.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 17,
@@ -167,7 +183,8 @@
         "industry": [7, 4],
         "capabilities": [13],
         "thumbnail": "article-17.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 18,
@@ -177,7 +194,8 @@
         "industry": [7, 10],
         "capabilities": [2],
         "thumbnail": "article-18.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 19,
@@ -187,7 +205,8 @@
         "industry": [5, 13],
         "capabilities": [15],
         "thumbnail": "article-19.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 20,
@@ -197,7 +216,8 @@
         "industry": [2],
         "capabilities": [13],
         "thumbnail": "article-20.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 21,
@@ -207,7 +227,8 @@
         "industry": [9],
         "capabilities": [15],
         "thumbnail": "article-21.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 22,
@@ -217,7 +238,8 @@
         "industry": [3],
         "capabilities": [12],
         "thumbnail": "article-22.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 23,
@@ -227,7 +249,8 @@
         "industry": [5, 12],
         "capabilities": [2],
         "thumbnail": "article-23.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 24,
@@ -237,13 +260,15 @@
         "industry": [7],
         "capabilities": [14],
         "thumbnail": "article-24.jpg",
-        "url": ""
+        "url": "",
+        "draft":true
     },
     {
         "id": 25,
         "title": "Mastering Multiplatform Development",
         "subtitle": "A Comprehensive Guide to Choosing Between Flutter, React Native, and Ionic",
         "authors": "Advante Digital",
+        "date":"2023-10-17",
         "excerpt": "The world of mobile app development has undergone a transformative evolution in recent years, providing developers with new tools and frameworks that enable them to build applications more efficiently and cost-effectively.",
         "content": [
             {
@@ -406,17 +431,19 @@
 
         ],
         "slug": "mastering-multiplatform-development",
-        "thumbnail": "article-23.jpg",
+        "thumbnail": "article-25-thumbnail.jpg",
         "category": "article",
         "industry": [1, 8],
         "capabilities": [13, 14],
         "hero": "article-25.jpg",
-        "url": ""
+        "url": "",
+        "draft":false
     },
     {
         "id": 26,
         "title": "The Path to Conversion: Checkout Optimization & E-commerce",
         "authors": "Advante Digital",
+        "date":"2023-10-2",
         "excerpt": "In today's increasingly digital commercial landscape, the visibility of brick-and-mortar stores has been complicated in favor of e-commerce.",
         "content": [
             {
@@ -686,11 +713,572 @@
 
         ],
         "slug": "path-conversion-checkout-optimization-ecommerce",
-        "thumbnail": "article-23.jpg",
+        "thumbnail": "article-26-thumbnail.jpg",
         "category": "article",
         "industry": [1, 8],
         "capabilities": [13, 14],
         "hero": "article-26.jpg" ,
-        "url": ""
+        "url": "",
+        "draft":false
+    },
+    {
+        "id": 27,
+        "title": "How the use of ChatGPT and GitHub Copilot improves programming efficiency",
+        "authors": "Advante Digital",
+        "date":"2023-9-21",
+        "excerpt": "In today's world, efficiency and effectiveness are critical to ensure the success of any project. In a highly competitive and fast-paced environment such as programming, there is no margin for errors, and if they occur, it is necessary to find fast and effective solutions to minimize time and money losses.",
+        "content": [
+            {
+                "blockTitle":"The Formula for Success: Programming Efficiency and Quality",
+                "blockContent": [
+                    "<p>In today's world, efficiency and effectiveness are critical to ensure the success of any project. In a highly competitive and fast-paced environment such as programming, there is no margin for errors, and if they occur, it is necessary to find fast and effective solutions to minimize time and money losses.</p>",
+                    "<p>One of the most effective ways to increase productivity is through the use of advanced technological tools, such as Copilot and ChatGPT. Copilot is an AI-powered code assistant that helps programmers write code more efficiently and with less likelihood of, while ChatGPT is an AI-powered chatbot that can help with a variety of tasks, such as programming basics, performing code fixes and answering common questions.</p>",
+                    "<p>To back this up, GitHub Copilot conducted a survey of 95 developers between the ages of 25 and 35, with 6 years of coding experience and an advanced level of education in the subject. Once the people were selected, they were divided into 2 groups: the first, composed of 50 people and known as the control group, only counted on their programming knowledge and skills. The second group, called the treatment group and composed of 45 people, had access to GitHub Copilot and were presented with a one-minute crash course through a video. The task was to build an HTTP server in JavaScript, and the metrics for measuring performance were success in completing the task and the time required to do so, using GitHub Classroom for accurate time measurement.</p>",
+                    "<p>Each participant was assigned a specific task to complete in GitHub Classroom. Upon clicking the start button, the event would begin. Upon completion of the task, an exit survey was conducted to learn about the participants' experience. The treatment group was asked their opinion of Copilot and how much it helped them, while the control group was asked an estimate of how long they think it would have helped them to have the AI.</p>"
+                ]
+            },
+            {
+                "blockTitle":"ChatGPT and GitHub Copilot improve programming"
+            },
+            {
+                "blockImage":"GitHub-Copilot.jpg"
+            },
+            {
+                "blockContent": [
+                    "<p>The control group completed the task in 70%, and took 161 minutes, while the treatment group completed 78% of the task in 71 minutes, meaning that GitHub Copilot helped to decrease the time by 55%. In addition, the survey results showed that programmers with GitHub Copilot conserved the developers' mental energy, helped them focus on more satisfying work, and ultimately found more fun in the coding they do.</p>",
+                    "<p>This echoes the MIT research that Cezary Gesikowski published prior to this experiment, \"ChatGPT Boosts Productivity by 40% and Quality by 20%\", where he shows an environment before and after using ChatGPT as a helper, in areas where they perform writing of any kind, The results were the above mentioned 40% in time reduction and an increase in quality of 20%, taking into account that the study used dummy variables for the conduct of the experiment, has a reliability of 95%, even so these results are certainly similar to the study of NN/G (Nielsen Norman Group).</p>"
+                ]
+            },
+            {
+                "blockImage":"time-taken-decreases.jpg"
+            },
+            {
+                "blockImage":"average-grades-increase.jpg"
+            },
+            {
+                "blockContent": [
+                    "<p>The case study with the name <b>\"AI Improves Employee Productivity by 66%\"</b> analyzed 3 cases:</p>"
+                ],
+                "blockList":[
+                    "Customer service",
+                    "Experienced business professionals (e.g., marketers, HR professionals) writing routine business documents",
+                    "Programmers coding a small software project that took about three hours to complete without AI assistance"
+                ]
+            },
+            {
+                "blockContent": [
+                    "<p>Productivity yielded by the study was impressive, with the first case study yielding <b>13.8% more customer inquiries per hour</b>, business professionals <b>writing 59% more business documents per hour</b>, and most surprisingly <b>programmers coding 126% more projects per week</b>, the latter with the help of more tools such as GitHub Copilot.</p>"
+                ]
+            },
+            {
+                "blockImage":"productivity-increases-ai.jpg"
+            },
+            {
+                "blockContent": [
+                    "<p>All of this makes companies more fruitful as long as they know how to use AI and are updating their use and how to employ them correctly, and in turn generates value to the worker who manages them in order to produce those results.</p>"
+                ]
+            },
+            {
+                "blockTitle":"What's next?",
+                "blockContent": [
+                    "<p>The programming industry is constantly changing, and what is relevant today may not be relevant tomorrow. But in this dynamic environment, the ability to leverage artificial intelligence to accelerate software development, reduce bugs, and unleash programmers' creativity is an advantage that is unlikely to fade.</p>",
+                    "<p>The discussion about the future of programming in the age of artificial intelligence is exciting and vital. How do you think these tools can transform the way we work and grow in the programming industry or any other? What challenges do you anticipate and how can we address them? The future is in our hands, and together we can shape a more efficient and exciting life. We look forward to hearing your voices in this evolving conversation.</p>"
+                ]
+            }
+        ],
+        "slug": "use-chatgpt-github-copilot-improve-programming-efficiency",
+        "thumbnail": "article-27-thumbnail.jpg",
+        "category": "article",
+        "industry": [1, 8],
+        "capabilities": [13, 14],
+        "hero": "article-27.jpg" ,
+        "url": "",
+        "draft":false
+    },
+    {
+        "id": 28,
+        "title": "Mastering Multiplatform Development",
+        "subtitle": "A Comprehensive Guide to Choosing Between Flutter, React Native, and Ionic",
+        "authors": "Advante Digital",
+        "date":"2023-10-17",
+        "excerpt": "The world of mobile app development has undergone a transformative evolution in recent years, providing developers with new tools and frameworks that enable them to build applications more efficiently and cost-effectively.",
+        "content": [
+            {
+                "blockSubTitle":"Introduction",
+                "blockContent": [
+                    "<p>The world of mobile app development has undergone a transformative evolution in recent years, providing developers with new tools and frameworks that enable them to build applications more efficiently and cost-effectively. There has been a significant shift from traditional native development to multiplatform languages. In this comprehensive guide, we will explore the compelling reasons why multiplatform development is a better option than native development. We will also conduct an in-depth comparison of three leading multiplatform frameworks: Flutter, React Native, and Ionic. Our aim is to equip you with the knowledge needed to make informed decisions and succeed in your mobile app development endeavors.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Why Choose Multiplatform Languages?",
+                "blockList": [
+                    "Multiplatform languages offer code reusability, allowing developers to write code once and deploy it across various platforms such as iOS and Android, significantly reducing development time and effort by eliminating the need for separate codebases.",
+                    "Leveraging a single codebase for multiple platforms reduces development costs, making it a cost-effective approach. This approach allows businesses to allocate resources more efficiently.",
+                    "Multiplatform frameworks often provide pre-built components and libraries, accelerating development, leading to quicker time-to-market for your applications, which is a crucial factor in today's competitive landscape.",
+                    "Multiplatform languages simplify the hiring process by allowing businesses to seek developers proficient in a single language or framework rather than requiring expertise in multiple languages for native development, leading to a wider talent pool."
+                ]
+            },
+            {
+                "blockSubTitle":"Comparing Flutter, React Native, and Ionic",
+                "blockContent": [
+                    "<p>Let's compare Flutter, React Native, and Ionic, three popular multiplatform frameworks. Each framework has unique strengths and considerations.</p>"
+                ]
+            },
+            {
+                "blockTitle":"Flutter:",
+                "blockContent": [
+                    "<p>Development by Google and Dart Programming Language: Flutter, an open-source framework, was developed by Google and uses the Dart programming language. Dart is an efficient, modern language known for its simplicity and high-performance capabilities. While Dart may not be as widely adopted as JavaScript, it offers several advantages, including a strong typing system, garbage collection, and Just-In-Time (JIT) compilation, which contributes to Flutter's impressive performance.</p>",
+                    "<p>Highly Customizable User Interfaces and Native-Like Performance: One of Flutter's standout features is its ability to create highly customizable user interfaces (UIs) that closely resemble native app experiences. This is primarily due to Flutter's unique widget-based architecture, which allows developers to build UIs from a collection of pre-designed and customizable widgets. These widgets are rendered directly to the graphics canvas, offering pixel-perfect control over the app's appearance and behavior.</p>",
+                    "<p>Moreover, Flutter achieves native-like performance by compiling Dart code into native machine code, eliminating the need for a bridge to communicate with native components. This results in faster execution and smoother animations, which are critical for delivering a delightful user experience.</p>"
+                ]
+            },
+            {
+                "blockMiniTitle":"Key Strengths of Flutter:",
+                "blockList": [
+                    "Widget-Based Architecture for Customized UIs:<br /> Flutter's widget-based approach is a game-changer for UI development. Widgets are reusable building blocks, and the entire UI is composed of widgets, from simple buttons to complex layouts. Developers can create custom widgets to achieve precise designs and functionality, ensuring a unique user experience.",
+                    "\"Hot Reload\" for Real-Time Code Changes:<br /> Flutter's \"Hot Reload\" feature is a developer's dream. It allows for instantaneous code changes to be reflected in the running app without the need for a full app restart. This accelerates the development process by providing real-time feedback and promoting iterative development.",
+                    "Rich Set of Pre-Designed Widgets:<br /> Flutter offers a comprehensive collection of pre-designed widgets, from basic UI components like buttons and text fields to more complex ones like navigation drawers and interactive charts. These widgets follow the Material Design guidelines (for Android) and Cupertino guidelines (for iOS), ensuring a consistent and visually appealing user interface."
+                ]
+            },
+            {
+                "blockMiniTitle":"Example Frameworks for Flutter:",
+                "blockList": [
+                    "Riverpod:<br /> Riverpod is a state management library for Flutter. It offers a simplified and declarative approach to managing application state, making it easier to build scalable and maintainable Flutter apps.",
+                    "Provider:<br /> Provider is another popular state management solution for Flutter. It offers a straightforward way to manage and share application state across different parts of your app.",
+                    "MobX:<br /> MobX is a reactive state management library that can be used with Flutter. It simplifies state management by automatically updating the UI whenever data changes, reducing boilerplate code and improving app performance."
+                ]
+            },
+            {
+                "blockMiniTitle":"Testing Tools for Flutter:",
+                "blockContent": [
+                    "<p>Flutter takes testing seriously and provides a robust suite of built-in testing tools to ensure the reliability and quality of your applications. These tools cover various aspects of testing:</p>"
+                ],
+                "blockList": [
+                    "Unit Testing:<br /> Flutter's unit testing framework allows developers to write tests for individual functions or methods, ensuring that isolated components of the codebase function correctly.",
+                    "Widget Testing:<br /> Widget testing in Flutter allows you to test UI components and their interactions. This is particularly useful for ensuring that widgets render correctly and respond as expected to user interactions.",
+                    "Integration Testing:<br /> Integration testing focuses on the interaction between various parts of your app. Flutter's integration testing tools help you simulate user interactions and test the overall behavior of your app."
+                ]
+            },
+            {
+                "blockTitle":"React Native:",
+                "blockContent": [
+                    "<p>Created by Facebook and JavaScript/React: React Native is a popular open-source framework developed by Facebook. Unlike Flutter, which uses the Dart programming language, React Native relies on JavaScript and React. JavaScript is one of the most widely used programming languages, making React Native accessible to a large community of developers. React, a JavaScript library for building user interfaces, serves as the foundation for React Native's component-based architecture.</p>",
+                    "<p>Robust Ecosystem and Community Support: React Native boasts an extensive ecosystem and a vibrant, active community of developers. This ecosystem includes a wealth of third-party libraries, modules, and tools that accelerate the development process. Additionally, the strong community support ensures ongoing enhancements, bug fixes, and the availability of resources for troubleshooting and learning.</p>"
+                ]
+            },
+            {
+                "blockMiniTitle":"Key Strengths of React Native:",
+                "blockList": [
+                    "Cross-Platform Development with a Single Codebase:<br /> React Native enables developers to create apps for multiple platforms, such as iOS, Android, and even web, using a single codebase. This \"write once, run anywhere\" approach is a significant advantage, as it simplifies development and reduces maintenance efforts.",
+                    "Large Community and Abundance of Third-Party Libraries:<br />The vast React Native community contributes to a wealth of third-party libraries and modules, known as \"React Native components.\" These components cover a wide range of functionalities, from UI elements to complex integrations with native device features. Developers can leverage these components to speed up development and extend their apps' capabilities.",
+                    "Native Modules for Platform-Specific Functionality:<br />React Native allows developers to access native modules, written in the platform's respective native language (Java for Android and Objective-C/Swift for iOS). This flexibility ensures that you can incorporate platform-specific functionality seamlessly into your cross-platform app when needed.",
+                    "Hot and Live Reloading for Rapid Development:<br />React Native offers both hot and live reloading features, allowing developers to see real-time updates as they make changes to the code. Hot reloading preserves the app's current state, while live reloading refreshes the entire app. These features enhance development speed and productivity."
+                ]
+            },
+            {
+                "blockMiniTitle":"Example Frameworks for React Native:",
+                "blockList": [
+                    "Redux:<br />Redux is a popular state management library frequently used with React Native. It provides a predictable state container for managing application data and simplifies the management of complex app states.",
+                    "MobX:<br />Similar to Redux, MobX is a state management library that can be seamlessly integrated into React Native projects. It offers a reactive and intuitive way to manage and observe application state.",
+                    "React Navigation:<br />React Navigation is a popular library for handling navigation in React Native applications. It provides customizable navigation components and supports various navigation patterns, including stack navigation, tab navigation, and drawer navigation."
+                ]
+            },
+            {
+                "blockMiniTitle":"Testing Tools for React Native:",
+                "blockContent": [
+                    "<p>Ensuring the reliability and quality of your React Native applications is crucial. Here are some common testing tools and approaches:</p>"
+                ],
+                "blockList": [
+                    "Jest for Unit Testing:<br />Jest is a widely used JavaScript testing framework that can be employed for unit testing in React Native. It simplifies the process of writing and running tests for individual functions and components.",
+                    "Detox for End-to-End Testing:<br />Detox is a popular end-to-end testing framework designed specifically for React Native. It allows you to simulate user interactions and test the entire application's behavior across different platforms.",
+                    "Enzyme for Component Testing:<br />Enzyme is a JavaScript testing utility for React that can be utilized for component testing in React Native applications. It enables you to perform various types of component tests, including shallow rendering and snapshot testing."
+                ]
+            },
+            {
+                "blockTitle":"Ionic:",
+                "blockContent": [
+                    "<p>Utilization of Web Technologies: Ionic is a versatile open-source framework that utilizes familiar web technologies such as HTML, CSS, and JavaScript (or TypeScript). This technology stack is well-known and widely adopted, making Ionic accessible to a broad range of developers, especially those with web development experience. Ionic's foundation on web technologies allows for seamless integration of web-based code and resources into mobile applications.</p>",
+                    "<p>Hybrid Mobile and Web App Development: Ionic is particularly well-suited for developing hybrid mobile applications, which combine web-based technologies with native components. This approach allows developers to maintain a single codebase for both mobile and web applications, streamlining development efforts and reducing maintenance costs. Hybrid apps are known for their cross-platform compatibility, making them an efficient choice for projects that target multiple platforms.</p>"
+                ]
+            },
+            {
+                "blockMiniTitle":"Key Strengths of Ionic:",
+                "blockList": [
+                    "Single Codebase for Mobile and Web:<br />Ionic's primary strength lies in its ability to maintain a single codebase for both mobile and web applications. This offers significant cost savings and simplifies the development process, as developers can reuse a substantial portion of their code across different platforms.",
+                    "Access to a Wide Range of Web Libraries and Frameworks:<br />Ionic applications can leverage the vast ecosystem of web libraries, frameworks, and tools. This access allows developers to tap into existing resources and quickly integrate functionalities, plugins, and third-party services into their applications.",
+                    "Integration with Angular or React for Enhanced Functionality:Ionic is designed to work seamlessly with popular web frameworks like Angular and React. This integration allows developers to harness the power of these frameworks to build complex and feature-rich applications while benefiting from Ionic's mobile-focused components and services.<br />",
+                    "Consistent User Interface:<br />Ionic follows the principles of Material Design (for Android) and Apple's Human Interface Guidelines (for iOS), ensuring a consistent and visually appealing user interface across platforms. This consistency can enhance the user experience by providing a familiar and intuitive interface."
+                ]
+            },
+            {
+                "blockMiniTitle":"Example Frameworks for Ionic:",
+                "blockList": [
+                    "Angular:<br />Angular is a widely used web framework that pairs exceptionally well with Ionic. The combination of Angular and Ionic offers a robust platform for building complex, data-driven applications.",
+                    "React:<br />For those who prefer React, Ionic also provides a set of React components and tools, making it an attractive option for React developers looking to create hybrid mobile and web apps."
+                ]
+            },
+            {
+                "blockMiniTitle":"Testing Tools for Ionic:",
+                "blockContent":[
+                    "<p>Ensuring the quality and reliability of your Ionic applications is essential. Here are some common testing tools and approaches:</p>"
+                ],
+                "blockList": [
+                    "Jasmine and Karma for Unit Testing:<br />Jasmine is a popular testing framework for JavaScript, and Karma is a test runner that works well with Jasmine. Together, they facilitate unit testing in Ionic applications, allowing you to test individual components and functions.",
+                    "Protractor for End-to-End Testing:<br />Protractor is an end-to-end testing framework commonly used for testing web applications. It can also be employed for end-to-end testing of Ionic applications, ensuring that the entire application functions correctly from the user's perspective.",
+                    "Cypress for Comprehensive Testing:<br />Cypress is another end-to-end testing framework known for its ease of use and robust capabilities. It offers real-time testing, making it suitable for both web and mobile application testing."
+                ]
+            },
+            {
+                "blockTitle":"Conclusion",
+                "blockContent": [
+                    "<p>Choosing between Flutter, React Native, and Ionic calls for a meticulous assessment of your project's specific requirements as well as your team's expertise. Each framework possesses its own unique strengths and considerations, and making the right choice can greatly influence the success of your mobile app development endeavor.</p>"
+                ]
+            },
+            {
+                "blockMiniTitle":"Flutter:",
+                "blockList": [
+                    "Strengths: Flutter is an excellent choice for creating highly customized and visually appealing user interfaces. Its widget-based architecture allows for intricate UI designs. The \"Hot Reload\" feature enhances development productivity, and it offers a rich ecosystem of pre-designed widgets.",
+                    "Weaknesses: One of the potential drawbacks of Flutter is the relative novelty of the Dart programming language. This may limit the availability of experienced Dart developers. Additionally, while Flutter's ecosystem is growing rapidly, it may not yet match the maturity of other frameworks."
+                ]
+            },
+            {
+                "blockMiniTitle":"React Native:",
+                "blockList": [
+                    "Strengths: React Native has a large community and offers a wide range of third-party libraries. It supports the integration of native modules for platform-specific features, making it highly flexible. The hot and live reloading feature improves development speed.",
+                    "Weaknesses: Debugging can be challenging in React Native because of its reliance on JavaScript, and maintaining native modules might require additional effort."
+                ]
+            },
+            {
+                "blockMiniTitle":"Ionic:",
+                "blockList": [
+                    "Strengths: Ionic simplifies the development of hybrid mobile and web apps by using web technologies. It provides a single codebase for both platforms and can be easily integrated with Angular or React. Additionally, it offers extensive support for web libraries which is a great advantage.",
+                    "Weaknesses: In certain scenarios, Ionic apps may not attain the same level of native performance as Flutter or React Native."
+                ]
+            },
+            {
+                "blockContent":[
+                    "<p>It is crucial to gain a comprehensive understanding of the differences between various frameworks and testing tools before making an informed decision that best serves your development objectives. Regardless of the choice you make, multiplatform development is undoubtedly a valuable approach in the continuously evolving landscape of mobile app development. It allows you to deliver exceptional user experiences and maximize your reach across multiple platforms.</p>"
+                ]
+            }
+
+        ],
+        "slug": "mastering-multiplatform-development",
+        "thumbnail": "article-25-thumbnail.jpg",
+        "category": "article",
+        "industry": [1, 8],
+        "capabilities": [13, 14],
+        "hero": "article-25.jpg",
+        "url": "",
+        "draft":false
+    },
+    {
+        "id": 29,
+        "title": "The Path to Conversion: Checkout Optimization & E-commerce",
+        "authors": "Advante Digital",
+        "date":"2023-10-2",
+        "excerpt": "In today's increasingly digital commercial landscape, the visibility of brick-and-mortar stores has been complicated in favor of e-commerce.",
+        "content": [
+            {
+                "blockTitle":"Is it an Obstacle or an Opportunity?",
+                "blockContent": [
+                    "<p>In today's increasingly digital commercial landscape, the visibility of brick-and-mortar stores has been complicated in favor of e-commerce. Among the latter, and established in the vast territory of the internet, the most well-known are Shopify and WooCommerce, which cover a wide variety of business sectors, each of them requiring different approaches on <b>ease of use, costs, customization, plugins and extensions, marketing and SEO, shipping and payment gateways, scalability, security, and the cherry on top, customer service</b>. Any e-commerce site must have these covered.</p>",
+                    "<p>For business people looking to start their e-commerce platform, here is a comparison between the most used ones:</p>"
+                ]
+            },
+            {
+                "blockImage":"comparative.avif",
+                "blockImageFooter":"Shopify vs Woocommerce"
+            },
+            {
+                "blockContent": [
+                    "<p>Given all of these, it is recognized that persuading consumers to purchase products or services online is a challenge that is often hindered by various reasons. In many cases, the decision to buy fades during the final part of the process, known as the checkout. Therefore, let's see how it can be improved to increase and close sales and satisfy customers more.</p>"
+                ]
+            },
+            {
+                "blockTitle":"The right number of steps",
+                "blockContent": [
+                    "<p>The checkout process encompasses all the steps from when the user enters the shopping cart to completing the payment. These steps can be measured on each page where the user enters data to complete the purchase. Too many steps or a highly time-consuming process will have negative consequences, with more people leaving pending shopping carts and generating vast losses. However, before making changes to the checkout to a very simple style to make it easier to navigate, you need to know the following:</p>",
+                    "<p>A 2022 study found that the number of steps in the checkout process has a more significant impact than previously thought on the completion rate. <b>In fact, a one-step checkout process has a completion rate similar to a six-step checkout process.</b> Therefore, businesses should not unnecessarily simplify or complicate their checkout process. <b>A checkout process of two to four steps can be sufficient as long as it is clear and intuitive to follow.</b></p>"
+                ]
+            },
+            {
+                "blockImage":"coversion-rate.avif",
+                "blockImageFooter":"Research conducted in the year 2022"
+            },
+            {
+                "blockContent": [
+                    "<p>In terms of the number of fields the user must complete to make a purchase, the results showed that <b>a quantity of 7 fields per screen is optimal</b> for customers not to be frustrated when completing them. However, a curious fact that emerged from this research is that the key is to transmit clearly the reason why the fields are required, so <b>if the user understands why he or she must complete them</b>, then even in 12 or 16 required field cases, the person should complete the process.</p>"
+                ]
+            },
+            {
+                "blockImage":"average-conversion-ratio.avif",
+                "blockImageFooter":"Average conversion ratio"
+            },
+            {
+                "blockTitle":"Frictionless Checkout",
+                "blockContent": [
+                    "<p>Now that we understand how flexible a checkout can be, we need to consider a few things:</p>",
+                    "<p>The company needs to know the type of business it is in to ask for certain data. For example, asking the customer to fill out complex fields doesn't make sense if it sells chocolates. On the other hand, for a chemical company, it would be negative to ask only for the minimum information like name, last name, and address to confirm an order. It’s important for this company to make sure that they are asking the right questions, and no more or less than it makes sense to the customer.</p>",
+                    "<p>On the other hand, it’s key to manage customer expectations by providing all the decision-making relevant information before checkout. It is extremely frustrating to encounter unexpected charges at the end of the process or to have conflicting or new information about the item being purchased. To address these concerns, businesses should make clear <b>before the checkout</b> the following:</p>"
+                ]
+            },
+            {
+                "blockList":[
+                    "Net cost with itemized specifications. The most important of these would be: Item cost, Shipping costs, Applicable taxes, Total amount to pay",
+                    "Recommendations, reviews, and other product validation tools add credibility to the company. This will help to build trust and confidence in the purchase, and positive reviews will make the product more appealing.",
+                    "When the stock is limited, show the number of remaining items to help give a sense of urgency.",
+                    "Answers to questions like: When will the shipment take place after purchase? What is the shipping time?"
+                ]
+            },
+            {
+                "blockContent":[
+                    "<p>Additionally, four key principles need to be taken into account in the checkout page itself:</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Conciseness",
+                "blockContent":[
+                    "<p>Consumer surveys have shown that 60% of shoppers prefer fast checkout processes, stating that it should take at most 2 minutes, due to the tedious and repetitive nature of filling out fields.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Responsiveness",
+                "blockContent":[
+                    "<p>People no longer exclusively rely on computers for accessing websites. Therefore, your website must be responsive, meaning it can be easily viewed on any device, from a smartphone to a tablet. <b>The easier it is to view your website, the more convenient it will be for visitors to browse and make purchases with minimal effort.</b></p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Accessibility",
+                "blockContent":[
+                    "<p>The checkout must be done using the same language the person speaks or allowed to change that, and the same needs to be done with the currency shown to the customer. Even small details, such as changing the font, contrast, or size, can make a big difference between abandoned or purchased carts.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Payment methods",
+                "blockContent":[
+                    "<p><b>The 85% of shoppers decline to finalize a purchase</b> because they cannot find their preferred payment alternative; the company needs to offer different methods to make their consumers feel comfortable; some options are:</p>"
+                ]
+            },
+            {
+                "blockList":[
+                    "Prepaid cards",
+                    "Electronic cash",
+                    "Realtime bank transfers",
+                    "Direct Debit",
+                    "Electronic wallets",
+                    "Mobile wallets",
+                    "Buy now, pay later (BNPL)"
+                ]
+            },
+            {
+                "blockMiniTitle":"How to implement this:",
+                "blockContent":[
+                    "<p>To implement a good process, it is necessary to have experts in the field of e-commerce and development, To create a website or application that showcases the company's offerings and meets customers' needs. Also, as seen at the beginning of the article, several platforms can help create unique and memorable sites, like Shopify and WordPress.</p>",
+                    "<p>Let's take a closer look at these platforms.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Shopify",
+                "blockContent":[
+                    "<p>Shopify's platform offers the ability to create an online shop. It allows you to sell digitally, and if you have a store, it allows you to use the application as a point of sale. You can sign up for free and test the site to see how it works and understand how to use it, although it is considered one of the most intuitive platforms you will find.</p>",
+                    "<p>After testing the free version, you need to upgrade to one of the three Shopify plans to get your shop up and running:</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Basic plan",
+                "blockList":[
+                    "Basic reports",
+                    "Up to 1,000 branches with inventory",
+                    "2 staff accounts"
+                ]
+            },
+            {
+                "blockSubTitle":"Shopify plan",
+                "blockList":[
+                    "Professional reports",
+                    "Up to 1,000 branches with inventory",
+                    "5 staff accounts"
+                ]
+            },
+            {
+                "blockSubTitle":"Advanced plan",
+                "blockList":[
+                    "Custom report builder",
+                    "Up to 1,000 branches with inventory",
+                    "15 staff accounts"
+                ]
+            },
+            {
+                "blockContent":[
+                    "<p>Most people starting out a small e-commerce platform usually purchase the basic plan, while those who need more complex and interactive sites should choose the Shopify plan. When the company is large and needs high customer support, they choose option 3.</p>",
+                    "<p>All three options have the features of an online shop, sales channels, point of sale, 24/7 customer support.</p>"
+                ]
+            },
+            {
+                "blockTitle":"What are the benefits of choosing Shopify?"
+            },
+            {
+                "blockSubTitle":"Easy to use",
+                "blockContent":[
+                    "<p>It has an intuitive interface, which makes it easy to create or edit your online business; the drag-and-drop function streamlines this process, and when you think you are ready to start selling, you can launch your site right then and there.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Multiple payment processors",
+                "blockContent":[
+                    "<p>As you read above, 85% of shoppers cancel purchases because they need the payment method they use, but with Shopify, that problem doesn't exist, as it includes easy payment methods, and you choose which methods are allowed for your customers.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"SEO and Marketing",
+                "blockContent":[
+                    "<p>It is complicated to keep track of several active marketing campaigns, and it is tedious to see them one by one, but the advantage of this platform is that you can add applications to it to be able to manage different campaigns in the same place, so you know what applications you need and what you don't.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Hosting and Security",
+                "blockContent":[
+                    "<p>When it comes to security, Shopify has high levels of it. It is a fully hosted platform. Using Shopify does not incur additional costs because it takes care of your hosting.</p>"
+                ]
+            },
+            {
+                "blockTitle":"WooCommerce with WordPress",
+                "blockContent":[
+                    "<p><b>WooCommerce</b> is a free plugin that transforms <b>WordPress</b> websites into e-commerce, generating a fully functional page like Shopify allowing you to sell products and services on your website.</p>",
+                    "<p>Although WooCommerce is free, as it uses WordPress for its operation, you must pay for one of the plans available:</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Personal",
+                "blockList":[
+                    "Free domain for one year",
+                    "Get a custom domain – like yourgroovydomain.com – free for the first year.",
+                    "Ad-free experience",
+                    "Unlock a clean, ad-free browsing experience for your visitors.",
+                    "Extremely fast DNS with SSL",
+                    "Tap into fast, reliable domain management with secure SSL.",
+                    "Support via email",
+                    "Fast, friendly, expert WordPress help, whenever you need it.",
+                    "8% transaction fee for payments"
+                ]
+            },
+            {
+                "blockSubTitle":"Premium",
+                "blockContent":[
+                    "<p>Everything in Personal, and:</p>"
+                ],                
+                "blockList":[
+                    "Free domain for one year",
+                    "Get a custom domain – like yourgroovydomain.com – free for the first year.",
+                    "Live chat support",
+                    "Real-time help and guidance from professional WordPress experts.",
+                    "Premium themes",
+                    "Switch between a collection of premium design themes.",
+                    "Earn with WordAds",
+                    "Display ads and earn from premium networks via the WordAds program.",
+                    "Style customization",
+                    "Take control of every font, color, and detail of your site’s design.",
+                    "4% transaction fee for payments",
+                    "Credit card fees are applied in addition to commission fees for payments.",
+                    "4K Videos with VideoPress",
+                    "Showcase your video beautifully with the 4K VideoPress player.",
+                    "Unlimited automatic shares in social media",
+                    "Share your latest posts to your social channels, without limits.",
+                    "Site activity log"
+                ]
+            },
+            {
+                "blockContent":[
+                    "<p>There are two additional plans: Business and Commerce. The latter includes WooCommerce integration, making it a powerful combination, but the other two plans are sufficient to start.</p>"
+                ]
+            },
+            {
+                "blockTitle":"What are the benefits of choosing WooCommerce?"
+            },
+            {
+                "blockSubTitle":"Maximum flexibility",
+                "blockContent":[
+                    "<p>WordPress with WooCommerce is highly customizable, helping you to create your business presence; the process is quick, so you can start selling your goods or services immediately.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Adaptability and integration",
+                "blockContent":[
+                    "<p>WooCommerce's adaptability extends to the ease with which it can be combined with other platforms. It integrates easily with many CRM systems, analytics tools, management, marketing etc., increasing productivity.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"In-house analytics",
+                "blockContent":[
+                    "<p>WooCommerce integrates analytics directly into the site, so you don't have to use third-party sites to analyze sales, averages, popular purchases, orders, and shopping carts.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Content marketing",
+                "blockContent":[
+                    "<p>The platform adds an easy-to-use blog to create and disseminate content that benefits the business.</p>"
+                ]
+            },
+            {
+                "blockSubTitle":"Product promotion to any channel",
+                "blockContent":[
+                    "<p>You can easily promote your WooCommerce products to any marketplace by creating a product feed with plugins, like for example CTX Feed. Hundreds of price comparison platforms and marketing channels allow you to effortlessly upload your products and get traffic to your site.</p>",
+                    "<p>Additionally, there are platforms that are 100% custom-built, in case you are looking to create a phone app to let your customers purchase directly from their phones. If this is the case, the best tools that are available to developers come from Stripe.</p>"
+                ]
+            },
+            {
+                "blockTitle":"Custom-built site or mobile app: Stripe",
+                "blockContent":[
+                    "<p>Stripe is an option to integrate e-commerce into your site or app. It accepts multiple payment methods, it’s available worldwide, and it has optimized analyses to prevent fraud and avoid losses.</p>",
+                    "<p>One great benefit is for businesses that offer subscriptions. It's effortless to set up various plans, send invoices to clients, remind them of expiring cards, and use other features to streamline the checkout process. Most recently, it has added many machine learning features, so as it analyses the data, giving a level of risk to each purchase and blocking those with high suspicion.</p>",
+                    "<p>This is a good alternative as it optimizes the most important part of e-commerce, the checkout, which is the point where if the customer has any difficulty, will cancel the purchase or leave the cart full and leave.</p>"
+                ]
+            },
+            {
+                "blockTitle":"Always attentive",
+                "blockContent":[
+                    "<p>Most abandoned carts indeed happen at the checkout, but we should not neglect the whole sales process; from the moment the person arrives at your website, the impression, the order, the ease of navigation, and more things, are fundamental for your potential customers to stay with you and keep buying.</p>",
+                    "<p>It is crucial to determine which e-commerce platform is best for your business by considering various factors. The aforementioned article covers some important aspects, but if you still have doubts, seeking guidance from web development or e-commerce experts can assist you in making the right decision.</p>",
+                    "<p>Which platform are you most interested in? What would you do to optimize the checkout? Tell us more about your interests and questions on our social media channels.</p>"
+                ]
+            }
+
+        ],
+        "slug": "path-conversion-checkout-optimization-ecommerce",
+        "thumbnail": "article-26-thumbnail.jpg",
+        "category": "article",
+        "industry": [1, 8],
+        "capabilities": [13, 14],
+        "hero": "article-26.jpg" ,
+        "url": "",
+        "draft":false
+    },
+    {
+        "id": 30,
+        "title": "How the use of ChatGPT and GitHub Copilot improves programming efficiency",
+        "authors": "Advante Digital",
+        "date":"2023-9-21",
+        "excerpt": "In today's world, efficiency and effectiveness are critical to ensure the success of any project. In a highly competitive and fast-paced environment such as programming, there is no margin for errors, and if they occur, it is necessary to find fast and effective solutions to minimize time and money losses.",
+        "content": [
+            {
+                "blockTitle":"Is it an Obstacle or an Opportunity?",
+                "blockContent": [
+                    "<p>In today's increasingly digital commercial landscape, the visibility of brick-and-mortar stores has been complicated in favor of e-commerce. Among the latter, and established in the vast territory of the internet, the most well-known are Shopify and WooCommerce, which cover a wide variety of business sectors, each of them requiring different approaches on <b>ease of use, costs, customization, plugins and extensions, marketing and SEO, shipping and payment gateways, scalability, security, and the cherry on top, customer service</b>. Any e-commerce site must have these covered.</p>",
+                    "<p>For business people looking to start their e-commerce platform, here is a comparison between the most used ones:</p>"
+                ]
+            },
+            {
+                "blockImage":"comparative.avif",
+                "blockImageFooter":"Shopify vs Woocommerce"
+            }
+        ],
+        "slug": "use-chatgpt-github-copilot-improve-programming-efficiency",
+        "thumbnail": "article-27-thumbnail.jpg",
+        "category": "article",
+        "industry": [1, 8],
+        "capabilities": [13, 14],
+        "hero": "article-27.jpg" ,
+        "url": "",
+        "draft":false
     }
 ]

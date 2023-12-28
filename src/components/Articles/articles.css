@@ -1,3 +1,9 @@
+.containerArticle {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .articles-header {
     position: relative;
     background-color: var(--bone-white);
@@ -153,4 +159,50 @@ a.all-articles-link svg {
 .article-image .article-image-footer{
     font-size: 0.875rem;
     font-style: italic;
+}
+
+
+
+.articles-grid-wrapper{
+    padding: 10rem 0 10rem 0;
+}
+.articles-grid{
+    column-count: 3 !important;
+    gap: 3.75rem !important;
+}
+.articles-grid .MuiImageListItem-masonry{
+    margin-bottom: 3rem !important;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    cursor: pointer;
+}
+
+.article-card-text h5{
+    font-size: 1.5rem;
+    color: var(--vivid-purple);
+    margin-bottom: 1rem;
+}
+.article-card-text p{
+    font-weight: 200;
+    line-height: 2;
+    color: var(--midnight-blue);
+}
+
+.article-card-image{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.article-card img{
+    width: 100%;
+    display: block;
+}
+@media (max-width: 1920px) {
+    .containerArticle {
+        max-width: 900px;
+    }
 }

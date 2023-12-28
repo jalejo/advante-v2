@@ -20,7 +20,7 @@ const ServicesRoot = () => {
 
 
   const handleChange = (event, newValue, url) => {
-    (swiper.realIndex === newValue - 1) && navigate(`/${url}`);
+    (swiper.realIndex === newValue - 1) && navigate(`/services/${url}`);
     swiper.slideTo(newValue - 1);
   };
     
@@ -75,7 +75,7 @@ const ServicesRoot = () => {
                     );
                   } ) }
                 </div>
-                <Link to={`services/${service.url}`} className='see-more-btn absolute-right-bottom'>
+                <Link to={`/services/${service.url}`} className='see-more-btn absolute-right-bottom'>
                   <span>See more</span> 
                   <IcoArrowThin color='var(--tangerine-orange)' />
                 </Link>
