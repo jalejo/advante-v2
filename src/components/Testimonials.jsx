@@ -23,7 +23,7 @@ const Testimonials = () => {
               },
               1200: {
                 slidesPerView: 3,
-                spaceBetween: 73,
+                spaceBetween: 58,
               }
             }}
           >
@@ -33,7 +33,10 @@ const Testimonials = () => {
                   <SwiperSlide key={testimonial.id} >
                     <div className='testimonial-item' >
                       <div className='testimonial-bubble'>
-                        { testimonial.message }
+                        <div className='testimonial-bubble-text'>
+                          { testimonial.headline && <h6>"{testimonial.headline}"</h6> }
+                          { testimonial.message && <p>{testimonial.message}</p> }
+                        </div>
                         <div className='ranking-star-wrapper'>
                           <img className='ranking-star' src={ StarRanking } />
                           <img className='ranking-star' src={ StarRanking } />
@@ -43,8 +46,8 @@ const Testimonials = () => {
                         </div>
                       </div>
 
-                      <h6>{ testimonial.name }</h6>
-                      <p>{ testimonial.company }</p>
+                      <h5>{ testimonial.name && testimonial.name }</h5>
+                      <p>{ testimonial.company && testimonial.company }</p>
                     </div>
                   </SwiperSlide>
               ))

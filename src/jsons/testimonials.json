@@ -1,23 +1,26 @@
 [
     {
       "id": 1,
-      "name": "Michael Johnson",
-      "company": "CEO at Visionary WebWorks",
-      "message": "Without a doubt, I recommend Alcaline Solutions as one of the top web development and database management service agencies. One of the best agencies I've come across so far. ",
+      "name": "Natasha",
+      "company": "Marketing Director, Insurance Company",
+      "headline":"We felt completely confident and comfortable with their skill set.",
+      "message": "ADVANTE DIGITAL fixed the client's website and brought it back to working condition. The team met the client's expectations, showing good expertise and skill set. ADVANTE DIGITAL responded very quickly to the client's messages and went above and beyond with communication",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Jennifer Smith",
-      "company": "CEO at DataFusion Innovations",
-      "message": "Without a doubt, I recommend Alcaline Solutions as one of the top web development and database management service agencies. One of the best agencies I've come across so far. ",
+      "name": "Scott",
+      "company": "Director, Launch Math + Science Centers",
+      "headline":"I'm impressed by their personalized attention.",
+      "message": "Thanks to ADVANTE DIGITAL's work, the client's website now functions properly without any issues. ADVANTE DIGITAL provides personalized attention and is extremely responsive through email, even outside business hours.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Christopher Davis",
-      "company": "CEO at PixelCraft Studios",
-      "message": "Without a doubt, I recommend Alcaline Solutions as one of the top web development and database management service agencies. One of the best agencies I've come across so far. ",
+      "name": "Sandra",
+      "company": "Controller, All Nation Security Services, INC",
+      "headline":"We felt completely confident and comfortable with their skill set.",
+      "message": "AVANTE DIGITAL's app became a big part of enabling the client to work faster and better. AVANTE DIGITAL had a great work ethic and communication throughout the process. The client also praised the team's CEO, who was extremely helpful, and their ability to be responsive and deliver on time.",
       "stars": 5
     }
   ]
