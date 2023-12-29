@@ -12,10 +12,10 @@ const Header = () => {
   return (
     <section className="case-studies-header">
 
-        <div class="bgCircle bgCircle-01"></div>
-        <div class="bgCircle bgCircle-02"></div>
-        <div class="bgCircle bgCircle-03"></div>
-        <div class="bgCircle bgCircle-04"></div>
+        <div className="bgCircle bgCircle-01"></div>
+        <div className="bgCircle bgCircle-02"></div>
+        <div className="bgCircle bgCircle-03"></div>
+        <div className="bgCircle bgCircle-04"></div>
 
         <div className="bgr-noise"></div>
         <div className="containerFull">

@@ -307,3 +307,8 @@
   background-clip: text;
 }
 
+:root {
+  @media ( max-width : 600px ) {
+    --navbar-heigh: 5.25rem;
+  }
+}

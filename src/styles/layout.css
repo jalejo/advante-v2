@@ -193,26 +193,30 @@ ul.navBarList > li > a, ul.navBarList > li > span{
     color: var(--midnight-blue);
     font-weight: 600;
 }
-ul.navBarList > li > a:hover,
-ul.navBarList li.active li.active,  
-ul.navBarList li.active > a, 
-ul.navBarList > li:hover > span,
-ul.navBarList > li.active span{
-    color: var(--orchid-pink);
-}
 
-.navBarList-child li:hover,
-.navBarList-child li:hover a{
-    color: var(--orchid-pink);
-}
+@media (hover ) {
 
-ul.navBarList > li:hover .navBarList-child{
-    height: auto;
-    max-height: 500px;
-    transform: scaleY(1);
-    opacity: 1;
-    transition:  max-height 150ms ease-in, opacity 250ms ease-in, transform 50ms ease-in ;
-    transform-origin: top center;
+    ul.navBarList > li > a:hover,
+    ul.navBarList li.active li.active,  
+    ul.navBarList li.active > a, 
+    ul.navBarList > li:hover > span,
+    ul.navBarList > li.active span{
+        color: var(--orchid-pink);
+    }
+
+    .navBarList-child li:hover,
+    .navBarList-child li:hover a{
+        color: var(--orchid-pink);
+    }
+
+    ul.navBarList > li:hover .navBarList-child{
+        height: auto;
+        max-height: 500px;
+        transform: scaleY(1);
+        opacity: 1;
+        transition:  max-height 150ms ease-in, opacity 250ms ease-in, transform 50ms ease-in ;
+        transform-origin: top center;
+    }
 }
 
 .navBarList-child{
@@ -246,7 +250,15 @@ ul.navBarList > li:hover .navBarList-child{
     font-size: 0.875rem;
 }
 
+.menu-bar-wrapper{
+    display: none;
+    width: 1.75rem;
+}
 
+.menu-bar-wrapper img{
+    width: 100%;
+    max-height: 1.375rem;
+}
 
 .navBarLogo{
     width: 8rem;
@@ -1205,9 +1217,43 @@ footer{
 	body{
         font-size: 15px;
     }
-    ul.navBarList{
-        display: none;
+    ul.navBarList {
+        position: fixed;
+        box-sizing: border-box;
+        height: calc( 100vh - var(--navbar-heigh) );
+        width: 100%;
+        padding: 3rem;
+        top: var(--navbar-heigh);
+        flex-direction: column;
+        background-color: #fff;
+        left: 100%;
+        z-index: -1;
+        transition: left 150ms ease-in-out;
     }
+    ul.navBarList.open {
+        left: 0;
+    }
+
+    .menu-bar-wrapper{
+        display: block;
+    }
+    ul.navBarList > li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navBarList-child {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 0rem;
+        box-shadow: none;
+    }
+    ul.navBarList > li.active .navBarList-child{
+        padding: 2rem;
+    }
+
+
     .containerFull {
         width: 80%;
     }
@@ -1319,5 +1365,8 @@ footer{
     }
     .testimonial-bubble {
         height: 20rem;
+    }
+    .halfWidth{
+        flex-basis: 100%;
     }
 }
