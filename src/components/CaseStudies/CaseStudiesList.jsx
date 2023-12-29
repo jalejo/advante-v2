@@ -11,7 +11,7 @@ const CaseStudiesList = () => {
     const [items, setItems] = useState([]);
     const [hasMore, setHasMore] = useState(true);
     const [startIndex, setStartIndex] = useState(0);
-    const [loadCount, setLoadCount] = useState(2);
+    const [loadCount, setLoadCount] = useState(10);
 
     const fetchMoreData = () => {
 

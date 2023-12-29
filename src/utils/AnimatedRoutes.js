@@ -16,6 +16,7 @@ import Articles from '../pages/Articles';
 import ArticleTemplate from '../components/Articles/ArticleTemplate';
 
 import { AnimatePresence } from 'framer-motion';
+import PlatformIntegrations from '../pages/PlatformIntegrations';
 
 const AnimatedRoutes = ( ) => {
 
@@ -35,14 +36,16 @@ const AnimatedRoutes = ( ) => {
             <Routes location={ location } key={ location.pathname } > 
                 <Route index element={<Home />} />
                 <Route path='/about' element={ <About /> } />
-                <Route path="/services/software-product-design" element={<SoftwareProductDesign />} />
-                <Route path="/services/payment-solutions" element={<PaymentSolutions />} />
-                <Route path="/services/graphic-design" element={<GraphicDesign />} />
-                <Route path="/services/artificial-intelligence" element={<ArtificialIntelligence />} />
-                <Route path="/services/market-analysis" element={<MarketAnalysis />} />
-                <Route path="/services/e-commerce" element={<Ecommerce />} />
-                <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
+
                 <Route path="/services/software-development" element={<SoftwareDevelopment />} />
+                <Route path="/services/e-commerce" element={<Ecommerce />} />
+                <Route path="/services/platform-integrations" element={<PlatformIntegrations />} />
+                <Route path="/services/payment-solutions" element={<PaymentSolutions />} />
+                <Route path="/services/artificial-intelligence" element={<ArtificialIntelligence />} />
+                <Route path="/services/software-product-design" element={<SoftwareProductDesign />} />
+                <Route path="/services/graphic-design" element={<GraphicDesign />} />
+                <Route path="/services/market-analysis" element={<MarketAnalysis />} />
+                <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
                 <Route path="/contact-us" element={ <Contact /> } />
                 <Route path="/case-studies" element={ <CaseStudies /> } />
                 <Route path="/articles" element={ <Articles /> } />

@@ -85,6 +85,15 @@ const Footer = () => {
       socialIcon:'var(--slate-gray)',
       logo: 'var(--logo-black)',
     },
+    '/services/platform-integrations': {
+      background: 'var(--dark-blue)',
+      color: 'var(--white-color)',
+      button: 'var(--coral-red)', 
+      textButton: 'var(--white-color)',
+      socialCircle:'var(--pale-blue)',
+      socialIcon:'var(--dark-blue)',
+      logo: 'var(--logo-white)'
+    },
     '/services/digital-marketing': {
       background: 'var(--white-color)',
       color: 'var(--navy-blue)',
